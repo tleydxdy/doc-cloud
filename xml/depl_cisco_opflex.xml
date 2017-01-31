@@ -21,14 +21,19 @@
   <title>Deployment Into a Cisco ACI Fabric</title>
 
   <para>
-   SUSE customers who wish to deploy &cloud; into a Cisco Application Centric
-   Infrastructure (ACI) fabric environment can do this by using Cisco OpFlex
-   ML2 or GBP drivers. Cisco ACI options are selected in the Neutron barclamp,
-   which will make your &cloud; installation a member of your Cisco Application
-   Policy Infrastructure Controller (APIC). The drivers are packaged as RPMs
-   for easy installation. <xref linkend="sec.barclamps"/> details how to use
-   the ML2 drivers, and <xref linkend="sec.gbp"/> has the steps for using the
-   GBP drivers.
+You may deploy &cloud; into a Cisco Application Centric Infrastructure (ACI) 
+fabric environment with the Cisco OpFlex Modular Layer 2 (ML2) or Group-Based 
+Policy (GBP) drivers. ML2 mode provides a standard Neutron API to create 
+networks in the traditional way of deploying virtual machines and services in 
+OpenStack. GBP mode provides a new API to describe, create, and deploy 
+applications as policy groups without worrying about network-specific details.
+  </para>
+    <para>
+Cisco ACI options are configured in the Neutron barclamp, which will make your 
+&cloud; installation a member of your Cisco Application Policy Infrastructure 
+Controller (APIC). For details about using the ML2 driver see <xref 
+linkend="sec.ml2"/>, and see <xref linkend="sec.gbp"/> to learn how to 
+use the GBP driver.
   </para>
 
   <para>
@@ -66,14 +71,14 @@
   <title>Prequisites</title>
 
   <para>
-   As the Cisco ACI fabric is customized and highly-variable per customer's
+   As the Cisco ACI fabric is customized and highly-variable per your
    needs, you must have your ACI fabric already set up and working, and you
    need your own ACI expert administrator.
   </para>
 
   <para>
    If you are using Cisco UCS B series hardware there are additional
-   prerequisites; please contact Cisco for information.
+   prerequisites. Contact Cisco for information.
   </para>
 
   <para>
@@ -117,12 +122,12 @@
   </itemizedlist>
 
   <para>
-   The example network uses 192.168.124.0/24 for the admin network. Figure J-1
-   shows the topology of the example network.
+The example network uses 192.168.124.0/24 for the admin network. <xref 
+linkend="fig.topology"/> shows the topology of the example network.
   </para>
 
-  <figure>
-   <title>The example network topology.</title>
+  <figure xml:id="fig.topology">
+   <title>The example network topology</title>
    <mediaobject>
     <imageobject role="fo">
      <imagedata fileref="depl_opflex_1.png" width="100%" format="png"/>
@@ -133,6 +138,7 @@
    </mediaobject>
   </figure>
  </sect1>
+ 
  <sect1 xml:id="sec.networking">
   <title>Configure Networking on Compute Nodes</title>
 
@@ -154,8 +160,8 @@
    </step>
    <step>
     <para>
-     Highlight the Ethernet device connected to the ACI fabric and press F4
-     (Edit).
+     Select the Ethernet device connected to the ACI fabric and press 
+     <keycap>F4</keycap> (<guimenu>Edit</guimenu>).
     </para>
    </step>
    <step>
@@ -180,7 +186,7 @@
    You should be back at the first screen at
    <menuchoice><guimenu>&yast;</guimenu><guimenu>System</guimenu><guimenu>Network
    Settings</guimenu></menuchoice>. Press <keycap>F3</keycap> 
-<guimenu>(Add)</guimenu> to open the
+(<guimenu>Add</guimenu>) to open the
    <guimenu>Hardware Dialog</guimenu>.
   </para>
 
@@ -261,7 +267,7 @@ Device         <replaceable>vlan.4093</replaceable> </screen>
    <step>
     <para>
      Press <keycap>F10</keycap> to save and exit <guimenu>Network
-     Settings</guimenu>, then press <keycap>F9</keycap> to exit Yast.
+     Settings</guimenu>, then press <keycap>F9</keycap> to exit &yast;.
     </para>
    </step>
   </procedure>
@@ -287,7 +293,7 @@ Device         <replaceable>vlan.4093</replaceable> </screen>
   <para>
    Now install and run <command>lldpd</command>, the Link Layer Discovery
    Protocol daemon. You will use this to verify correct connectivity between
-   your compute nodes.
+   each compute node and the Cisco leaf switch they are connected to.
   </para>
 
 <screen>sudo zypper in lldpd
@@ -350,18 +356,18 @@ sudo ovs-vsctl add-port br-int br-int_vxlan0  -- set Interface br-int_vxlan0 \
 </screen>
         
   <para>
-   Run <command>lsmod</command> to verify that the <literal>vxlan</literal>
-   port was created.
+   Run <command>lsmod</command> to verify that the kernel module was loaded by 
+openvswitch.
   </para>
 
 <screen>lsmod | grep openvswitch
-openvswitch   130813  1 vport_vxlan</screen>
+openvswitch   130813  1 vport_vxlan
+</screen>
 </sect1>
 
 <sect1 xml:id="sec.barclamps">
   <title>Deploy Barclamps</title>
-
-  <para>
+<para>
    Deploy all pertinent OpenStack barclamps using your Crowbar Web interface.
    This depends on your own needs; these are a typical set of barclamps for
    most &cloud;  installations:
@@ -393,23 +399,26 @@ openvswitch   130813  1 vport_vxlan</screen>
      cinder
     </para>
    </listitem>
-   <listitem>
-    <para>
-     horizon
-    </para>
-   </listitem>
   </itemizedlist>
 
-  <para>
-   Now you will customize the Neutron barclamp for your installation. Note that
-   the order of <literal>ml2_type_drivers</literal> is important, and
-   <literal>opflex</literal> always comes first. The second
-   <literal>ml2_type_drivers</literal> option defines the encapsulation used
-   (<literal>vxlan</literal> or <literal>vlan</literal>). Click on the 
-<guimenu>Raw</guimenu>
-   button to edit the attributes in raw mode and create a proposal. Set the
-   following values, replacing the italicized examples with your own values, 
-and leave everything else set to the defaults:
+<para>
+    The next section explains how to deploy the ML2 driver, and <xref 
+linkend="sec.gbp"/> shows how to deploy the GBP driver.
+    </para>
+</sect1>
+
+<sect1 xml:id="sec.ml2">
+  <title>Deploying the ML2 Driver</title>
+
+    <para>
+Now you will configure the Neutron barclamp for your installation, and apply 
+the ML2 driver. Note that the order of <literal>ml2_type_drivers</literal> is 
+important, and <literal>opflex</literal> always comes first. The second 
+<literal>ml2_type_drivers</literal> option defines the encapsulation used 
+(<literal>vxlan</literal> or <literal>vlan</literal>). Click the 
+<guimenu>Raw</guimenu> button to edit the attributes in raw mode and create a 
+proposal. Set the following values, replacing the italicized examples with your 
+own values, and leave everything else set to the defaults:
   </para>
 
 <screen>
@@ -476,9 +485,9 @@ and leave everything else set to the defaults:
   </screen>
 
   <para>
-   Save your changes and click Apply, and then apply the Neutron and Nova
-   barclamps. If the Nova barclamp fails see
-   <xref linkend="sec.troubleshooting"/>.
+Save your changes and click <guimenu>Apply</guimenu>, and then apply the 
+Neutron, Nova, and Horizon barclamps. If the Nova barclamp fails see <xref 
+linkend="sec.troubleshooting"/>.
   </para>
 
   <para>
@@ -497,13 +506,12 @@ linkend="sec.troubleshooting"/>.
   <tip>
       <title>Getting an IP Address from the ACI Fabric</title>
    <para>
-    The <replaceable>vlan.4093</replaceable> interface will not get an IP 
-address from the fabric until
-    Neutron is started on the control node (which was done in the previous
-    step). The driver looks at <literal>apic_provision_infra = True</literal>
-    and <literal>apic_provision_hostlinks = True</literal> in
-    <filename>ml2_conf_cisco_apic.ini</filename>to know that it must provision
-    the ACI infrastructure with the compute host information.
+The <replaceable>vlan.4093</replaceable> interface will not get an IP address 
+from the fabric until Neutron is started on the control node (which was done in 
+the previous step). The driver looks at <literal>apic_provision_infra = 
+True</literal> and <literal>apic_provision_hostlinks = True</literal> in 
+<filename>ml2_conf_cisco_apic.ini</filename> to know that it must provision 
+the ACI infrastructure with the compute host information.
    </para>
   </tip>
  </sect1>
@@ -531,46 +539,48 @@ sudo glance image-create --name sles-jeos --file \
 </screen>
 
   <para>
-   Make the image public in the Web interface 
+Make the image public in the Web interface 
 (<menuchoice><guimenu>Admin</guimenu><guimenu>Images</guimenu><guimenu> Edit 
 Image</guimenu></menuchoice>, click the <guimenu>Edit Image</guimenu> button 
 and not the drop-down menu), and then create a new network 
-(<menuchoice><guimenu>Project</guimenu><guimenu>Network</guimenu><guimenu>
+(<menuchoice><guimenu>Project</guimenu><guimenu>Network</guimenu><guimenu> 
 Networks</guimenu></menuchoice>). Verify that the network has been created in 
-the APIC web interface under<guimenu>Tenants</guimenu>. Start the instances on 
-each compute node within the same project that are attached to the new network, 
-then confirm the instances and ping their gateway and each other.
+the APIC web interface under <guimenu>Tenants</guimenu>. Start the instances 
+on each compute node, then confirm the instances and ping their gateway and 
+each other.
   </para>
  </sect1>
  
  <sect1 xml:id="sec.gbp">
-  <title>Cisco Group-based Policy Framework (GBP) Installation</title>
+  <title>Deploying the GBP Driver</title>
 
   <para>
-   Start with a working ML2 configuration, up to the end of
-   <xref linkend="sec.barclamps"/>.
+   First complete all steps through <xref linkend="sec.ml2"/>.
   </para>
 
   <warning>
    <para>
-Make sure that you remove all networks created in <xref 
-linkend="sec.horizon"/>. Be sure to use the new <guimenu>Policy</guimenu> tab 
-in Horizon to define networking policies. Do not create networks using the 
- <guimenu>Networks</guimenu> tab in Horizon. The <guimenu>Policy</guimenu> 
-tab appears after you edit the Neutron barclamp to use the GBP driver (which is 
-the next step).
+If you followed the previous steps through <xref linkend="sec.horizon"/> make 
+sure that you remove all networks you created.</para>
+<para>
+Be sure to use the new <guimenu>Policy</guimenu> tab in Horizon to define 
+networking policies. Do not create networks using the 
+<guimenu>Networks</guimenu> tab in Horizon. The <guimenu>Policy</guimenu> tab 
+appears after you edit the Neutron barclamp to use the GBP driver (which is the 
+next step).
    </para>
   </warning>
 
   <para>
    Start in the Crowbar Dashboard and edit the Neutron Barclamp. Change the
-   <literal>ml2</literal> driver to <literal>apic_gbp</literal> by highlighting
+   <literal>cisco_apic_ml2</literal> driver to <literal>apic_gbp</literal> by 
+highlighting
    <literal>apic_gbp</literal>, then click <guimenu>Save</guimenu> and then 
-<guimenu>Apply.</guimenu>
+<guimenu>Apply</guimenu>. (<xref linkend="fig.neutron-gbp"/>)
   </para>
 
-  <figure>
-   <title>Edit Neutron Barclamp to use GBP driver.</title>
+  <figure xml:id="fig.neutron-gbp">
+   <title>Edit Neutron Barclamp to use GBP Driver</title>
    <mediaobject>
     <imageobject role="fo">
      <imagedata fileref="gbp1.png" width="100%" format="png"/>
@@ -609,11 +619,12 @@ you should see
    Login to your Crowbar dashboard. Go to 
 <menuchoice><guimenu>Project</guimenu><guimenu>Policy</guimenu><guimenu> 
 Application Policy</guimenu><guimenu>Policy Actions</guimenu></menuchoice> and 
-create an Allow policy, using all the defaults.
+create an Allow policy, using all the defaults. (<xref 
+linkend="fig.allow-policy"/>)
   </para>
 
-  <figure>
-   <title>Create Allow policy.</title>
+  <figure xml:id="fig.allow-policy">
+   <title>Create Allow Policy</title>
    <mediaobject>
     <imageobject role="fo">
      <imagedata fileref="gbp2.png" width="100%" format="png"/>
@@ -628,11 +639,11 @@ create an Allow policy, using all the defaults.
    In <menuchoice><guimenu>Policy</guimenu><guimenu>Application 
 Policy</guimenu><guimenu>Policy Classifiers</guimenu></menuchoice>,
    create two bi-directional classifiers, one for TCP and the other for the
-   ICMP protocol.
+   ICMP protocol. (<xref linkend="fig.tcp-classifier"/>)
   </para>
 
-  <figure>
-   <title>Creating a TCP classifier.</title>
+  <figure xml:id="fig.tcp-classifier">
+   <title>Creating a TCP Classifier</title>
    <mediaobject>
     <imageobject role="fo">
      <imagedata fileref="gbp3.png" width="100%" format="png"/>
@@ -647,11 +658,11 @@ Policy</guimenu><guimenu>Policy Classifiers</guimenu></menuchoice>,
    In <menuchoice><guimenu>Policy</guimenu><guimenu>Application 
 Policy</guimenu><guimenu>Policy Rules</guimenu></menuchoice> create two
    rules, one for TCP and one for ICMP, linking the Policy classifier to the
-   Allow policy action.
+   Allow policy action. (<xref linkend="fig.link-classifiers"/>)
   </para>
 
-  <figure>
-   <title>Linking the Policy classifier to the Allow policy.</title>
+  <figure xml:id="fig.link-classifiers">
+   <title>Linking the Policy classifier to the Allow Policy</title>
    <mediaobject>
     <imageobject role="fo">
      <imagedata fileref="gbp4.png" width="100%" format="png"/>
@@ -665,10 +676,11 @@ Policy</guimenu><guimenu>Policy Rules</guimenu></menuchoice> create two
   <para>
    In <menuchoice><guimenu>Policy</guimenu><guimenu>Application Policy 
 </guimenu><guimenu>Policy Rule Set</guimenu></menuchoice>  create
-   a Dbaccess rule set that links to the TCP and ICMP rules.
+   a Dbaccess rule set that links to the TCP and ICMP rules. (<xref 
+linkend="fig.link-rules"/>)
   </para>
 
-  <figure>
+  <figure xml:id="fig.link-rules">
    <title>Link Dbaccess to TCP and ICMP rules.</title>
    <mediaobject>
     <imageobject role="fo">
@@ -704,14 +716,13 @@ create two internal groups, Web and DB.
      and the DB instances.
     </para>
    </step>
-   <step>
+</procedure>
     <para>
-     For further testing, remove the Dbaccess rule set from the Consumed Rule
-     Set for the Web group to see the pings stop. Re-add the Dbaccess rule set
+     To help understand the relationships between the rule sets, remove the 
+Dbaccess rule set from the Consumed rule set while your pings for the Web 
+groups are running. The pings should stop. Re-add the Dbaccess rule set
      to see the pings start again.
-    </para>
-   </step>
-  </procedure>
+</para>
  </sect1>
  
  <sect1 xml:id="sec.troubleshooting">
