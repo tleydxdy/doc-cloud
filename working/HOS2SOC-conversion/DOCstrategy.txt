@@ -1,0 +1,83 @@
+Frank and Dima
+
+Rick Salevsky
+release mgr Cloud 8
+not many changes on SUSE
+Ansible and Ardana - changes
+SUSE & Python 3
+
+Ardana - installation routine
+analyze 
+
+2 methods
+SUSE - usual with crowbar/chef
+HOS - Ardana
+
+2 different deployment guides - SUSE and HOS
+way too messy otherwise
+Frank
+
+workflow
+solely on content; XML only
+stylesheets take care of final document production
+
+point releases not CI
+
+docserve - daily build is published
+for developers
+
+what content of HOS we reuse for Cloud 8
+
+cloud 9 get rid of crowbar and chef
+take HOS and carry it on
+
+services are upstream dependent
+
+suse OC supplement
+
+throw away USER GUIDE on HOS
+
+security section in HOS could go across to SUSE
+
+**life cycle management - why this is a big deal?
+to FS and DP cloud 8 or not
+
+system administrator - TARGET AUDIENCE
+
+screenshots are still an issue
+
+conversion to DocBook as early as possible; start with 
+introduction
+planning
+installation
+
+Security and Operations are key
+
+CARL go through Security and Operations Guide
+see what needs to be done to convert those and what could migrate
+
+for example Block Storage
+handled upstream?
+not big of a difference between this and HOS 
+
+SUSE and HOS specific
+
+CS will talk with Stefan and Thomas
+Stefan Knorr; Thomas Schraitle
+cc: Frank
+
+pointers to repositories where HOS are located
+image locations
+what I've found about structure
+
+***Sheilagh any test installations that I can use as a reference cloud?
+at least look at the software
+all HOS stuff isn't available in Nuremberg - FS
+
+HOS 5 instance is crucial accessible to me and SUSE Doc people
+
+Frank
+parts of HOS stack will be integrated into SOC that were not included in SOC
+MySQL > MariaDB
+find out more about test installations
+

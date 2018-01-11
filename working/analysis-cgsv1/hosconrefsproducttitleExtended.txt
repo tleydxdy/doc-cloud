@@ -1,0 +1,22 @@
+./helion/operations/opsconsole/en/cs_opsconsole_appliances.dita:    <title><ph conkeyref="HOS-conrefs/product-title-10"/>Appliances</title>
+./helion/operations/opsconsole/en/cs_opsconsole_backup_restore.dita:    <title><ph conkeyref="HOS-conrefs/product-title-10"/>Backup and Restore</title>
+./helion/operations/opsconsole/en/cs_opsconsole_block_storage_devices.dita:    <title><ph conkeyref="HOS-conrefs/product-title-10"/>Block Storage Devices</title>
+./helion/operations/opsconsole/en/cs_opsconsole_block_storage_summary.dita:    <title><ph conkeyref="HOS-conrefs/product-title-10"/>Block Storage Summary</title>
+./helion/operations/opsconsole/en/cs_opsconsole_compute_storage_summary.dita:    <title><ph conkeyref="HOS-conrefs/product-title-10"/>Compute Summary</title>
+./helion/operations/opsconsole/en/cs_opsconsole_hardware_baremetal.dita:    <title><ph conkeyref="HOS-conrefs/product-title-10"/>Physical Hardware</title>
+./helion/operations/opsconsole/en/cs_opsconsole_hardware_oneview.dita:    <title><ph conkeyref="HOS-conrefs/product-title-10"/>HPE OneView/Synergy Servers</title>
+./helion/operations/opsconsole/en/cs_opsconsole_integrated_tools.dita:    <title><ph conkeyref="HOS-conrefs/product-title-10"/>Integrated Tools</title>
+./helion/operations/opsconsole/en/cs_opsconsole_system_networking.dita:    <title><ph conkeyref="HOS-conrefs/product-title-10"/>System Networking</title>
+./helion/HOS-conrefs.xml:   <ph id="product-title" outputclass="product-title"><ph conkeyref="HOS-conrefs/product-title-50-string"/></ph>
+./helion/HOS-conrefs.xml:   <ph id="product-title-both" outputclass="product-title"><ph conkeyref="HOS-conrefs/product-title-both-string"/></ph>
+./helion/HOS-conrefs.xml:   <!--<ph id="product-title" outputclass="product-title"><ph conkeyref="HOS-conrefs/product-title-21-string"/></ph>-->
+./helion/HOS-conrefs.xml:   <ph id="product-title-20" outputclass="product-title"><ph conkeyref="HOS-conrefs/product-title-20-string"/></ph>
+./helion/HOS-conrefs.xml:   <ph id="product-title-201" outputclass="product-title"><ph conkeyref="HOS-conrefs/product-title-201-string"/></ph>
+./helion/HOS-conrefs.xml:   <ph id="product-title-202" outputclass="product-title"><ph conkeyref="HOS-conrefs/product-title-202-string"/></ph>
+./helion/HOS-conrefs.xml:   <ph id="product-title-21" outputclass="product-title"><ph conkeyref="HOS-conrefs/product-title-21-string"/></ph>
+./helion/HOS-conrefs.xml:   <ph id="product-title-30" outputclass="product-title"><ph conkeyref="HOS-conrefs/product-title-30-string"/></ph>
+./helion/HOS-conrefs.xml:   <ph id="product-title-302" outputclass="product-title"><ph conkeyref="HOS-conrefs/product-title-302-string"/></ph>
+./helion/HOS-conrefs.xml:   <ph id="product-title-40" outputclass="product-title"><ph conkeyref="HOS-conrefs/product-title-40-string"/></ph>
+./helion/HOS-conrefs.xml:   <ph id="product-title-50" outputclass="product-title"><ph conkeyref="HOS-conrefs/product-title-50-string"/></ph>
+./helion/HOS-conrefs.xml:   <ph id="product-title-plain" outputclass="product-title"><ph conkeyref="HOS-conrefs/product-title-plain-string"/></ph>
+./helion/HOS-conrefs.xml:     <ph id="product-title-10" outputclass="product-title"><ph conkeyref="HOS-conrefs/product-title-10-string"/></ph>

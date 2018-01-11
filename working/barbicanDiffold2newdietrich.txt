@@ -1,0 +1,232 @@
+1,5c1,3
+< <?xml version="1.0" encoding="UTF-8"?>
+< <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd"
+< [
+< 	<!ENTITY % entities SYSTEM "entities.ent">
+< 	%entities;
+---
+> <?xml version="1.0"?>
+> <!DOCTYPE section [
+>  <!ENTITY % entities SYSTEM "entities.ent"> %entities;
+7,15c5,9
+< <article id="art.template" lang="en">
+< <sect1 id="barbican_features">
+<    <title>&kw-hos; Key Manager Service (Barbican) Features</title>
+< 	 <para>Key Manager Service (Barbican) produces a secret storage and generation system capable of providing key management for services wishing to enable encryption features.</para>
+< 
+<    <para>Barbican is all new for the &kw-hos; Mitaka release.</para>
+< 
+<    <informaltable id="BarbicanTable" colsep="1" rowsep="1">
+<          <tgroup cols="4">
+---
+> <section xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="barbican_features"><title><phrase />Key Manager Service (Barbican) Features</title>
+>     <para>Key Manager Service (Barbican) produces a secret storage and generation system capable of
+>         providing key management for services wishing to enable encryption features.</para>
+> <para>Barbican is all new for the [[[kw-hos]]] Mitaka release.</para>
+> <informaltable xml:id="BarbicanTable" colsep="1" rowsep="1"><tgroup cols="4">
+22,25c16,19
+<                   <entry><para>Category</para></entry>
+<                   <entry><para>Core (Included)</para></entry>
+<                   <entry><para>Non-core (Included)</para></entry>
+<                   <entry><para>Excluded</para></entry>
+---
+>                 <entry>Category</entry>
+>                 <entry>Core (Included)</entry>
+>                 <entry>Non-core (Included)</entry>
+>                 <entry>Excluded</entry>
+30,33c24,27
+<                   <entry morerows="6"><para>Encryption</para></entry>
+<                   <entry><para>Cinder</para></entry>
+<                   <entry/>
+<                   <entry/>
+---
+>                 <entry morerows="6">Encryption</entry>
+>                 <entry>Cinder</entry>
+>                 <entry/>
+>                 <entry/>
+36,38c30,32
+<                   <entry><para>Hardware Security Model</para></entry>
+<                   <entry><para>KMIP plugin</para></entry>
+<                   <entry/>
+---
+>                 <entry>Hardware Security Model</entry>
+>                 <entry>KMIP plugin</entry>
+>                 <entry/>
+41,43c35,37
+<                   <entry><para>Encrypted Data Volumes</para></entry>
+<                   <entry><para>PKCS11 Protocol</para></entry>
+<                   <entry/>
+---
+>                 <entry>Encrypted Data Volumes</entry>
+>                 <entry>PKCS11 Protocol</entry>
+>                 <entry/>
+46,48c40,42
+<                   <entry><para>LBaaS</entry>
+<                   <entry><para>Certificate Management Capability</para></entry>
+<                   <entry/>
+---
+>                 <entry>LBaaS</entry>
+>                 <entry>Certificate Management Capability</entry>
+>                 <entry/>
+51,53c45,47
+<                   <entry><para>Symmetric Keys</entry>
+<                   <entry><para>Asynchronous Order Processing</para></entry>
+<                   <entry/>
+---
+>                 <entry>Symmetric Keys</entry>
+>                 <entry>Asynchronous Order Processing</entry>
+>                 <entry/>
+56,58c50,52
+<                   <entry><para>Storage Keys</para></entry>
+<                   <entry/>
+<                   <entry/>
+---
+>                 <entry>Storage Keys</entry>
+>                 <entry/>
+>                 <entry/>
+61,63c55,57
+<                   <entry/>
+<                   <entry><para>Nova ephemeral disk encryption with Barbican as a default key manager</para></entry>
+<                   <entry/>
+---
+>                 <entry/>
+>                 <entry>Nova ephemeral disk encryption with Barbican as a default key manager</entry>
+>                 <entry/>
+66,69c60,63
+<                   <entry morerows="1"><para>Auditing</para></entry>
+<                   <entry/>
+<                   <entry><para>Project Quota Support</para></entry>
+<                   <entry><para>Message Queue</entry>
+---
+>                 <entry morerows="1">Auditing</entry>
+>                 <entry/>
+>                 <entry>Project Quota Support</entry>
+>                 <entry>Message Queue</entry>
+72,74c66,68
+<                   <entry><para>CADF Format Auditing Events</para></entry>
+<                   <entry/>
+<                   <entry/>
+---
+>                 <entry>CADF Format Auditing Events</entry>
+>                 <entry/>
+>                 <entry/>
+77,80c71,74
+<                   <entry><para>Roles</para></entry>
+<                   <entry><para>Bootstrap Roles</para></entry>
+<                   <entry/>
+<                   <entry/>
+---
+>                 <entry>Roles</entry>
+>                 <entry>Bootstrap Roles</entry>
+>                 <entry/>
+>                 <entry/>
+83,86c77,80
+<                   <entry/>
+<                   <entry/>
+<                   <entry><para>Certificate Management</para></entry>
+<                   <entry/>
+---
+>                 <entry/>
+>                 <entry/>
+>                 <entry>Certificate Management</entry>
+>                 <entry/>
+89,92c83,86
+<                   <entry/>
+<                   <entry/>
+<                   <entry><para>Asynchronous Order Processing</para></entry>
+<                   <entry/>
+---
+>                 <entry/>
+>                 <entry/>
+>                 <entry>Asynchronous Order Processing</entry>
+>                 <entry/>
+95,98c89,92
+<                   <entry/>
+<                   <entry/>
+<                   <entry><para>HSM Device Support</para></entry>
+<                   <entry/>
+---
+>                 <entry/>
+>                 <entry/>
+>                 <entry>HSM Device Support</entry>
+>                 <entry/>
+101,104c95,98
+<                   <entry/>
+<                   <entry><para>Support for generation of CADF format auditing events</para></entry>
+<                   <entry/>
+<                   <entry/>
+---
+>                 <entry/>
+>                 <entry>Support for generation of CADF format auditing events</entry>
+>                 <entry/>
+>                 <entry/>
+107,111c101,105
+<                   <entry/>
+<                   <entry><para>Barbican service specific role isolation to provide better access
+<                   control</para></entry>
+<                   <entry/>
+<                   <entry/>
+---
+>                 <entry/>
+>                 <entry>Barbican service specific role isolation to provide better access
+>                   control</entry>
+>                 <entry/>
+>                 <entry/>
+114,116c108,110
+<                   <entry/>
+<                   <entry/>
+<                   <entry><para>Barbican has certificate management capability upstream which allows clients
+---
+>                 <entry/>
+>                 <entry/>
+>                 <entry>Barbican has certificate management capability upstream which allows clients
+118,119c112,113
+<                   Symantec</para></entry>
+<                   <entry/>
+---
+>                   Symantec</entry>
+>                 <entry/>
+122,126c116,120
+<                   <entry/>
+<                   <entry/>
+<                   <entry><para>Barbican support for asynchronous order processing via async worker
+<                   processes</para></entry>
+<                   <entry/>
+---
+>                 <entry/>
+>                 <entry/>
+>                 <entry>Barbican support for asynchronous order processing via async worker
+>                   processes</entry>
+>                 <entry/>
+129,132c123,126
+<                   <entry/>
+<                   <entry/>
+<                   <entry><para>Barbican support for PKCS#11 compliant HSM devices which are non-HPE</para></entry>
+<                   <entry/>
+---
+>                 <entry/>
+>                 <entry/>
+>                 <entry>Barbican support for PKCS#11 compliant HSM devices which are non-HPE</entry>
+>                 <entry/>
+135,139c129,133
+<                   <entry/>
+<                   <entry/>
+<                   <entry><para>Barbican now has support for using multiple secret store plugin backends
+<                   within a single deployment</para></entry>
+<                   <entry/>
+---
+>                 <entry/>
+>                 <entry/>
+>                 <entry>Barbican now has support for using multiple secret store plugin backends
+>                   within a single deployment</entry>
+>                 <entry/>
+142,143c136
+<           </tgroup>
+<       </informaltable>
+---
+>           </tgroup></informaltable>
+145,146c138
+<  </sect1>
+< </article>
+---
+>   </section>

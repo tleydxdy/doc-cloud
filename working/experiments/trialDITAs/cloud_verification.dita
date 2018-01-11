@@ -1,0 +1,8 @@
+<topic id="cloud_verification">
+  <title><ph conkeyref="HOS-conrefs/product-title"/>Cloud Verification</title>
+  <body>
+    <p conkeyref="HOS-conrefs/applies-to"/>
+    <p>Once you have completed your cloud deployment, these are some of the common
+      post-installation tasks you may need to perform to verify your cloud installation.</p>
+  </body>
+</topic>

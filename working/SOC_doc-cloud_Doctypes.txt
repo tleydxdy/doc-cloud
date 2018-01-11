@@ -1,0 +1,233 @@
+./deprecated/admin_api.xml:<!DOCTYPE chapter PUBLIC "-//Novell//DTD NovDoc XML V1.0//EN" "novdocx.dtd"
+./deprecated/admin_cli.xml:<!DOCTYPE chapter PUBLIC "-//Novell//DTD NovDoc XML V1.0//EN" "novdocx.dtd"
+./deprecated/admin_dashboard.xml:<!DOCTYPE chapter PUBLIC "-//Novell//DTD NovDoc XML V1.0//EN" "novdocx.dtd"
+./deprecated/admin_docupdates.xml:<!DOCTYPE appendix PUBLIC
+./deprecated/admin_intro.xml:<!DOCTYPE preface PUBLIC "-//Novell//DTD NovDoc XML V1.0//EN" "novdocx.dtd"
+./deprecated/admin_troubleshooting.xml:<!DOCTYPE chapter PUBLIC "-//Novell//DTD NovDoc XML V1.0//EN" "novdocx.dtd"
+./deprecated/user_basics.xml:<!DOCTYPE chapter PUBLIC "-//Novell//DTD NovDoc XML V1.0//EN" "novdocx.dtd"
+./deprecated/user_cli.xml:<!DOCTYPE chapter PUBLIC "-//Novell//DTD NovDoc XML V1.0//EN" "novdocx.dtd"
+./deprecated/user_dashboard.xml:<!DOCTYPE chapter PUBLIC "-//Novell//DTD NovDoc XML V1.0//EN" "novdocx.dtd"
+./deprecated/user_docupdates.xml:<!DOCTYPE appendix PUBLIC
+./deprecated/user_intro.xml:<!DOCTYPE preface PUBLIC "-//Novell//DTD NovDoc XML V1.0//EN" "novdocx.dtd"
+./xml/msoperator-cmmoperator-operate-c-backupdashboards.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-operate-c-removelogfiles.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/authors.xml:<!DOCTYPE authorgroup 
+./xml/msoperator-cmmoperator-operate-c-dataretention-inf.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/book_cloud_admin.xml:<!DOCTYPE book 
+./xml/msoperator-shared-appendix-r-confsettings-logs.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/book_cloud_user.xml:<!DOCTYPE book 
+./xml/common_gfdl1.2_i.xml:<!DOCTYPE sect1 
+./xml/common_gplv2_i.xml:<!DOCTYPE sect1 
+./xml/msoperator-cmmoperator-monitor-c-monitor-overview-cmmo.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-operate-c-cmmostartstopcmm.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/suppl_docupdates.xml:<!DOCTYPE appendix
+./xml/common_legal.xml:<!DOCTYPE appendix 
+./xml/copyright_openstack.xml:<!DOCTYPE legalnotice PUBLIC "-//Novell//DTD NovDoc XML V1.0//EN" "novdocx.dtd"
+./xml/MAIN.msoperator.xml:<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/MAIN.overview.xml:<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/MAIN.suse-openstack-cloud.xml:<!DOCTYPE set
+./xml/book_cloud_deploy.xml:<!DOCTYPE book
+./xml/book_cloud_suppl.xml:<!DOCTYPE book
+./xml/common_intro_available_doc_i.xml:<!DOCTYPE sect1 
+./xml/common_intro_feedback_i.xml:<!DOCTYPE sect1
+./xml/common_intro_making_i.xml:<!DOCTYPE sect1
+./xml/common_intro_typografie_i.xml:<!DOCTYPE sect1
+./xml/copyright_suse_cloud.xml:<!DOCTYPE legalnotice 
+./xml/depl_cisco.xml:<!DOCTYPE appendix
+./xml/depl_conf_admin_crowbar.xml:<!DOCTYPE chapter
+./xml/depl_conf_admin_network.xml:<!DOCTYPE chapter
+./xml/depl_conf_admin_repos.xml:<!DOCTYPE chapter
+./xml/depl_crowbar.xml:<!DOCTYPE chapter
+./xml/depl_crowbar_start.xml:<!DOCTYPE chapter
+./xml/depl_docupdates.xml:<!DOCTYPE appendix
+./xml/depl_inst_admin.xml:<!DOCTYPE chapter
+./xml/depl_inst_nodes.xml:<!DOCTYPE chapter
+./xml/depl_intro.xml:<!DOCTYPE preface 
+./xml/depl_logfiles.xml:<!DOCTYPE appendix 
+./xml/depl_maintenance.xml:<!DOCTYPE chapter
+./xml/depl_nodes.xml:<!DOCTYPE chapter
+./xml/depl_nostack_services.xml:<!DOCTYPE chapter [
+./xml/depl_ostack_configs.xml:<!DOCTYPE chapter
+./xml/depl_overview.xml:<!DOCTYPE chapter
+./xml/depl_poc.xml:<!DOCTYPE appendix
+./xml/depl_policy_json.xml:<!DOCTYPE appendix
+./xml/depl_require.xml:<!DOCTYPE chapter
+./xml/depl_smt_setup.xml:<!DOCTYPE chapter
+./xml/depl_troubleshooting.xml:<!DOCTYPE chapter
+./xml/depl_vmware.xml:<!DOCTYPE appendix
+./xml/depl_zsystems.xml:<!DOCTYPE appendix
+./xml/doc_conventions_openstack.xml:<!DOCTYPE chapter
+./xml/glossary.xml:<!DOCTYPE glossary
+./xml/msoperator-cmmoperator-about-c-about.xml:<!DOCTYPE preface PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-appendix-r-cmmometrics.xml:<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-install-c-cmmoinstallationlogagent.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-install-c-cmmoinstcmm.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-install-c-cmmoinstmetricsagent.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-install-c-cmmoprepansiblemaster.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-install-c-cmmoprepare-pre.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-install-c-cmmouninstall.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-install-c-cmmouninstallcleanup.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-intro-c-cmmoarchitecture.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-intro-c-usagescenario.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-operate-c-backupcfg.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-operate-c-dataretention-es.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/suppl_intro.xml:<!DOCTYPE preface
+./xml/MAIN.osoperator.xml:<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/copyright_socm.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-about-c-readers.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-install-c-cmmoinstall.xml:<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-install-c-cmmoinstallationmetagent.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-install-c-cmmoinstlogagent.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-install-c-cmmoinstoffres.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-install-c-cmmoprepare-com.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-install-c-cmmoprepare.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-install-c-cmmouninstallagents.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-install-c-cmmouninstallservice.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-intro-c-cmmousers.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-monitor-c-monitor-graf-cmmo.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-operate-c-backupdb.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-cmmoperator-operate-c-deleteinfluxdbdata.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-appendix-r-confsettings-metrics.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-appendix-r-confsettings.xml:<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-appendix-r-metricsadditional.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-appendix-r-metricsstandard.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-gettingstarted-intro-abbrev.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-gettingstarted-intro-convent.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-gettingstarted-intro-export.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-install-c-cmmoprepare-bs.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-install-c-cmmoprepare-https.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-install-c-cmmoprepare-sec.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-install-c-configurelogagent.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-intro-c-cmmodistribmedia.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-logging-c-osolog-alarms.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-logging-c-osolog-kibana.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-monitor-c-monitor-alert.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-monitor-c-monitor.xml:<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-operationmaintenance-c-deletedata.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-operationmaintenance-c-logfilelocation.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-operationmaintenance-c-removemetrics.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-about-c-readers.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-install-c-osobackup.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-install-c-osoinstallationlogagent.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-install-c-osoinstlogagent.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-install-c-osoinstosext.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-install-c-osoprepansiblemaster.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-install-c-osoprepare.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-intro-c-osocomponents.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-intro-c-osousers.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-monitor-c-monitor-overview-oso.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-about-c-readers.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-install-c-osobackup.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-install-c-osoinstallationlogagent.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-install-c-osoinstlogagent.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-install-c-osoinstosext.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-gettingstarted-c-webreferences.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-gettingstarted-intro-availabledoc.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-gettingstarted-intro-copyright.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-glossary-r-glossary.xml:<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-install-c-cmmoprepare-cm.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-install-c-cmmoprepare-pip.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-install-c-cmmoprepare-sw.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-install-c-configuremetagent.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-intro-c-intro.xml:<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-logging-c-osolog-index.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-logging-c-osologging.xml:<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-monitor-c-monitor-alarm.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-monitor-c-monitor-statusinfo.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-operationmaintenance-c-backup.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-operationmaintenance-c-disablelogretrieval.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/msoperator-shared-operationmaintenance-c-operate.xml:<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-about-c-about.xml:<!DOCTYPE preface PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-appendix-r-osometrics.xml:<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-install-c-osoinstall.xml:<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-install-c-osoinstallationmetagent.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-install-c-osoinstmetricsagent.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-install-c-osooperate.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-install-c-osoprepare-pre.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-install-c-osouninstall.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-intro-c-osotasks.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-monitor-c-monitor-graf-oso.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-about-c-about.xml:<!DOCTYPE preface PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-appendix-r-osometrics.xml:<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-install-c-osoinstall.xml:<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-install-c-osoinstallationmetagent.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-install-c-osoinstmetricsagent.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-install-c-osooperate.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-install-c-osoprepansiblemaster.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-install-c-osoprepare-pre.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-install-c-osoprepare.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-install-c-osouninstall.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-intro-c-osocomponents.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-intro-c-osotasks.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-intro-c-osousers.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-monitor-c-monitor-graf-oso.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-monitor-c-monitor-overview-oso.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-prepare-c-osoprep-tuconfig.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-prepare-c-osoprep-tuinstall.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-prepare-c-osoprep-tulibs.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-prepare-c-osoprep-turoles.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-osoperator-prepare-c-osopreparetu.xml:<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-prepare-c-osoprep-tuconfig.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-prepare-c-osoprep-tuinstall.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-prepare-c-osoprep-tulibs.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-prepare-c-osoprep-turoles.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-prepare-c-osopreparetu.xml:<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-appendix-r-confsettings-logs.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-appendix-r-confsettings-metrics.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-appendix-r-confsettings.xml:<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-appendix-r-metricsadditional.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-appendix-r-metricsstandard.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-gettingstarted-c-webreferences.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-gettingstarted-intro-abbrev.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-gettingstarted-intro-availabledoc.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-gettingstarted-intro-convent.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-gettingstarted-intro-copyright.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-gettingstarted-intro-export.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-gettingstarted-intro-trademarks.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-glossary-r-glossary.xml:<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-install-c-cmmoprepare-bs.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-install-c-cmmoprepare-cm.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-install-c-cmmoprepare-https.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-install-c-cmmoprepare-pip.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-install-c-cmmoprepare-sec.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-install-c-cmmoprepare-sw.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-install-c-configurelogagent.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-install-c-configuremetagent.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-intro-c-intro.xml:<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-intro-c-usagescenario.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-logging-c-osolog-alarms.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-logging-c-osolog-index.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-logging-c-osolog-kibana.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-logging-c-osolog-troubleshooting.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-logging-c-osologging.xml:<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-monitor-c-monitor-alarm.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-monitor-c-monitor-alert.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-monitor-c-monitor-statusinfo.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-monitor-c-monitor.xml:<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-operationmaintenance-c-collectlogfiles.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-operationmaintenance-c-disablelogretrieval.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-operationmaintenance-c-removemetrics.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/osoperator-shared-operationmaintenance-c-startstopagents.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-about-c-about.xml:<!DOCTYPE preface PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-about-c-readers.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-log-c-logmanagement.xml:<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-monitor-c-monitoring.xml:<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-overview-about-c-about.xml:<!DOCTYPE preface PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-overview-about-c-readers.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-overview-log-c-logmanagement.xml:<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-overview-monitor-c-monitoring.xml:<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-overview-whatiscmm-c-cmm.xml:<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-overview-whatiscmm-c-components.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-overview-whatiscmm-c-keyfeatures.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-overview-whatiscmm-c-userroles.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-shared-gettingstarted-intro-abbrev.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-shared-gettingstarted-intro-availabledoc.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-shared-gettingstarted-intro-convent.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-shared-gettingstarted-intro-copyright.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-shared-gettingstarted-intro-export.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-shared-gettingstarted-intro-trademarks.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-shared-glossary-r-glossary.xml:<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-whatiscmm-c-cmm.xml:<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-whatiscmm-c-components.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-whatiscmm-c-keyfeatures.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+./xml/overview-whatiscmm-c-userroles.xml:<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>

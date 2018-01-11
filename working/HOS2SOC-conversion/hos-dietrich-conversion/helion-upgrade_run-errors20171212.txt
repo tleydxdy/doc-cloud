@@ -1,0 +1,106 @@
+~/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/helion/
+upgrade> dietrich upgrade.ditamap 
+Did not find conversion.conf: Using default settings.
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/operations/blockstorage/managing_cinder_volumebackup_services.dita:
+  /tmp/operations/blockstorage/managing_cinder_volumebackup_services.dita (No 
+such file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/installation_overview.dita:
+  /tmp/installation/installation_overview.dita (No such file or directory)
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/upgrade/../media/vsa_upgrade/cmc1.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/upgrade/converted/upgrade/images/src/png/..-media-vsa_upgrade-cmc1.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/upgrade/../media/vsa_upgrade/cmc2.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/upgrade/converted/upgrade/images/src/png/..-media-vsa_upgrade-cmc2.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/upgrade/../media/vsa_upgrade/cmc3.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/upgrade/converted/upgrade/images/src/png/..-media-vsa_upgrade-cmc3.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/upgrade/../media/vsa_upgrade/cmc4.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/upgrade/converted/upgrade/images/src/png/..-media-vsa_upgrade-cmc4.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/upgrade/../media/vsa_upgrade/cmc5.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/upgrade/converted/upgrade/images/src/png/..-media-vsa_upgrade-cmc5.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/upgrade/../media/vsa_upgrade/cmc6.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/upgrade/converted/upgrade/images/src/png/..-media-vsa_upgrade-cmc6.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/upgrade/../media/vsa_upgrade/cmc7.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/upgrade/converted/upgrade/images/src/png/..-media-vsa_upgrade-cmc7.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/upgrade/../media/vsa_upgrade/cmc-software-version.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/upgrade/converted/upgrade/images/src/png/..-media-vsa_upgrade-cmc-
+software-version.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/upgrade/../media/vsa_upgrade/cmc-vsa1.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/upgrade/converted/upgrade/images/src/png/..-media-vsa_upgrade-cmc-vsa1.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/upgrade/../media/vsa_upgrade/cmc-vsa4.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/upgrade/converted/upgrade/images/src/png/..-media-vsa_upgrade-cmc-vsa4.
+png' @ error/convert.c/ConvertImageCommand/3275.
+ERROR: Failed to get filelist for ROOTID ""

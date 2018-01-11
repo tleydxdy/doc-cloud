@@ -1,0 +1,10 @@
+  <mapref href="helion/HOS-keywords.xml" format="ditamap" processing-role="resource-only"
+  <mapref href="helion/HOS-images.xml" format="ditamap" processing-role="resource-only"/>
+  <!-- <mapref href="helion/HOS-keywords.xml" format="ditamap" processing-role="resource-only"/>
+  <mapref href="helion/HOS-images.xml" format="ditamap" processing-role="resource-only"/> -->
+    <mapref href="helion/planning/planning.ditamap"/>
+    <mapref href="helion/installation/installation.ditamap"/>
+    <mapref href="helion/upgrade/upgrade.ditamap" product="HOS"/>
+    <mapref href="helion/operations/operations.ditamap"/>
+    <mapref href="helion/userguide/userguide.ditamap"/>
+    <mapref href="helion/operations/opsconsole/opsconsole.ditamap"/>

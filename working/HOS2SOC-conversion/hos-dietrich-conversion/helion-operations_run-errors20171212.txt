@@ -1,0 +1,1193 @@
+:~/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/helion/
+operations> dietrich operations.ditamap 
+Did not find conversion.conf: Using default settings.
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-gWr5H3T/opsconsole_overview.dita:
+  /tmp/db-convert-gWr5H3T/opsconsole_overview.dita (No such file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-gWr5H3T/cloudadmin_dashboard.dita:
+  /tmp/db-convert-gWr5H3T/cloudadmin_dashboard.dita (No such file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-gWr5H3T/cloudadmin_cli.dita:
+  /tmp/db-convert-gWr5H3T/cloudadmin_cli.dita (No such file or directory)
+No class attribute for abstract
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-gWr5H3T/opsconsole_overview.dita:
+  /tmp/db-convert-gWr5H3T/opsconsole_overview.dita (No such file or directory)
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-gWr5H3T/cloudadmin_cli.dita:
+  /tmp/db-convert-gWr5H3T/cloudadmin_cli.dita (No such file or directory)
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: Document has been marked not available: 
+file:/tmp/installation/using_git.dita
+No class attribute for sectiondiv
+No class attribute for bodydiv
+No class attribute for sectiondiv
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for abstract
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/configure_vsa.dita: 
+/tmp/installation/configure_vsa.dita (No such
+  file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/configure_3par.dita: 
+/tmp/installation/configure_3par.dita (No such
+  file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/brocade_zone_manager.dita:
+  /tmp/installation/brocade_zone_manager.dita (No such file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: Document has been marked not available: 
+file:/tmp/installation/configure_vsa.dita
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/ceph/ceph_overview.dita: 
+/tmp/installation/ceph/ceph_overview.dita
+  (No such file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: Document has been marked not available: 
+file:/tmp/installation/configure_3par.dita
+No class attribute for abstract
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/ceph/ceph_deployment.dita:
+  /tmp/installation/ceph/ceph_deployment.dita (No such file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/ceph/ceph_overview.dita: 
+/tmp/installation/ceph/ceph_overview.dita
+  (No such file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  
+file:/tmp/db-convert-gWr5H3T/blockstorage/ceph/deploy_monitor_standalone_node.
+dita:
+  /tmp/db-convert-gWr5H3T/blockstorage/ceph/deploy_monitor_standalone_node.dita 
+(No such
+  file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+No class attribute for sectiondiv
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+No class attribute for sectiondiv
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-gWr5H3T/configuring_tls.dita:
+  /tmp/db-convert-gWr5H3T/configuring_tls.dita (No such file or directory)
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/configure_lbaas.dita: 
+/tmp/installation/configure_lbaas.dita (No
+  such file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: Document has been marked not available: 
+file:/tmp/installation/configure_lbaas.dita
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  
+file:/tmp/db-convert-gWr5H3T/monitoring/opsconsole/manage_compute_instances.dita
+:
+  /tmp/db-convert-gWr5H3T/monitoring/opsconsole/manage_compute_instances.dita 
+(No such file
+  or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-gWr5H3T/operations/opsconsole/block_storage_alarm.dita:
+  /tmp/db-convert-gWr5H3T/operations/opsconsole/block_storage_alarm.dita (No 
+such file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-gWr5H3T/opsconsole_overview.dita:
+  /tmp/db-convert-gWr5H3T/opsconsole_overview.dita (No such file or directory)
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: Document has been marked not available: 
+file:/tmp/installation/using_git.dita
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+No class attribute for abstract
+No class attribute for sectiondiv
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-gWr5H3T/opsconsole/en/alarm_definitions.dita:
+  /tmp/db-convert-gWr5H3T/opsconsole/en/alarm_definitions.dita (No such file or 
+directory)
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/planning/hw_support_diskcalc.dita: 
+/tmp/planning/hw_support_diskcalc.dita (No
+  such file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/operations/maintenance/controller/replace_controller.dita:
+  /tmp/operations/maintenance/controller/replace_controller.dita (No such file 
+or directory)
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  
+file:/tmp/db-convert-gWr5H3T/maintenance/controller/
+ded_lifecyclemanager_recovery.dita:
+  
+/tmp/db-convert-gWr5H3T/maintenance/controller/ded_lifecyclemanager_recovery.
+dita (No such
+  file or directory)
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing 
+file:/tmp/releasenotes50.dita:
+  /tmp/releasenotes50.dita (No such file or directory)
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/planning/hw_support_matrix.dita: 
+/tmp/planning/hw_support_matrix.dita (No such
+  file or directory)
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/sles/sles_overview.dita: 
+/tmp/installation/sles/sles_overview.dita
+  (No such file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/sles/install_sles.dita: 
+/tmp/installation/sles/install_sles.dita
+  (No such file or directory)
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/rhel/rhel_overview.dita: 
+/tmp/installation/rhel/rhel_overview.dita
+  (No such file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/rhel/install_rhel.dita: 
+/tmp/installation/rhel/install_rhel.dita
+  (No such file or directory)
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/planning/hw_support_matrix.dita: 
+/tmp/planning/hw_support_matrix.dita (No such
+  file or directory)
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/planning/hw_support_matrix.dita: 
+/tmp/planning/hw_support_matrix.dita (No such
+  file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+No class attribute for abstract
+No class attribute for sectiondiv
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/planning/hw_support_matrix.dita: 
+/tmp/planning/hw_support_matrix.dita (No such
+  file or directory)
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/planning/hw_support_matrix.dita: 
+/tmp/planning/hw_support_matrix.dita (No such
+  file or directory)
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: Document has been marked not available: 
+file:/tmp/installation/using_git.dita
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: Document has been marked not available: 
+file:/tmp/installation/using_git.dita
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for sectiondiv
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for sectiondiv
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/blockstorageconfig_troubleshooting.dita:
+  /tmp/installation/blockstorageconfig_troubleshooting.dita (No such file or 
+directory)
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-gWr5H3T/opsconsole_overview.dita:
+  /tmp/db-convert-gWr5H3T/opsconsole_overview.dita (No such file or directory)
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+No class attribute for abstract
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/bura/bura_architecture.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-bura-
+bura_architecture.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/entryScale/Entry-ScaleAllNetworks.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-entryScale-Entry-
+ScaleAllNetworks.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/esx/drs-group2.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-esx-drs-group2.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/esx/drs-rule1.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-esx-drs-rule1.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/esx/EON-Architecture.png': No such file or directory 
+@ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-esx-EON-
+Architecture.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/esx/eon_delete_ovsvapp.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-esx-
+eon_delete_ovsvapp.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/esx/eon_disconnect_maintenance.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-esx-
+eon_disconnect_maintenance.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/esx/eon_maintenance.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-esx-
+eon_maintenance.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/esx/eon_poweroff_ovsvapp.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-esx-
+eon_poweroff_ovsvapp.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/esx/eon_service_host1.png': No such file or directory 
+@ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-esx-
+eon_service_host1.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/esx/eon_service_host2.png': No such file or directory 
+@ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-esx-
+eon_service_host2.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/esx/eon_service_host3.png': No such file or directory 
+@ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-esx-
+eon_service_host3.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/esx/esx_cluster2.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-esx-esx_cluster2.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/esx/esx_hostname.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-esx-esx_hostname.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/esx/esx_ovsvapp.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-esx-esx_ovsvapp.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/esx/rules3.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-esx-rules3.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/hos.docs/operations/flavor_extraspecs_1.png': No such 
+file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-hos.docs-operations-
+flavor_extraspecs_1.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/hos.docs/operations/flavor_extraspecs_2.png': No such 
+file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-hos.docs-operations-
+flavor_extraspecs_2.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/hos.docs/operations/flavor_extraspecs_3.png': No such 
+file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-hos.docs-operations-
+flavor_extraspecs_3.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/hos.docs/operations/flavor_extraspecs_4.png': No such 
+file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-hos.docs-operations-
+flavor_extraspecs_4.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/operations/remove_vsa_node_30_1.jpg': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/jpg/..-media-hos.docs-
+operations-remove_vsa_node_30_1.jpg' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/operations/remove_vsa_node_30_2.jpg': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/jpg/..-media-hos.docs-
+operations-remove_vsa_node_30_2.jpg' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/operations/remove_vsa_node_30_3.jpg': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/jpg/..-media-hos.docs-
+operations-remove_vsa_node_30_3.jpg' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/operations/remove_vsa_node_30_4.jpg': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/jpg/..-media-hos.docs-
+operations-remove_vsa_node_30_4.jpg' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/operations/remove_vsa_node_30_5.jpg': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/jpg/..-media-hos.docs-
+operations-remove_vsa_node_30_5.jpg' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/operations/remove_vsa_node_30_6.jpg': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/jpg/..-media-hos.docs-
+operations-remove_vsa_node_30_6.jpg' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/operations/remove_vsa_node_30_7.jpg': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/jpg/..-media-hos.docs-
+operations-remove_vsa_node_30_7.jpg' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/opsconsole_createnotificationmethod1.png': 
+No such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-hos.docs-
+opsconsole_createnotificationmethod1.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/opsconsole_createnotificationmethod3.png': 
+No such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-hos.docs-
+opsconsole_createnotificationmethod3.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/opsconsole_createnotificationmethod4.png': 
+No such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-hos.docs-
+opsconsole_createnotificationmethod4.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/opsconsole_createnotificationmethod6.png': 
+No such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-hos.docs-
+opsconsole_createnotificationmethod6.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/opsconsole_createnotificationmethod.png': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-hos.docs-
+opsconsole_createnotificationmethod.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/planning/splunk/configuring_splunk_10.png': 
+No such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-hos.docs-planning
+-splunk-configuring_splunk_10.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/hos.docs/planning/splunk/configuring_splunk_10.png': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-hos.docs-planning-
+splunk-configuring_splunk_10.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/planning/splunk/configuring_splunk_11.png': 
+No such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-hos.docs-planning
+-splunk-configuring_splunk_11.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/hos.docs/planning/splunk/configuring_splunk_11.png': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-hos.docs-planning-
+splunk-configuring_splunk_11.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/planning/splunk/configuring_splunk_1.png': 
+No such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-hos.docs-planning
+-splunk-configuring_splunk_1.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/hos.docs/planning/splunk/configuring_splunk_1.png': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-hos.docs-planning-
+splunk-configuring_splunk_1.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/planning/splunk/configuring_splunk_2.png': 
+No such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-hos.docs-planning
+-splunk-configuring_splunk_2.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/hos.docs/planning/splunk/configuring_splunk_2.png': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-hos.docs-planning-
+splunk-configuring_splunk_2.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/planning/splunk/configuring_splunk_3.png': 
+No such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-hos.docs-planning
+-splunk-configuring_splunk_3.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/hos.docs/planning/splunk/configuring_splunk_3.png': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-hos.docs-planning-
+splunk-configuring_splunk_3.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/planning/splunk/configuring_splunk_4.png': 
+No such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-hos.docs-planning
+-splunk-configuring_splunk_4.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/hos.docs/planning/splunk/configuring_splunk_4.png': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-hos.docs-planning-
+splunk-configuring_splunk_4.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/planning/splunk/configuring_splunk_5.png': 
+No such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-hos.docs-planning
+-splunk-configuring_splunk_5.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/hos.docs/planning/splunk/configuring_splunk_5.png': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-hos.docs-planning-
+splunk-configuring_splunk_5.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/planning/splunk/configuring_splunk_6.png': 
+No such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-hos.docs-planning
+-splunk-configuring_splunk_6.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/hos.docs/planning/splunk/configuring_splunk_6.png': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-hos.docs-planning-
+splunk-configuring_splunk_6.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/planning/splunk/configuring_splunk_7.png': 
+No such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-hos.docs-planning
+-splunk-configuring_splunk_7.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/hos.docs/planning/splunk/configuring_splunk_7.png': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-hos.docs-planning-
+splunk-configuring_splunk_7.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/planning/splunk/configuring_splunk_8.png': 
+No such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-hos.docs-planning
+-splunk-configuring_splunk_8.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/hos.docs/planning/splunk/configuring_splunk_8.png': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-hos.docs-planning-
+splunk-configuring_splunk_8.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/hos.docs/planning/splunk/configuring_splunk_9.png': 
+No such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-hos.docs-planning
+-splunk-configuring_splunk_9.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/hos.docs/planning/splunk/configuring_splunk_9.png': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-hos.docs-planning-
+splunk-configuring_splunk_9.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/hos.docs/troubleshooting/cinder_topology.png': No such 
+file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-hos.docs-
+troubleshooting-cinder_topology.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/keystone/Keystone-2-Keystone-Sequence-Generic.png': 
+No such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-keystone-Keystone
+-2-Keystone-Sequence-Generic.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/keystone/KeystoneTokenValidationExample.png': No such 
+file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-keystone-
+KeystoneTokenValidationExample.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/keystone/KeystoneTokenValidationExample.png': No such 
+file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-keystone-
+KeystoneTokenValidationExample.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/logservice_arch.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-logservice_arch.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/metering/Ceilo_API_Polling.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-metering-
+Ceilo_API_Polling.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/monasca_diagram.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-monasca_diagram.png' 
+@ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/monasca/Monasca_Service_Arch_Diagram.png': No such file 
+or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-monasca-
+Monasca_Service_Arch_Diagram.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/networkImages/Mid-Scale-AllNetworks.png': No such file 
+or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-networkImages-Mid-
+Scale-AllNetworks.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/networking/ipam.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-networking-ipam.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/networking/l2gateway5930-2-new.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-networking-
+l2gateway5930-2-new.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/networking/l2gateway5930-3-new.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-networking-
+l2gateway5930-3-new.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/networking/l2gateway5930-new.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-networking-
+l2gateway5930-new.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/opsconsole/DetailDots.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-opsconsole-
+DetailDots.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/opsconsole/OpsConsoleBurgerMenu.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-opsconsole-
+OpsConsoleBurgerMenu.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/media/opsconsole/OpsConsoleBurgerMenu.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/media-opsconsole-
+OpsConsoleBurgerMenu.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/sriov_pcpit.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-sriov_pcpit.png' 
+@ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/vsa/addvsa_cmc10.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-vsa-addvsa_cmc10.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/vsa/addvsa_cmc1.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-vsa-addvsa_cmc1.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/vsa/addvsa_cmc2.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-vsa-addvsa_cmc2.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/vsa/addvsa_cmc3.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-vsa-addvsa_cmc3.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/vsa/addvsa_cmc4.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-vsa-addvsa_cmc4.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/vsa/addvsa_cmc5.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-vsa-addvsa_cmc5.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/vsa/addvsa_cmc6.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-vsa-addvsa_cmc6.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/vsa/addvsa_cmc7.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-vsa-addvsa_cmc7.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/vsa/addvsa_cmc8.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-vsa-addvsa_cmc8.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/../media/vsa/addvsa_cmc9.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/converted/operations/images/src/png/..-media-vsa-addvsa_cmc9.
+png' @ error/convert.c/ConvertImageCommand/3275.
+ERROR: Failed to get filelist for ROOTID ""

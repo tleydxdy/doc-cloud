@@ -1,0 +1,267 @@
+toms@suse.de
+Thomas Schraitle email - Coordination steps 2017-12-13
+Hi Carl,
+
+according to our telephone conference you've mentioned the HOS
+conversion to DocBook is in good shape. I would like to give you some
+further hints which we think is very important for the coordination.
+
+I thought it would be helpful to send them before the vacation so if
+any questions turns up, we can clarify them together.
+
+By the way, I've added you to the SUSE-Cloud/doc-cloud repo but you
+have to accept the invitation.
+
+
+This is our typical workflow:
+
+1. Install GitFlow
+   Not sure, if you already have GitFlow on your system or used it
+   before. All of our doc repos uses this tool as it gives writers and
+   contributers a consistent workflow with Git. Basically it is just a
+   shell wrapper around the git command.
+   Follow these steps to install it:
+
+   a) Add the devel:tools:scm repo to your list (maybe correct the
+   version in the URL to your openSUSE release):
+   $ sudo zypper ar \
+   
+https://download.opensuse.org/repositories/devel:/tools:/scm/openSUSE_Leap_42.3/
+devel:tools:scm.repo
+
+   b) Install the package:
+   $ sudo zypper se --repo "devel:tools:scm" git-flow-avh
+
+   c) Check if everything was right:
+   $ git flow version
+   1.11.0 (AVH Edition)
+
+
+2. Check out your GitHub Repo
+   Our existing Cloud documentation lives in the SUSE-Cloud/doc-cloud
+   repo on GitHub: https://github.com/SUSE-Cloud/doc-cloud
+   Check out the repo with the following command:
+
+   $ git checkout git@github.com:SUSE-Cloud/doc-cloud.git
+
+   Finish this step with an initialization of GitFlow (had to be done
+   only once):
+
+   $ git checkout master
+   $ git flow init -d
+   $ git checkout develop
+
+
+3. Open a Feature Branch
+   A branch is a different line of development. Git has normally a
+   master branch. In our doc repos, however, we have an additional
+   develop branch. This is needed to separate stable releases (which
+   lives in master) from the current development (which are done in
+   develop).
+
+   As the name implies, a feature branch is used to create some
+   new features.  Usually they are branched off from develop. That
+   allows to comment and change things before it goes into develop. In
+   your case, I would recommend to open a new feature branch to add
+   your converted DocBook files.
+
+   To do so, use the following command inside your doc-cloud working
+   directory (see step 2):
+
+   $ git flow feature start hos-doc
+
+   Your branch should now be feature/hos-doc. You can check that with:
+
+   $ git branch
+     develop
+   * feature/hos-doc
+     master
+
+
+4. Add your converted DocBook 4 files
+   Here your magic comes to play.  Convert the DITA map to DocBook.
+   This is better done in a separate directory, then copy the files to
+   the xml directory and commit them:
+
+   # current directory is still hos-doc/
+   $ cp -v ../hos-docs/converted/xml/*.xml xml/
+   $ git add xml
+   $ git commit
+   # add some meaningful commit message
+
+   Save the list of the files somewhere as you need that in the
+   next step.
+
+
+5. Convert your files to DocBook 5
+   If the HOS documentation is separate from the old SUSE Cloud
+   documentation, this step is not absolutly necessary. However, I
+   think, for future compatibility I would highly recommend it to have
+   all the files in DocBook 5.
+
+   We have already a stylesheet that does this boring task. If
+   you have installed daps, use xsltproc for a single XML file:
+
+   $ xsltproc --output xml-db5/documentation_updates.xml \
+     /usr/share/daps/daps-xslt/migrate/suse-upgrade.xsl \
+     xml/documentation_updates.xml
+
+   As you have more files to convert, use a shell for loop. The
+   converted DocBook 5 files are located in the xml-db5 folder.
+
+
+6. Move the Converted DocBook5 Files and Commit them
+   The converted files has to be moved into the xml folder:
+
+   $ mv xml-db5/*.xml xml/
+   $ git add xml
+   $ git commit
+
+
+7. Create a DC file and Validate
+   Now as you have the XML files in DocBook 5, create a DC file. You
+   can copy an existing file and adapt it to your needs.
+
+   $ cp DC-suse-openstack-cloud-all DC-suse-hos
+
+   Adapt the MAIN and ROOTID variables. MAIN points to the file which
+   contains everything (by convention, it has the name "MAIN*.xml").
+   
+
+8. Validate your HOS Documentation
+   We are almost finished! Validate your sources:
+
+   $ daps -v -d DC-suse-hos validate
+
+   At this point, you need to fix all XML validation issues.
+
+--------------------
+more in email thread
+> from me
+toms replies
+
+> Here are a couple of examples of post-script editing tasks:
+> - - <li></li> becomes <listitem></listitem> as it should, but the
+> resulting documents are ugly and need to be cleaned up.
+
+Yes, you probably speak about the formatting. To beautify your XML
+files, use "daps xmlformat" after you have create a DC file.
+
+If you want to improve the formatting of your file without daps, use
+"daps-xmlformat". That is a wrapper of the "xmlformat" command and
+provides a configuration file.
+
+
+> - - Some of the HOS references are replaced with only a closing
+> </phrase> tag. An entities file needs to be implemented.
+
+Right, I guess you are speaking about the DITA keyval things. If I'm
+not mistaken, these are kind of the equivalent version of our entities.
+
+DITA keyvals are something that dietrich cannot solve right now. I
+haven't looked into this, but I guess this is something which can be
+quite complicated...
+
+
+> - - Relative file references in the DITA documents point
+> inconsistently. This needs to be sorted out and corrected.
+
+Which file reference are you talking? Images? XIncludes? In that case
+you don't need any directory names, just file names.
+
+
+Maybe you can commit your "bits and pieces" into a feature branch and
+we can sort that out? That makes it more visible for all.
+
+After we've seen the converted code we can decide how to proceed:
+improve the script, do some manual work, or apply some stylesheets.
+
+--------------------
+more email thread
+
+> I'm not yet able to answer with certainty: > Which file reference are
+> you talking? Images? XIncludes? Working on it.
+
+That references:
+
+  <xi:include href="book_sle_tuning.xml"/>
+
+or
+ 
+   <imagedata fileref="yast2_groups_edit_kde.png" />
+
+We don't add directory names in it, just file names. The stylesheets
+do the rest. 
+
+   
+
+> [...]
+>> Maybe you can commit your "bits and pieces" into a feature branch
+>> and we can sort that out? That makes it more visible for all.  
+>
+> When I am better informed, it's a good idea. It doesn't make sense to
+> me to have several people sorting things out in the current situation.
+> Besides, I need to know the content better; these investigations are
+> good for that.
+
+Sure, but don't underestimate that. It is also a backup for you. 
+
+If you mark it as WIP (work in progress) nobody will touch it. 
+
+
+Ok, great! Thanks Carl for your answers. Whenever you need help just
+let us know so we can try to find a solution.
+
+--------------------
+
+
+~/SUSE/SUSE-HPE_GitHubDocs/doc-cloud> git checkout master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Switched to a new branch 'master'
+carl@linux:~/SUSE/SUSE-HPE_GitHubDocs/doc-cloud> git flow init -d
+Using default branch names.
+
+Which branch should be used for bringing forth production releases?
+   - develop
+   - master
+Branch name for production releases: [master] 
+
+Which branch should be used for integration of the "next release"?
+   - develop
+Branch name for "next release" development: [develop] 
+
+
+from Konsole git-flow startup
+How to name your supporting branch prefixes?
+Feature branches? [feature/] 
+Bugfix branches? [bugfix/] 
+Release branches? [release/] 
+Hotfix branches? [hotfix/] 
+Support branches? [support/] 
+Version tag prefix? [] 
+Hooks and filters directory? 
+[/home/carl/SUSE/SUSE-HPE_GitHubDocs/doc-cloud/.git/hooks] 
+carl@linux:~/SUSE/SUSE-HPE_GitHubDocs/doc-cloud> git checkout develop
+Switched to branch 'develop'
+Your branch is up to date with 'origin/develop'.
+carl@linux:~/SUSE/SUSE-HPE_GitHubDocs/doc-cloud> $ git flow feature start 
+hos-doc
+If '$' is not a typo you can use command-not-found to lookup the package that 
+contains it, like this:
+    cnf $
+carl@linux:~/SUSE/SUSE-HPE_GitHubDocs/doc-cloud> git flow feature start hos-doc
+Switched to a new branch 'feature/hos-doc'
+
+Summary of actions:
+- A new branch 'feature/hos-doc' was created, based on 'develop'
+- You are now on branch 'feature/hos-doc'
+
+Now, start committing on your feature. When done, use:
+
+     git flow feature finish hos-doc
+
+carl@linux:~/SUSE/SUSE-HPE_GitHubDocs/doc-cloud> git branch
+  develop
+* feature/hos-doc
+  master
+carl@linux:~/SUSE/SUSE-HPE_GitHubDocs/doc-cloud> 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE [[[DUMMY]]]
+[
+  <!ENTITY % entities SYSTEM "entities.ent">
+  %entities;
+]>
+<topic id="planned_maintenance_tasks_for_vsa_nodes">
+  <title><ph conkeyref="HOS-conrefs/product-title"/>Planned Maintenance Tasks for VSA Nodes</title>
+  <abstract><shortdesc outputclass="hdphidden">Planned maintenance tasks including adding and
+      removing VSA nodes.</shortdesc></abstract>
+  <body>
+    <p/>
+  </body>
+</topic>

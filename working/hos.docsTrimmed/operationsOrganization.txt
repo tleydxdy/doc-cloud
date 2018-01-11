@@ -1,0 +1,783 @@
+ <mapref href="../HOS-keywords.xml" format="ditamap" processing-role="resource-only"/>
+ <mapref href="../HOS-images.xml" format="ditamap" processing-role="resource-only"/>
+
+ <!-- BEGIN - OPERATIONS -->
+ operations_index.dita
+
+  operations_overview.dita
+
+  <!-- BEGIN / TUTORIALS -->
+  tutorials.dita
+  
+   tutorials/quickstart_guide.dita
+   
+   tutorials/manage_logs.dita
+   
+   tutorials/integrating_logstash_splunk.dita
+   
+   tutorials/keystone_ldap_integration.dita
+   
+  <!-- END / TUTORIALS -->
+
+  <!-- BEGIN / PARTNER INTEGRATIONS -->
+
+  thirdparty_integrations.dita
+
+   <!--thirdparty_driver_support.dita" navtitle="Third-party Driver Support"
+    locktitle="yes"/>-->
+
+   ../architecture/third_party/third_party_service_integration.dita
+
+   integrating_splunk.dita
+   
+   integrating_nagios.dita
+   
+   integrating_hpeopsbridge.dita
+   
+   monitoring_third_party_components.dita
+   
+    monasca_integration_overview.dita
+    
+    monasca_agent.dita
+    
+    writing_custom_plugins.dita
+    
+    configuring_check_plugins.dita
+    
+    metric_performance_considerations.dita
+    
+    configuring_alarm_definitions.dita
+    
+    integration_of_plugins_with_monasca-agent.dita
+  <!-- END / PARTNER INTEGRATIONS -->
+
+  <!-- BEGIN OPERATIONS / MANAGEMENT -->
+  <!-- NEW / MANAGING IDENTITY -->
+  managing_identity.dita
+  
+   ??configuring/identity/identity_overview.dita
+   
+   keystone_features.dita
+
+   understanding_identity.dita
+   
+   configuring/identity/keystone_token_validation.dita
+   
+   configuring/identity/configure_identity.dita
+   
+   retrieve_adminpassword.dita
+   
+   change_service_passwords.dita
+
+   configuring/identity/identity_reconfigure.dita
+   
+   configuring/identity/identity_ldap.dita
+   
+   configuring/identity/keystone_federation.dita
+   
+   configuring/identity/websso.dita
+   
+   <!--configuring/identity/identity_benchmark.dita"
+    navtitle="Identity Service Performance Benchmarking" locktitle="yes"/> -->
+    
+   configuring/identity/identity_limitations.dita
+
+  <!-- NEW MANAGING COMPUTE -->
+  managing_compute.dita
+  
+   compute/creating_aggregates.dita
+   
+   <!--../carrier_grade/Managing_VM_high_availability.dita"
+    navtitle="Managing VM High Availability" locktitle="yes" product="CG"/>-->
+
+   compute/using_flavor_metadata.dita
+   
+   compute/forcing_overcommit.dita
+   
+   compute/enabling_resize.dita
+   
+   compute/enabling_resize_esx_compute.dita
+   
+   image/configure_glance.dita
+   
+  </topicref>
+
+  <!-- NEW / MANAGING ESX -->
+  managing_esx.dita
+  
+   ../esx/eon_service.dita
+  
+   ../esx/network_esx_ovsvapp.dita
+   
+   ../esx/esx_host_commissioning.dita
+   
+   ../esx/enable_new_cluster_compute_resource.dita
+   
+   ../esx/remove_existing_cluster_compute_resource_pool.dita
+   
+   ../esx/removing_esx_host_from_cluster.dita
+   
+   ../esx/eon_logging.dita
+   
+   ../esx/scale_config_changes.dita
+   
+   monitoring_vcenter_clusters.dita
+   
+   ../esx/esx_monitoring.dita
+   
+   ../esx/vcenter_credential_update.dita
+   
+  </topicref>
+
+  <!-- NEW / MANAGING BLOCK STORAGE -->
+  managing_blockstorage.dita
+
+   <!-- BEGIN / CINDER -->
+   blockstorage_overview.dita
+   
+    blockstorage/creating_voltype.dita
+    
+    blockstorage/managing_cinder_volumebackup_services.dita
+    
+   <!-- END / CINDER -->
+
+   <!-- BEGIN / CEPH -->
+   blockstorage/ceph/managing_blockstorage_ceph.dita
+   
+    blockstorage/ceph/config_ceph_boot.dita
+    
+    blockstorage/ceph/reconfigure_ceph_services.dita
+    
+   <!-- END / CEPH -->
+
+  <!-- NEW / MANAGING OBJECT STORAGE -->
+  managing_objectstorage.dita
+  
+   <!-- BEGIN / SWIFT -->
+   
+   objectstorage/managing_objectstorage_swift.dita
+   
+    objectstorage/swift_dispersion_report.dita
+    
+    objectstorage/validating_swift_recon.dita
+    
+    objectstorage/lm_scan_metering.dita
+    
+    objectstorage/swift_cli.dita
+    
+    objectstorage/ring_management.dita
+    
+     objectstorage/rebalanced_explained.dita
+     
+     objectstorage/swift_weight_attribute.dita
+     
+     objectstorage/swift_ring_mgmt.dita
+     
+     objectstorage/safe_rebalance_deploy_ring.dita
+     
+     objectstorage/input_model_change_existing_rings.dita
+     
+     objectstorage/add_new_storage_policy.dita
+     
+     objectstorage/swift_min_part_hours.dita
+     
+     objectstorage/changing_swift_zone.dita
+     
+    objectstorage/swift_container_sync.dita
+    
+   <!-- END / SWIFT -->
+
+
+  <!-- NEW / MANAGING NETWORKS -->
+  managing_networking.dita
+  
+   configure_firewall.dita
+   
+   dns/designate_overview.dita
+   
+    dns/designate_initialconfig.dita
+    
+    dns/designate_monitor_support.dita
+   
+   ../networking/networking_overview.dita
+   
+    ../networking/neutron_external_networks.dita
+    
+    ../networking/neutron_provider_networks.dita
+    
+    ../networking/using_ipam.dita
+    
+    ../networking/lbaas_admin.dita
+    
+    ../networking/octavia_admin.dita
+
+    ../networking/rbac.dita
+    
+    ../networking/configure_mtu.dita
+    
+    ../networking/isolated_metadata.dita
+    
+    ../networking/moving_from_dvr_deployments.dita
+    
+    ../networking/dpdk_ovs.dita
+    
+     ../networking/hugepages.dita
+     
+     ../networking/dpdk_setup.dita
+     
+     ../networking/dpdk_configurations.dita
+     
+     ../networking/ts_dpdk.dita
+    
+    ../networking/pcipt_sriov_config.dita
+    
+     ../networking/enabling_pcipt_on_gen9.dita
+    
+    ../networking/l2gw5930.dita
+    
+    ../networking/vlan-aware_vm.dita
+    
+    <!-- DOCS-4145 - vlan transparency is broken in 5.0 - INTERNAL ONLY -->
+
+    ../networking/vlan_transparency.dita
+    
+    <!-- DCN Content - Switched to EXTERNAL Processing for HOS 5.0 -->
+    
+    ../networking/DCN_integration.dita
+    
+     ../networking/VSC_setup_input_model_changes.dita
+     
+     ../networking/DCN_ml2.dita
+     
+     ../networking/dcn_core.dita
+     
+     ../networking/DCN_upgrade.dita
+  </topicref>
+
+  <!-- NEW / MANAGING DASHBOARDS -->
+  managing_dashboards.dita
+  
+   configuring/configure_dashboard.dita
+   
+   configuring/change_horizon_timeout.dita
+   
+   configuring/configure_horizon_v3.dita
+   
+
+  <!-- NEW / MANAGING ORCHESTRATION -->
+  <!-- BEGIN - OPERATIONS ORCHESTRATION -->
+  managing_orchestration.dita
+  
+   orchestration/configure_orchestration.dita
+   
+   orchestration/autoscaling.dita
+
+
+  <!-- NEW / MANAGING TELEMETRY -->
+  <!-- BEGIN - OPERATIONS MONITORING / LOGGING / USAGE -->
+  managing_telemetry.dita
+  
+   <!-- OPERATIONS / MONITORING -->
+   monitoring.dita
+   
+    monitoring_service.dita
+    
+     monitoring/monitoring_overview.dita
+     
+     monitoring/working_monitoring.dita
+     
+     monitoring/accessing_monitoring.dita
+     
+     monitoring/alarms_monitoring.dita
+    </topicref>
+
+    <!-- CONFIGURING MONITORING -->
+    monitoring/configure_monitoring.dita
+    
+     monitoring/config_mon_notemail.dita
+     
+     managing_notificationmethods.dita
+     
+     monitoring/config_mon_database.dita
+     
+     monitoring/update_vertica_license.dita
+     
+     monitoring/enable_mon_console.dita
+     
+     monitoring/ceph_config_parameters.dita
+     
+     <!-- DOCS-4042 - Capacity Reporting -->
+     monitoring/capacity_reporting_transform.dita
+     
+      monitoring/crt_overview.dita
+      
+      monitoring/crt_features.dita
+      
+      monitoring/crt_arch_transform_spark.dita
+      
+      monitoring/crt_components.dita
+      
+      monitoring/crt_aggregated_metrics.dita
+      
+      monitoring/crt_deployment.dita
+      
+      monitoring/crt_upgrade.dita
+      
+      monitoring/crt_reconfigure.dita
+      
+      monitoring/crt_adding_transform_spark.dita
+      
+      monitoring/crt_increasing_scale.dita
+      
+      monitoring/crt_change_compute_host.dita
+     </topicref>
+     
+     monitoring/config_metrics.dita
+     
+      monitoring/libvirt_tuningknobs.dita
+      
+      monitoring/ovs_tuningknobs.dita
+    </topicref>
+    
+    monitoring/monasca_plugins_overview.dita
+    
+     monitoring/monasca_hipchat_plugin.dita
+     
+     monitoring/monasca_slack_plugin.dita
+      
+     monitoring/monasca_jira_plugin.dita
+     
+    </topicref>
+
+    monitoring/alarm_metrics.dita
+    
+     monitoring/apache_metrics.dita
+     
+     monitoring/ceilometer_metrics.dita
+     
+     monitoring/ceph_metrics.dita
+     
+     monitoring/cinder_metrics.dita
+     
+     monitoring/compute_metrics.dita
+     
+     monitoring/crash_metrics.dita
+     
+     monitoring/directory_metrics.dita
+     
+     monitoring/elasticsearch_metrics.dita
+     
+     monitoring/haproxy_metrics.dita
+     
+     monitoring/httpcheck_metrics.dita
+     
+     monitoring/kafka_metrics.dita
+     
+     monitoring/libvirt_metrics.dita
+     
+     monitoring/monasca_metrics.dita
+     
+     monitoring/monasca_agg_metrics.dita
+     
+     monitoring/mysql_metrics.dita
+     
+     monitoring/ntp_metrics.dita
+     
+     monitoring/ovs_metrics.dita
+     
+     monitoring/process_metrics.dita
+     
+     monitoring/rabbitmq_metrics.dita
+     
+     monitoring/swift_metrics.dita
+     
+     monitoring/system_metrics.dita
+     
+     monitoring/vertica_metrics.dita
+     
+     monitoring/zookeeper_metrics.dita
+    </topicref>
+
+   <!-- OPERATIONS / LOGGING -->
+   centralized_logging.dita
+   
+    central_log_GS.dita
+    
+    central_log_understanding.dita
+    
+    central_log_access_data.dita
+    
+    central_log_configure_manage.dita
+    
+    central_log_configure_CL.dita
+    
+    central_log_configure_services.dita
+    
+    central_log_troubleshoot.dita
+    
+    audit_logs_overview.dita
+    
+     audit_logs_checklist.dita
+     
+     audit_logs_enable.dita
+     
+   <!-- OPERATIONS / TELEMETRY (CEILOMETER - METERING) -->
+   ../metering/metering_overview.dita
+   
+    ../metering/metering_newfunctions.dita
+    
+    ../metering/metering_concepts.dita
+    
+    ../metering/metering_metertypes.dita
+    
+     ../metering/nova_meters.dita
+     
+     ../metering/computehost_meters.dita
+     
+     ../metering/glance_meters.dita
+     
+     ../metering/neutron_meters.dita
+     
+     ../metering/cinder_meters.dita
+     
+     ../metering/swift_meters.dita
+     
+    </topicref>
+    ../metering/metering_apis.dita
+    
+    ../metering/metering_reconfig.dita
+    
+    ../metering/metering_notifications.dita
+    
+    ../metering/metering_rbac.dita
+    
+    ../metering/metering_failover_ha.dita
+    
+    ../metering/metering_bestpractice.dita
+    
+    ../metering/metering_samples.dita
+    
+  </topicref>
+
+
+  <!-- BEGIN / SYSTEM MAINTENANCE -->
+  maintenance/system_maintenance.dita
+
+   <!-- PLANNED MAINTENANCE -->
+   maintenance/planned_maintenance.dita
+   
+
+    <!-- PLANNED - GENERAL PROCEDURES -->
+    maintenance/general_procedures.dita
+    
+     maintenance/reboot_cloud_down.dita
+     
+     maintenance/reboot_cloud_rolling.dita
+    <!-- END / GENERAL PROCEDURES -->
+
+    <!-- PLANNED - CONTROL PLANE MAINTENANCE -->
+    maintenance/controller/cont_planned.dita
+    
+     maintenance/controller/replace_controller.dita
+     
+      maintenance/controller/replacing_controller_notes.dita
+      
+      maintenance/controller/replace_shared_lm.dita
+      
+      maintenance/controller/replace_dedicated_lm.dita
+      
+    <!-- PLANNED - COMPUTE MAINTENANCE -->
+    maintenance/compute/comp_planned.dita
+    
+     <!--../carrier_grade/Reconfiguring_a_compute_node_using_CRM.dita"
+      navtitle="Reconfiguring a Compute Node Using CRM" locktitle="yes" product="CG"/>-->
+
+      maintenance/compute/planned_computenode.dita
+      
+     maintenance/compute/reboot_computenode.dita
+     
+     maintenance/live_migration.dita
+     
+     maintenance/compute/adding_compute_nodes.dita
+     
+      maintenance/compute/add_hpelinux_compute.dita
+      
+      maintenance/compute/add_sles_compute.dita
+      
+      maintenance/compute/add_rhel_compute.dita
+      
+     maintenance/compute/remove_compute_node.dita
+     
+    <!-- PLANNED - NETWORK MAINTENANCE -->
+    maintenance/networking_nodes.dita
+    
+     maintenance/networking/add_network_node.dita
+     
+    <!-- PLANNED - STORAGE MAINTENANCE -->
+    maintenance/storage_maintenance.dita
+    
+     <!-- BLOCK STORAGE NODES -->
+     <!-- VSA -->
+     maintenance/vsa_nodes.dita
+     
+      maintenance/vsa/add_vsa_node.dita
+      
+      maintenance/vsa/remove_vsa_node.dita
+      
+      maintenance/vsa/replace_vsa_node.dita
+      
+      blockstorage/vsa/reconfigure_vsa_verb_add_remove_extra_disk.dita
+      
+     <!-- Ceph -->
+     maintenance/ceph_nodes.dita
+     
+      maintenance/ceph/add_osd_node.dita
+      
+      maintenance/ceph/add_osd_datadisk.dita
+      
+      maintenance/ceph/add_monitor_node.dita
+      
+      maintenance/ceph/add_ceph_rados_node.dita
+      
+      maintenance/ceph/remove_osd_node.dita
+      
+      maintenance/ceph/remove_osd_datadisk.dita
+      
+      maintenance/ceph/remove_monitor_node.dita
+      
+      maintenance/ceph/remove_ceph_rados_node.dita
+      
+      maintenance/ceph/replace_ceph_osd_node.dita
+      
+      maintenance/ceph/replace_ceph_monitor_node.dita
+      
+      maintenance/ceph/replace_osd_osdisk.dita
+      
+      maintenance/ceph/replace_osd_datadisk.dita
+      
+      maintenance/ceph/replace_osd_journaldisk.dita
+      
+      maintenance/ceph/replace_ceph_rgw_node.dita
+      
+      maintenance/ceph/replace_osd_datadisk_from_dl_sl_servers.dita
+      
+     <!-- OBJECT STORAGE NODES -->
+     maintenance/swift_nodes.dita
+     
+      maintenance/swift/add_swift_object_node.dita
+      
+      maintenance/swift/add_swift_pac_node.dita
+      
+      maintenance/swift/add_swift_disk.dita
+      
+      maintenance/swift/removing_swift_node.dita
+      
+      maintenance/swift/replacing_swift_node.dita
+      
+      maintenance/swift/replacing_drives_swift_node.dita
+      
+   </topicref>
+   <!-- END / PLANNED MAINTENANCE -->
+
+   <!-- UNPLANNED MAINTENANCE -->
+   maintenance/unplanned_maintenance.dita
+   
+    maintenance/whole_unplanned.dita
+    
+     maintenance/controller/full_recovery.dita
+     
+
+    </topicref>
+    
+    maintenance/controller/cont_unplanned.dita
+    
+     maintenance/controller/restart_controller.dita
+     
+     maintenance/controller/recovering_controller_nodes.dita
+     
+      maintenance/controller/pit_database_recovery.dita
+      
+      maintenance/controller/pit_vertica_recovery.dita
+      
+      maintenance/controller/pit_swiftrings_recovery.dita
+      
+      maintenance/controller/pit_lifecyclemanager_recovery.dita
+      
+      maintenance/controller/lifecyclemanager_recovery.dita
+      
+      maintenance/controller/onetwo_controller_recovery.dita
+      
+      maintenance/controller/three_controller_recovery.dita
+      
+      maintenance/controller/swiftrings_recovery.dita
+      
+    </topicref>
+    
+    maintenance/compute_maintenance.dita
+    
+     maintenance/compute/recover_compute_node.dita
+     
+
+    maintenance/storage_unplanned.dita
+    
+     maintenance/vsa/vsa_storage_unplanned.dita
+     
+      maintenance/vsa/repair_vsa_maintenance.dita
+      
+     maintenance/ceph/ceph_storage_unplanned.dita
+     
+      maintenance/ceph/restart_ceph.dita
+      
+     maintenance/swift/swift_storage_unplanned.dita
+     
+      maintenance/swift/recover_swift_node.dita
+
+  </topicref>
+  <!-- END / SYSTEM MAINTENANCE -->
+
+
+  <!-- END - OPERATIONS MONITORING / LOGGING / USAGE -->
+
+  <!-- BEGIN - OPERATIONS/BURA -->
+  ../bura/bura_overview.dita
+  
+   ../bura/supported_services.dita
+   
+   ../bura/cloud_control_plane_backup.dita
+   
+   ../bura/change_default_backup_jobs.dita
+   
+   ../bura/freezer_ui.dita
+   
+   ../bura/restore_previous_backup.dita
+   
+   ../bura/freezer_scheduler.dita
+   
+   ../bura/freezer_agent.dita
+   
+   ../bura/backup_limitations.dita
+   
+   ../bura/disable_bura_before_deployment.dita
+   
+   ../bura/start_stop_freezer_services.dita
+   
+   <!-- bura/restore_shared_controller.dita
+
+   audit_logs_backup.dita
+   
+  <!-- BEGIN - OPERATIONS/Metering -->
+  <!-- END / OPERATIONS/Metering -->
+
+
+  <!-- BEGIN - TROUBLESHOOTING -->
+  troubleshooting/troubleshooting_issues.dita
+  
+   general_troubleshooting.dita
+   
+    alarm_resolutions.dita
+    
+     compute_alarmdefinitions.dita
+     
+     storage_alarmdefinitions.dita
+     
+     networking_alarmdefinitions.dita
+     
+     identity_alarmdefinitions.dita
+     
+     telemetry_alarmdefinitions.dita
+     
+     console_alarmdefinitions.dita
+     
+     system_alarmdefinitions.dita
+     
+     other_alarmdefinitions.dita
+     
+     esx_alarmdefinitions.dita
+     
+     />
+    </topicref>
+    troubleshooting/contacting_support.dita
+    
+   </topicref>
+   troubleshooting/ts_controlplane.dita
+   
+    troubleshooting/recover_rabbit.dita
+    
+    troubleshooting/recover_vertica.dita"
+     navtitle="Recovering Vertica after File System Issues" locktitle="yes" keys="recover_vertica"/>
+     
+    troubleshooting/recover_vertica_network.dita
+    
+   </topicref>
+   troubleshooting/ts_compute.dita
+   
+   ../networking/neutron_troubleshooting.dita
+   
+   troubleshooting/ts_image.dita
+
+   troubleshooting/percona_partitioning_check.dita
+   
+
+   <!-- BEGIN / TROUBLESHOOTING STORAGE -->
+   troubleshooting/ts_storage.dita
+
+    troubleshooting/ts_blockstorage.dita
+    
+     <!-- TROUBLESHOOTING VSA -->
+     troubleshooting/ts_vsa.dita
+     
+     <!-- TROUBLESHOOTING CEPH -->
+    troubleshooting/ts_ceph.dita
+    
+    <!-- TROUBLESHOOTING SWIFT -->
+    troubleshooting/ts_swift.dita
+    
+     troubleshooting/objectstorage/deploy_fails_with_msdos_disks.dita
+     
+     troubleshooting/objectstorage/examine_details_planned_ring_changes_prior_deploy.dita
+     
+     troubleshooting/objectstorage/interpreting_swift_validate_input_model.dita
+     
+     troubleshooting/objectstorage/identify_ring_builder.dita
+     
+     troubleshooting/objectstorage/label_on_partition.dita
+     
+     troubleshooting/objectstorage/filesystem_label.dita
+     
+     troubleshooting/objectstorage/recovering_builder_file.dita
+     
+     troubleshooting/objectstorage/restart_deploy_from_scratch.dita
+     
+     troubleshooting/objectstorage/increase_timeout.dita
+     
+     troubleshooting/objectstorage/filesystem_usage_nowipe.dita
+
+   </topicref>
+   <!-- END / TROUBLESHOOTING STORAGE -->
+
+   <!-- BEGIN / TROUBLESHOOTING TELEMETRY -->
+   troubleshooting/ts_telemetry.dita
+   
+    central_log_troubleshoot.dita
+    
+    troubleshooting/ts_metering.dita
+    
+   <!-- END / TROUBLESHOOTING TELEMETRY -->
+
+   troubleshooting/ts_bura.dita   
+   
+   <!-- TROUBLEHSOOTING ORCHESTRATION --> 
+   troubleshooting/ts_orchestration.dita
+   
+    troubleshooting/ts_heat.dita
+    
+    troubleshooting/ts_magnum.dita
+   
+   troubleshooting/ts_tools.dita
+   
+    troubleshooting/troubleshooting_sosreport.dita
+    
+  </topicref>
+  <!-- END / TROUBLESHOOTING -->
+  <!-- END - OPERATIONS -->
+

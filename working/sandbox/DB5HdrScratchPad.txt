@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE appendix
+[
+  <!ENTITY % entities SYSTEM "entities.ent">
+  %entities;
+]>
+
+for file in *; do
+	echo "]>" | cat - $file > temp && mv temp $file;
+done
+
+for file in *; do
+	echo "  %entities;" | cat - $file > temp && mv temp $file;
+done
+
+for file in *; do
+	echo '  <!ENTITY % entities SYSTEM "entities.ent">' | cat - $file > temp && mv temp $file;
+done
+
+for file in *; do
+	echo '[' | cat - $file > temp && mv temp $file;
+done
+
+for file in *; do
+	echo '<!DOCTYPE appendix' | cat - $file > temp && mv temp $file;
+done
+
+for file in *; do
+	echo '<?xml version="1.0" encoding="UTF-8"?>' | cat - $file > temp && mv temp $file;
+done
+
+
+
+
+
+
+worked!
+#! /bin/bash
+for file in *; do
+        echo "]>" | cat - $file > temp && mv temp $file;
+done
+
+
+for file in *; do
+    sed -i.bak '1,+2d' $file
+done
+
+
+
+echo 'task goes here' | cat - multilinefile.txt > temp && mv temp multilinefile.txt
+echo 'task goes herev2' | cat - multilinefile.txt > temp && mv temp multilinefile.txt

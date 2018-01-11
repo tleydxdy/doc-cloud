@@ -1,0 +1,176 @@
+./xml/msoperator-cmmoperator-operate-c-backupdashboards.xml:<!section 
+./xml/msoperator-cmmoperator-operate-c-removelogfiles.xml:<!section 
+./xml/msoperator-cmmoperator-operate-c-dataretention-inf.xml:<!section 
+./xml/msoperator-shared-appendix-r-confsettings-logs.xml:<!section 
+./xml/msoperator-cmmoperator-monitor-c-monitor-overview-cmmo.xml:<!section 
+./xml/msoperator-cmmoperator-operate-c-cmmostartstopcmm.xml:<!section 
+./xml/msoperator-cmmoperator-about-c-about.xml:<!DOCTYPE preface
+./xml/msoperator-cmmoperator-appendix-r-cmmometrics.xml:<!DOCTYPE appendix 
+./xml/msoperator-cmmoperator-install-c-cmmoinstallationlogagent.xml:<!section 
+./xml/msoperator-cmmoperator-install-c-cmmoinstcmm.xml:<!section 
+./xml/msoperator-cmmoperator-install-c-cmmoinstmetricsagent.xml:<!section 
+./xml/msoperator-cmmoperator-install-c-cmmoprepansiblemaster.xml:<!section 
+./xml/msoperator-cmmoperator-install-c-cmmoprepare-pre.xml:<!section 
+./xml/msoperator-cmmoperator-install-c-cmmouninstall.xml:<!section 
+./xml/msoperator-cmmoperator-install-c-cmmouninstallcleanup.xml:<!section 
+./xml/msoperator-cmmoperator-intro-c-cmmoarchitecture.xml:<!section 
+./xml/msoperator-cmmoperator-intro-c-usagescenario.xml:<!section 
+./xml/msoperator-cmmoperator-operate-c-backupcfg.xml:<!section 
+./xml/msoperator-cmmoperator-operate-c-dataretention-es.xml:<!section 
+./xml/msoperator-cmmoperator-about-c-readers.xml:<!section 
+./xml/msoperator-cmmoperator-install-c-cmmoinstall.xml:<!DOCTYPE chapter 
+./xml/msoperator-cmmoperator-install-c-cmmoinstallationmetagent.xml:<!section 
+./xml/msoperator-cmmoperator-install-c-cmmoinstlogagent.xml:<!section 
+./xml/msoperator-cmmoperator-install-c-cmmoinstoffres.xml:<!section 
+./xml/msoperator-cmmoperator-install-c-cmmoprepare-com.xml:<!section 
+./xml/msoperator-cmmoperator-install-c-cmmoprepare.xml:<!section 
+./xml/msoperator-cmmoperator-install-c-cmmouninstallagents.xml:<!section 
+./xml/msoperator-cmmoperator-install-c-cmmouninstallservice.xml:<!section 
+./xml/msoperator-cmmoperator-intro-c-cmmousers.xml:<!section 
+./xml/msoperator-cmmoperator-monitor-c-monitor-graf-cmmo.xml:<!section 
+./xml/msoperator-cmmoperator-operate-c-backupdb.xml:<!section 
+./xml/msoperator-cmmoperator-operate-c-deleteinfluxdbdata.xml:<!section 
+./xml/msoperator-shared-appendix-r-confsettings-metrics.xml:<!section 
+./xml/msoperator-shared-appendix-r-confsettings.xml:<!DOCTYPE appendix 
+./xml/msoperator-shared-appendix-r-metricsadditional.xml:<!section 
+./xml/msoperator-shared-appendix-r-metricsstandard.xml:<!section 
+./xml/msoperator-shared-gettingstarted-intro-abbrev.xml:<!section 
+./xml/msoperator-shared-gettingstarted-intro-convent.xml:<!section 
+./xml/msoperator-shared-gettingstarted-intro-export.xml:<!section 
+./xml/msoperator-shared-install-c-cmmoprepare-bs.xml:<!section 
+./xml/msoperator-shared-install-c-cmmoprepare-https.xml:<!section 
+./xml/msoperator-shared-install-c-cmmoprepare-sec.xml:<!section 
+./xml/msoperator-shared-install-c-configurelogagent.xml:<!section 
+./xml/msoperator-shared-intro-c-cmmodistribmedia.xml:<!section 
+./xml/msoperator-shared-logging-c-osolog-alarms.xml:<!section 
+./xml/msoperator-shared-logging-c-osolog-kibana.xml:<!section 
+./xml/msoperator-shared-monitor-c-monitor-alert.xml:<!section 
+./xml/msoperator-shared-monitor-c-monitor.xml:<!DOCTYPE chapter 
+./xml/msoperator-shared-operationmaintenance-c-deletedata.xml:<!section 
+./xml/msoperator-shared-operationmaintenance-c-logfilelocation.xml:<!section 
+./xml/msoperator-shared-operationmaintenance-c-removemetrics.xml:<!section 
+./xml/osoperator-about-c-readers.xml:<!section 
+./xml/osoperator-install-c-osobackup.xml:<!section 
+./xml/osoperator-install-c-osoinstallationlogagent.xml:<!section 
+./xml/osoperator-install-c-osoinstlogagent.xml:<!section 
+./xml/osoperator-install-c-osoinstosext.xml:<!section 
+./xml/osoperator-install-c-osoprepansiblemaster.xml:<!section 
+./xml/osoperator-install-c-osoprepare.xml:<!section 
+./xml/osoperator-intro-c-osocomponents.xml:<!section 
+./xml/osoperator-intro-c-osousers.xml:<!section 
+./xml/osoperator-monitor-c-monitor-overview-oso.xml:<!section 
+./xml/osoperator-osoperator-about-c-readers.xml:<!section 
+./xml/osoperator-osoperator-install-c-osobackup.xml:<!section 
+./xml/osoperator-osoperator-install-c-osoinstallationlogagent.xml:<!section 
+./xml/osoperator-osoperator-install-c-osoinstlogagent.xml:<!section 
+./xml/osoperator-osoperator-install-c-osoinstosext.xml:<!section 
+./xml/msoperator-shared-gettingstarted-c-webreferences.xml:<!section 
+./xml/msoperator-shared-gettingstarted-intro-availabledoc.xml:<!section 
+./xml/msoperator-shared-gettingstarted-intro-copyright.xml:<!section 
+./xml/msoperator-shared-glossary-r-glossary.xml:<!DOCTYPE appendix 
+./xml/msoperator-shared-install-c-cmmoprepare-cm.xml:<!section 
+./xml/msoperator-shared-install-c-cmmoprepare-pip.xml:<!section 
+./xml/msoperator-shared-install-c-cmmoprepare-sw.xml:<!section 
+./xml/msoperator-shared-install-c-configuremetagent.xml:<!section 
+./xml/msoperator-shared-intro-c-intro.xml:<!DOCTYPE chapter 
+./xml/msoperator-shared-logging-c-osolog-index.xml:<!section 
+./xml/msoperator-shared-logging-c-osologging.xml:<!DOCTYPE chapter 
+./xml/msoperator-shared-monitor-c-monitor-alarm.xml:<!section 
+./xml/msoperator-shared-monitor-c-monitor-statusinfo.xml:<!section 
+./xml/msoperator-shared-operationmaintenance-c-backup.xml:<!section 
+./xml/msoperator-shared-operationmaintenance-c-disablelogretrieval.xml:<!section 
+./xml/msoperator-shared-operationmaintenance-c-operate.xml:<!DOCTYPE chapter 
+./xml/osoperator-about-c-about.xml:<!DOCTYPE preface 						x
+./xml/osoperator-appendix-r-osometrics.xml:<!DOCTYPE appendix 				x
+./xml/osoperator-install-c-osoinstall.xml:<!DOCTYPE chapter 				x
+./xml/osoperator-install-c-osoinstallationmetagent.xml:<!section 
+./xml/osoperator-install-c-osoinstmetricsagent.xml:<!section 
+./xml/osoperator-install-c-osooperate.xml:<!section 
+./xml/osoperator-install-c-osoprepare-pre.xml:<!section 
+./xml/osoperator-install-c-osouninstall.xml:<!section 
+./xml/osoperator-intro-c-osotasks.xml:<!section 
+./xml/osoperator-monitor-c-monitor-graf-oso.xml:<!section 
+./xml/osoperator-osoperator-about-c-about.xml:<!DOCTYPE preface 				x
+./xml/osoperator-osoperator-appendix-r-osometrics.xml:<!DOCTYPE appendix 		x
+./xml/osoperator-osoperator-install-c-osoinstall.xml:<!DOCTYPE chapter 		x
+./xml/osoperator-osoperator-install-c-osoinstallationmetagent.xml:<!section	
+./xml/osoperator-osoperator-install-c-osoinstmetricsagent.xml:<!section 
+./xml/osoperator-osoperator-install-c-osooperate.xml:<!section 
+./xml/osoperator-osoperator-install-c-osoprepansiblemaster.xml:<!section 
+./xml/osoperator-osoperator-install-c-osoprepare-pre.xml:<!section 
+./xml/osoperator-osoperator-install-c-osoprepare.xml:<!section 
+./xml/osoperator-osoperator-install-c-osouninstall.xml:<!section 
+./xml/osoperator-osoperator-intro-c-osocomponents.xml:<!section 
+./xml/osoperator-osoperator-intro-c-osotasks.xml:<!section 
+./xml/osoperator-osoperator-intro-c-osousers.xml:<!section 
+./xml/osoperator-osoperator-monitor-c-monitor-graf-oso.xml:<!section 
+./xml/osoperator-osoperator-monitor-c-monitor-overview-oso.xml:<!section 
+./xml/osoperator-osoperator-prepare-c-osoprep-tuconfig.xml:<!section 
+./xml/osoperator-osoperator-prepare-c-osoprep-tuinstall.xml:<!section 
+./xml/osoperator-osoperator-prepare-c-osoprep-tulibs.xml:<!section 
+./xml/osoperator-osoperator-prepare-c-osoprep-turoles.xml:<!section 
+./xml/osoperator-osoperator-prepare-c-osopreparetu.xml:<!DOCTYPE chapter 		x
+./xml/osoperator-prepare-c-osoprep-tuconfig.xml:<!section 
+./xml/osoperator-prepare-c-osoprep-tuinstall.xml:<!section 
+./xml/osoperator-prepare-c-osoprep-tulibs.xml:<!section 
+./xml/osoperator-prepare-c-osoprep-turoles.xml:<!section 
+./xml/osoperator-prepare-c-osopreparetu.xml:<!DOCTYPE chapter 				x
+./xml/osoperator-shared-appendix-r-confsettings-logs.xml:<!section 
+./xml/osoperator-shared-appendix-r-confsettings-metrics.xml:<!section 
+./xml/osoperator-shared-appendix-r-confsettings.xml:<!DOCTYPE appendix 		x
+./xml/osoperator-shared-appendix-r-metricsadditional.xml:<!section 
+./xml/osoperator-shared-appendix-r-metricsstandard.xml:<!section 
+./xml/osoperator-shared-gettingstarted-c-webreferences.xml:<!section 
+./xml/osoperator-shared-gettingstarted-intro-abbrev.xml:<!section 
+./xml/osoperator-shared-gettingstarted-intro-availabledoc.xml:<!section 
+./xml/osoperator-shared-gettingstarted-intro-convent.xml:<!section 
+./xml/osoperator-shared-gettingstarted-intro-copyright.xml:<!section 
+./xml/osoperator-shared-gettingstarted-intro-export.xml:<!section 
+./xml/osoperator-shared-gettingstarted-intro-trademarks.xml:<!section 
+./xml/osoperator-shared-glossary-r-glossary.xml:<!DOCTYPE appendix 			x
+./xml/osoperator-shared-install-c-cmmoprepare-bs.xml:<!section 
+./xml/osoperator-shared-install-c-cmmoprepare-cm.xml:<!section 
+./xml/osoperator-shared-install-c-cmmoprepare-https.xml:<!section 
+./xml/osoperator-shared-install-c-cmmoprepare-pip.xml:<!section 
+./xml/osoperator-shared-install-c-cmmoprepare-sec.xml:<!section 
+./xml/osoperator-shared-install-c-cmmoprepare-sw.xml:<!section 
+./xml/osoperator-shared-install-c-configurelogagent.xml:<!section 
+./xml/osoperator-shared-install-c-configuremetagent.xml:<!section 
+./xml/osoperator-shared-intro-c-intro.xml:<!DOCTYPE chapter 				x
+./xml/osoperator-shared-intro-c-usagescenario.xml:<!section 
+./xml/osoperator-shared-logging-c-osolog-alarms.xml:<!section 
+./xml/osoperator-shared-logging-c-osolog-index.xml:<!section 
+./xml/osoperator-shared-logging-c-osolog-kibana.xml:<!section 
+./xml/osoperator-shared-logging-c-osolog-troubleshooting.xml:<!section 
+./xml/osoperator-shared-logging-c-osologging.xml:<!DOCTYPE chapter 			x
+./xml/osoperator-shared-monitor-c-monitor-alarm.xml:<!section 
+./xml/osoperator-shared-monitor-c-monitor-alert.xml:<!section 
+./xml/osoperator-shared-monitor-c-monitor-statusinfo.xml:<!section 
+./xml/osoperator-shared-monitor-c-monitor.xml:<!DOCTYPE chapter 				x
+./xml/osoperator-shared-operationmaintenance-c-collectlogfiles.xml:<!section 
+./xml/osoperator-shared-operationmaintenance-c-disablelogretrieval.xml:<!section 
+./xml/osoperator-shared-operationmaintenance-c-removemetrics.xml:<!section 
+./xml/osoperator-shared-operationmaintenance-c-startstopagents.xml:<!section 
+./xml/overview-about-c-about.xml:<!DOCTYPE preface 						x
+./xml/overview-about-c-readers.xml:<!section 
+./xml/overview-log-c-logmanagement.xml:<!DOCTYPE chapter					x 
+./xml/overview-monitor-c-monitoring.xml:<!DOCTYPE chapter 					x
+./xml/overview-overview-about-c-about.xml:<!DOCTYPE preface 				x
+./xml/overview-overview-about-c-readers.xml:<!section 
+./xml/overview-overview-log-c-logmanagement.xml:<!DOCTYPE chapter 			x
+./xml/overview-overview-monitor-c-monitoring.xml:<!DOCTYPE chapter 			x
+./xml/overview-overview-whatiscmm-c-cmm.xml:<!DOCTYPE chapter 				x
+./xml/overview-overview-whatiscmm-c-components.xml:<!section 
+./xml/overview-overview-whatiscmm-c-keyfeatures.xml:<!section 
+./xml/overview-overview-whatiscmm-c-userroles.xml:<!section 
+./xml/overview-shared-gettingstarted-intro-abbrev.xml:<!section 
+./xml/overview-shared-gettingstarted-intro-availabledoc.xml:<!section 
+./xml/overview-shared-gettingstarted-intro-convent.xml:<!section 
+./xml/overview-shared-gettingstarted-intro-copyright.xml:<!section 
+./xml/overview-shared-gettingstarted-intro-export.xml:<!section 
+./xml/overview-shared-gettingstarted-intro-trademarks.xml:<!section 
+./xml/overview-shared-glossary-r-glossary.xml:<!DOCTYPE appendix 			x
+./xml/overview-whatiscmm-c-cmm.xml:<!DOCTYPE chapter 						x
+./xml/overview-whatiscmm-c-components.xml:<!section 
+./xml/overview-whatiscmm-c-keyfeatures.xml:<!section 
+./xml/overview-whatiscmm-c-userroles.xml:<!section 

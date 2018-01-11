@@ -1,0 +1,18 @@
+<topic id="unsupported40">
+    <title>Unsupported Features</title>
+    <body>
+        <p>
+            Ceph Jewel is not supported in <keyword keyref="kw-hos-phrase"/>, the current supported version is Ceph Hammer.
+        </p>
+        <p>The following features for VSA are not supported in this release. It requires a minimum
+            of 1.2 API version:
+            <ul>
+                <li>Replication for VSA</li>
+                <li>Manage/Unmanage for VSA</li>
+                <li>Snapshot Manage/Unmange for VSA</li>
+                <li>Consistency Snapshot creation fails for VSA</li>
+            </ul>
+        </p>
+    </body>
+</topic>
+

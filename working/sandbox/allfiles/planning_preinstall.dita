@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE [[[DUMMY]]]
+[
+  <!ENTITY % entities SYSTEM "entities.ent">
+  %entities;
+]>
+<topic id="planingAndPreInstall">
+  <title><ph conkeyref="HOS-conrefs/product-title"/>Planning and Pre-installation</title>
+  <body><!--not tested-->
+    <p conkeyref="HOS-conrefs/applies-to"/>
+    <p></p>
+  </body>
+</topic>

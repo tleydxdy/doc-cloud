@@ -1,0 +1,21 @@
+Sheilagh, would you mind sharing your plans? Carl, what are the areas in 
+which you need our help? Here is what we can offer:
+
+* We would like to invite you to our weekly team meeting. This will be a 
+ chance for you to get to know the whole team and to discuss matters   
+ with all of us
+ The meeting takes place on Tuesdays, at 15:00 MET - that must be 06:00 
+ your time. probably a bit too early ;-) Would 1:00 or 1:30 hours later 
+ be acceptable for you? 
+* We can do online trainings where we can teach you how to use our 
+ toolchain and processes
+* Dmitri Popov (dpopov@suse.de) will work on SOC8 docs from the 
+ Nuremberg side. We can offer regular sync-up meetings. We should 
+ probably also make plans on how to distribute the work between Carl 
+ and Dmitri 
+
+My suggestion for getting you, Carl, started, would be to identify all 
+parts of the HOS documentation that will get integrated/added to the 
+existing SOC8 documentation. Once these pieces are identified, we can 
+convert and merge the respective sources into the existing SOC8 
+repository.

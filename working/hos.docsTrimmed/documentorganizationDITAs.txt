@@ -1,0 +1,150 @@
+<!-- BEGIN / TOP LEVEL --> 
+  
+  helion/index.dita
+  
+    helion/introduction.dita
+      
+      helion/overview.dita
+      
+        helion/introduction/tech_overview_ataglance.dita
+        
+        helion/introduction/tech_overview_hlm.dita
+        
+        helion/introduction/tech_overview_newimproved.dita
+        
+        helion/introduction/tech_overview_valueadd.dita
+        
+        helion/introduction/tech_overview_linux.dita
+        
+        helion/introduction/tech_overview_openstack.dita
+        
+
+      helion/releasenotes502.dita
+
+      helion/releasenotes501.dita
+
+      helion/releasenotes50.dita
+      
+        helion/newfeatures50.dita
+        
+        helion/fixedissues50.dita
+        
+        helion/knownissues50.dita
+        
+        helion/unsupported_features.dita
+        
+        helion/enhancements_to_openstack.dita
+        
+
+        helion/newton_features.dita
+        
+          helion/nova_features.dita
+          
+          helion/neutron_features.dita
+          
+          helion/glance_features.dita
+          
+          helion/cinder_features.dita
+          
+          helion/swift_features.dita
+          
+          helion/keystone_features.dita
+          
+          helion/barbican_features.dita
+          
+          helion/ceilometer_features.dita
+          
+          helion/heat_features.dita
+          
+          helion/ironic_features.dita
+          
+          helion/horizon_features.dita
+          
+          helion/monasca_features.dita
+          
+          helion/freezer_features.dita
+          
+          helion/magnum_features.dita
+          
+          helion/logging_features.dita
+          
+    <!-- END - TOP LEVEL -->
+
+
+
+    <!-- BEGIN / PLANNING -->
+    <mapref href="helion/planning/planning.ditamap"/>
+    <!-- END / PLANNING -->
+
+    <!-- BEGIN - INSTALLATION -->
+    <mapref href="helion/installation/installation.ditamap"/>
+    <!-- END - INSTALLATION -->
+
+    <!-- BEGIN - UPGRADE -->
+    <mapref href="helion/upgrade/upgrade.ditamap" product="HOS"/>
+    <!-- END - UPGRADE -->
+
+    <!-- BEGIN - SECURITY -->
+    helion/security/security_overview.dita
+    
+      helion/security/security_features.dita
+      
+      helion/security/barbican.dita
+      
+      helion/security/barbican_new_features.dita
+      
+      helion/security/barbican_admin.dita
+      
+      helion/security/admin_role_segregation.dita
+      
+      helion/networking/rbac.dita
+      
+      helion/security/horizon_ssl_auth.dita
+      
+      helion/security/tls_overview.dita
+      
+        helion/security/tls_mysql.dita
+        
+        helion/security/tls_rabbit_mq.dita
+        
+        helion/security/troubleshooting_tls.dita
+        
+
+      helion/security/header_poisoning.dita
+      
+      helion/security/encrypted_storage.dita
+      
+      helion/security/encrypted_ephvol.dita
+      
+      helion/security/using_apparmor.dita
+      
+      <!--
+      helion/security/arcsight.dita"
+        navtitle="Threat Monitoring and Integration with HPE ArcSight" locktitle="yes" product="HOS"/>
+        -->
+      helion/security/dar.dita
+      
+      helion/security/middleware_auditing.dita
+      
+    <!-- END - SECURITY -->
+
+    <!-- BEGIN - OPERATIONS GUIDE -->
+    <mapref href="helion/operations/operations.ditamap"/>
+    <!-- END - OPERATIONS -->
+
+    <!-- BEGIN - USER GUIDE -->
+    <mapref href="helion/userguide/userguide.ditamap"/>
+    <!-- END - USER GUIDE -->
+
+    <!-- BEGIN - OPS CONSOLE HELP PAGES -->
+    <mapref href="helion/operations/opsconsole/opsconsole.ditamap"/>
+    <!-- END - OPS CONSOLE HELP PAGES -->
+
+    <!-- BEGIN / UPDATES -->
+    <!-- helion/documentation_updates.dita
+    <!-- END /UPDATES -->
+
+    <!-- LICENSING -->
+    helion/licensing_50.dita
+    
+</map>

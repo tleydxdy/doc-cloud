@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Edit status: not edited-->
+<!DOCTYPE topicIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd" >
+<topic id="mon">
+  <title><ph conkeyref="HOS-conrefs/product-title"/>Monitoring</title>
+  <abstract><shortdesc>The <keyword keyref="kw-hos"/> Monitoring service leverages OpenStack
+      Monasca, which is a multi-tenant, scalable, fault tolerant monitoring
+    service.</shortdesc></abstract>
+  <body>
+    <p/>
+
+  </body>
+</topic>

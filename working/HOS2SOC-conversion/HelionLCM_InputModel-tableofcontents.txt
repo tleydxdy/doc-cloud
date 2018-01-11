@@ -1,0 +1,109 @@
+Table of Contents ./architecture/input_model/input_model.dita
+Introduction to the Input Model ./architecture/input_model/input_model_introduction.dita
+HPE Helion OpenStack 5.0 Concepts ./architecture/input_model/concepts/concepts.dita
+	• Cloud ./architecture/input_model/concepts/cloud.dita
+	• Control Planes ./architecture/input_model/concepts/controlplanes.dita
+		• Control Planes and Regions ./architecture/input_model/concepts/controlplanes_regions.dita
+	• Services ./architecture/input_model/concepts/services.dita
+	• Server Roles ./architecture/input_model/concepts/serverroles.dita
+	• Disk Model ./architecture/input_model/concepts/diskmodel.dita
+	• Memory Model ./architecture/input_model/concepts/memorymodel.dita
+	• CPU Model ./architecture/input_model/concepts/cpumodel.dita
+	• Servers ./architecture/input_model/concepts/servers.dita
+		• Virtual Machines as Servers ./architecture/input_model/concepts/virtual_machines_as_servers.dita
+	• Server Groups ./architecture/input_model/concepts/servergroups.dita
+		• Server Groups and Failure Zones ./architecture/input_model/concepts/servergroups_failurezones.dita
+		• Server Groups and Networks ./architecture/input_model/concepts/servergroups_networks.dita
+	• Networking ./architecture/input_model/concepts/networking.dita
+		• Network Groups ./architecture/input_model/concepts/networkgroups.dita
+			• Load Balancers ./architecture/input_model/concepts/loadbalancers.dita
+			• Network Tags ./architecture/input_model/concepts/networktags.dita
+		• Networks ./architecture/input_model/concepts/networks.dita
+		• Interface Model ./architecture/input_model/concepts/interfacemodel.dita
+		• NIC Mapping ./architecture/input_model/concepts/nicmapping.dita
+		• Firewall Configuration ./architecture/input_model/concepts/firewallconfiguration.dita
+		 ./architecture/input_model/concepts/configuration_data.dita
+Helion OpenStack 5.0 Configuration Objects ./architecture/input_model/configobj/configurationobjects.dita
+	• Cloud ./architecture/input_model/configobj/cloud.dita
+	• Control Plane ./architecture/input_model/configobj/controlplane.dita
+		• Clusters ./architecture/input_model/configobj/clusters.dita
+		• Resources ./architecture/input_model/configobj/resources.dita
+		• Multiple Control Planes ./architecture/input_model/configobj/multiple_control_planes.dita
+		• Load Balancer Definitions in Control Planes ./architecture/input_model/configobj/load_balancer_definitions.dita
+	• Load Balancers ./architecture/input_model/configobj/load_balancers.dita
+	• Regions ./architecture/input_model/configobj/regions.dita
+	• Servers  ./architecture/input_model/configobj/servers.dita
+	• Server Groups ./architecture/input_model/configobj/servergroups.dita
+	• Server Roles ./architecture/input_model/configobj/serverroles.dita
+		• memory-model
+		• cpu-model
+	• Disk Models ./architecture/input_model/configobj/diskmodels.dita
+		• Volume Groups ./architecture/input_model/configobj/volumegroups.dita
+		• Device Groups ./architecture/input_model/configobj/devicegroups.dita
+		• Disk Sizing for Virtual Machine Servers ./architecture/input_model/configobj/disk_sizing_vms.dita
+	• Memory Models ./architecture/input_model/configobj/memorymodels.dita
+		• Huge Pages ./architecture/input_model/configobj/huge_pages.dita
+		• Memory Sizing for Virtual Machine Servers ./architecture/input_model/configobj/memory_sizing_vms.dita
+	• CPU Models ./architecture/input_model/configobj/cpumodels.dita
+		• CPU Assignments ./architecture/input_model/configobj/cpu_assignments.dita
+		• CPU Usage ./architecture/input_model/configobj/cpu_usage.dita
+		• Components and Roles in the CPU Model ./architecture/input_model/configobj/cpu_components_roles.dita
+		• CPU sizing for virtual machine servers ./architecture/input_model/configobj/cpu_sizing_vms.dita
+	• Interface Models ./architecture/input_model/configobj/interfacemodels.dita
+		• network-interfaces ./architecture/input_model/configobj/network_interfaces.dita
+			• network-interfaces device ./architecture/input_model/configobj/network_interfaces_device.dita
+		• Bonding ./architecture/input_model/configobj/bonddata.dita
+			• Bond configuration options for the "linux" provider ./architecture/input_model/configobj/bonddataoptionslinux.dita
+			• Bond Data Options for the "openvswitch" Provider ./architecture/input_model/configobj/bonddataoptionsopenvswitch.dita
+			• Bond configuration options for the 'Windows' provider ./architecture/input_model/configobj/bonddataoptionswindows.dita
+		• dpdk-devices
+			• dpdk-devices devices ./architecture/input_model/configobj/dpdkdevices.dita ./architecture/input_model/configobj/dpdkdevices_devices.dita
+			• DPDK component-options for the openvswitch component ./architecture/input_model/configobj/dpdk_componentoptions.dita
+	• NIC Mappings ./architecture/input_model/configobj/nicmappings.dita
+		• nic-device-type 
+		• NIC Mappings for Virtual Machine Servers ./architecture/input_model/configobj/nicmappings_vms.dita
+	• Network Groups ./architecture/input_model/configobj/networkgroups.dita
+		• Load Balancer Definitions in Network Groups ./architecture/input_model/configobj/lb_defs_networkgroups.dita
+		• Network Tags ./architecture/input_model/configobj/networktags.dita
+		• MTU ./architecture/input_model/configobj/mtu.dita
+	• Networks ./architecture/input_model/configobj/networks.dita
+	• Firewall Rules ./architecture/input_model/configobj/firewallrules.dita
+		• Rule ./architecture/input_model/configobj/rule.dita
+	• Passthrough ./architecture/input_model/configobj/passthrough.dita
+	• Configuration Data ./architecture/input_model/configobj/configurationdata.dita
+		• Neutron network-tags ./architecture/input_model/configobj/neutron_network_tags.dita
+		• Neutron Configuration Data ./architecture/input_model/configobj/configurationdata_neutron.dita
+			• neutron-provider-networks ./architecture/input_model/configobj/neutron_provider_networks.dita
+			• neutron-external-networks ./architecture/input_model/configobj/neutron_external_networks.dita
+		• Octavia Configuration Data ./architecture/input_model/configobj/configurationdata_octavia.dita
+		• Ironic Configuration Data ./architecture/input_model/configobj/configurationdata_ironic.dita
+		• Swift Configuration Data ./architecture/input_model/configobj/configurationdata_swift.dita
+Other Topics ./architecture/input_model/other_topics/othertopics.dita
+	• Services and Service Components ./architecture/input_model/other_topics/services_components.dita
+	• Name Generation ./architecture/input_model/other_topics/namegeneration.dita
+		• Clusters included in above
+		• Resource Nodes included in above
+	• Persisted Data ./architecture/input_model/other_topics/persisteddata.dita
+		• Persisted Server Allocations included in above 
+		• Persisted Address Allocations included in above
+	• Server Allocation ./architecture/input_model/other_topics/serverallocation.dita
+	• Server Network Selection ./architecture/input_model/other_topics/servernetworkselection.dita
+	• Network Route Validation ./architecture/input_model/other_topics/networkroutevalidation.dita
+	• Configuring Neutron Provider VLANs ./architecture/input_model/other_topics/configneutronprovidervlans.dita
+	• Standalone Lifecycle Manager ./architecture/input_model/other_topics/standalonedeployer.dita
+Configuration Processor Information Files ./architecture/input_model/cpinfofiles/cpinfofiles.dita
+	• address_info.yml ./architecture/input_model/cpinfofiles/address_info_yml.dita
+	• firewall_info.yml ./architecture/input_model/cpinfofiles/firewall_info_yml.dita
+	• net_info.yml ./architecture/input_model/cpinfofiles/net_info_yml.dita
+	• route_info.yml ./architecture/input_model/cpinfofiles/route_info_yml.dita
+	• server_info.yml ./architecture/input_model/cpinfofiles/server_info_yml.dita
+	• service_info.yml ./architecture/input_model/cpinfofiles/service_info_yml.dita
+	• control_plane_topology.yml ./architecture/input_model/cpinfofiles/control_plane_topology_yml.dita
+	• network_topology.yml ./architecture/input_model/cpinfofiles/network_topology_yml.dita
+	• region_topology.yml ./architecture/input_model/cpinfofiles/region_topology_yml.dita
+	• service_topology.yml ./architecture/input_model/cpinfofiles/service_topology_yml.dita
+	• private_data_metadata.yml ./architecture/input_model/cpinfofiles/private_data_metadata_yml.dita
+	• password_change.yml ./architecture/input_model/cpinfofiles/password_change_yml.dita
+	• explain.txt ./architecture/input_model/cpinfofiles/explain_txt.dita
+	• CloudDiagram.txt ./architecture/input_model/cpinfofiles/clouddiagram_txt.dita
+	• HTML Representation ./architecture/input_model/cpinfofiles/html_representation.dita

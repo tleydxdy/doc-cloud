@@ -1,0 +1,8 @@
+<topic id="adding_compute_nodes">
+  <title><ph conkeyref="HOS-conrefs/product-title"/>Adding Compute Nodes</title>
+  <abstract><shortdesc outputclass="hdphidden">Adding a Compute node allows you to add capacity. We
+      provide steps to add both Linux for HPE Helion and RHEL Compute nodes.</shortdesc></abstract>
+  <body>
+    <p/>
+  </body>
+</topic>

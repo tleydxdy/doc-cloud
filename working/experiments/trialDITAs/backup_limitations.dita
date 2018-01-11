@@ -1,0 +1,20 @@
+<topic id="bu_limitations">
+  <title><ph conkeyref="HOS-conrefs/product-title"/>Backup and Restore Limitations</title>
+  <body><!--not tested-->
+    <p conkeyref="HOS-conrefs/applies-to"/> 
+        <section>
+      <title>Limitations</title> The following limitations apply to backups created by the Freezer
+          backup and restore service in <keyword keyref="kw-hos"/>: <p>
+        <ul>
+          <li>Recovery of the following services (or cloud topologies) will be partially supported
+            as they need additional data (other than MySQL DB) to return to fully functional.<ul>
+              <li>ESX Cloud</li>
+              <li>Ceph Cloud</li>
+              <li>Network services - LBaaS and VPNaaS</li>
+            </ul></li>
+          <li>Logging data (that is, log files) </li>
+        </ul>
+      </p>
+    </section> 
+  </body>
+</topic>

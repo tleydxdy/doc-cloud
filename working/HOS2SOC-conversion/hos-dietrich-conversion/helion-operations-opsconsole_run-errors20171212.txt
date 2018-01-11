@@ -1,0 +1,58 @@
+~/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/helion/
+operations/opsconsole> dietrich opsconsole.ditamap 
+Did not find conversion.conf: Using default settings.
+/home/carl/bin/dietrich: line 165: 
+/tmp/db-convert-dBNHySI/../../HOS-keywords.xml: Permission denied
+/home/carl/bin/dietrich: line 165: /tmp/db-convert-dBNHySI/../../HOS-images.xml: 
+Permission denied
+/home/carl/bin/dietrich: line 189: 
+/tmp/db-convert-dBNHySI/../../HOS-keywords.xml-0: Permission denied
+mv: cannot stat '/tmp/db-convert-dBNHySI/../../HOS-keywords.xml-0': No such file 
+or directory
+/home/carl/bin/dietrich: line 189: 
+/tmp/db-convert-dBNHySI/../../HOS-images.xml-0: Permission denied
+mv: cannot stat '/tmp/db-convert-dBNHySI/../../HOS-images.xml-0': No such file 
+or directory
+Transformation failed: Source file 
+/tmp/db-convert-dBNHySI/../../HOS-keywords.xml does not exist
+Transformation failed: Source file /tmp/db-convert-dBNHySI/../../HOS-images.xml 
+does not exist
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing 
+file:/tmp/centralized_logging.dita:
+  /tmp/centralized_logging.dita (No such file or directory)
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing 
+file:/tmp/centralized_logging.dita:
+  /tmp/centralized_logging.dita (No such file or directory)
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing 
+file:/tmp/centralized_logging.dita:
+  /tmp/centralized_logging.dita (No such file or directory)
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/opsconsole/../media/opsconsole/OpsConsoleDashboard.png': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/operations/opsconsole/converted/opsconsole/images/src/png/..-media-
+opsconsole-OpsConsoleDashboard.png' @ error/convert.c/ConvertImageCommand/3275.
+ERROR: Failed to get filelist for ROOTID ""

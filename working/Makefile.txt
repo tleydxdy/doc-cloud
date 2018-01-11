@@ -1,0 +1,132 @@
+# Makefile for DocBook XML directories
+#   $Revision: 1.11 $  $Date: 2011/04/01 01:29:29 $
+#================================================================
+# Definitions
+#----------------------------------------------------------------
+# BASENAME:     The base file name of the input & output document
+# SOURCE:       The .xml file containing the document.
+# WEB_DIR:      Directory where HTML pages live.
+# WEB_TARGET:   Top-level generated HTML page name.
+# FO_TARGET:    Intermediate file for generated PDF.
+# PDF_TARGET:   Generated PDF file name.
+# INDEX_BASE:   Base name for index of section id values.
+# INDEX_FO:     Intermediate file for section index.
+# INDEX_PDF:    Section index PDF file name.
+# EQUATIONS:  LaTeX source for displayed math example
+# PDF_EQUATIONS:  PDF representations of $(EQUATIONS)
+# JPG_EQUATIONS:  JPG representations of $(EQUATIONS)
+#----------------------------------------------------------------
+BASENAME        =  docbook5
+SOURCE          =  $(BASENAME).xml
+WEB_DIR         =  web/
+WEB_TARGET      =  $(WEB_DIR)index.html
+FO_TARGET       =  $(BASENAME).fo
+PDF_TARGET      =  $(BASENAME).pdf
+INDEX_BASE      =  toc
+INDEX_FO        =  $(INDEX_BASE).fo
+INDEX_PDF       =  $(INDEX_BASE).pdf
+EQUATIONS       =  lamath.tex inmath.tex
+PDF_EQUATIONS   =  ${EQUATIONS:.tex=.pdf}
+JPG_EQUATIONS   =  ${EQUATIONS:.tex=.jpg}
+MODULES         =  model.xml make-basic make-lit htaccess
+EXECUTABLES     =
+CODE_TARGETS    =  $(MODULES) $(EXECUTABLES)
+
+#----------------------------------------------------------------
+# TCC_XSL:  Where our customization layer lives
+# XSLT_HTML_OPT passes options to xsltproc to build the HTML form.
+#     To push chunking down to subsections:
+#        --stringparam chunk.section.depth 2 
+#     To move the first subsection to its own chunk:
+#        --stringparam chunk.first.sections 1
+# XSLT_FO_OPT:  Options for hardcopy.
+#     To move URLs to footnotes:
+#        --stringparam ulink.footnotes 1
+# XEP_OPT:  Options to xep
+#     To suppress most output:
+#        -quiet
+#----------------------------------------------------------------
+TCC_XSL         =  /u/www/docs/tcc/help/pubs/docbook5/tccstyle5/
+HTML_TRANSFORM  =  $(TCC_XSL)tcc_html.xsl
+FO_TRANSFORM    =  $(TCC_XSL)tcc_fo.xsl
+XSLT_HTML_OPT   =  --stringparam chunk.section.depth 2
+XSLT_FO_OPT     =  --stringparam ulink.footnotes 1
+XEP_OPT         =  -quiet
+
+#--
+# Add the suffixes that we are interested in
+#--
+# .dvi      DVI (output from latex)
+# .eps      Encapsulated PostScript
+# .fo       XSL-FO output
+# .html     HTML web pages                 
+# .jpg      JPEG image
+# .pdf      Page Description Format (Abode)
+# .pgm      Grayscale image
+# .tex      LaTeX source
+# .xml      Input files in DocBook XML format
+#--
+.SUFFIXES: .dvi .eps .fo .html .jpg .pdf .pgm .tex .xml
+
+#================================================================
+# Default suffix rules
+#----------------------------------------------------------------
+.xml.html:
+	xsltproc -o $@ $(XSLT_HTML_OPT) $(HTML_TRANSFORM) $<
+
+.xml.fo:
+	xsltproc -o $@ $(XSLT_FO_OPT) $(FO_TRANSFORM) $<
+
+.fo.pdf:
+	xep $(XEP_OPT) $< $@ 
+
+#--
+# These five rules are for the LaTeX toolchain; see section
+# id='tex-math' of docbook43.xml for procedural notes
+#--
+.tex.dvi:
+	latex $<
+
+.dvi.eps:
+	dvips -E $< -o $*.eps
+
+.eps.pdf:
+	epstopdf $<
+
+.pdf.pgm:
+	pdftoppm -gray $< $*; \
+	mv $*-1.pgm $*.pgm
+
+.pgm.jpg:
+	pnmtojpeg $< >$@
+
+#================================================================
+# Targets
+#----------------------------------------------------------------
+all: web pdf index code
+
+web: $(WEB_TARGET)
+
+$(WEB_TARGET): $(SOURCE) $(JPG_EQUATIONS)
+	xsltproc -o $@ $(XSLT_HTML_OPT) $(HTML_TRANSFORM) $<
+
+pdf: $(PDF_TARGET)
+
+$(PDF_TARGET): $(SOURCE) $(PDF_EQUATIONS)
+
+index: $(INDEX_PDF)
+
+$(INDEX_PDF): $(INDEX_FO)
+
+$(INDEX_FO): $(SOURCE)
+	rm -f $(INDEX_FO); \
+	docbook5index $<
+
+code: $(CODE_TARGETS)
+
+$(CODE_TARGETS): $(SOURCE)
+	litdocbook5 $<
+
+clean:
+	rm -f *.fo $(WEB_DIR)*.html $(PDF_TARGET) \
+		$(JPG_EQUATIONS) $(PDF_EQUATIONS)

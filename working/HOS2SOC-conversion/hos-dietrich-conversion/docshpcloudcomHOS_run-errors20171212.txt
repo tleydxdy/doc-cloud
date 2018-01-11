@@ -1,0 +1,90 @@
+~/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs>  man 
+dietrich
+No manual entry for dietrich
+carl@linux:~/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs
+> dietrich docshpcloudcomHOS.ditamap 
+Did not find conversion.conf: Using default settings.
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-189bp8I/helion/planning/hw_support_matrix.dita:
+  /tmp/db-convert-189bp8I/helion/planning/hw_support_matrix.dita (No such file 
+or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-189bp8I/helion/upgrade/upgrade_overview.dita:
+  /tmp/db-convert-189bp8I/helion/upgrade/upgrade_overview.dita (No such file or 
+directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-189bp8I/helion/installation/installation_overview.dita:
+  /tmp/db-convert-189bp8I/helion/installation/installation_overview.dita (No 
+such file or directory)
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-189bp8I/helion/security/arcsight.dita:
+  /tmp/db-convert-189bp8I/helion/security/arcsight.dita (No such file or 
+directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-189bp8I/helion/operations/audit_logs_overview.dita:
+  /tmp/db-convert-189bp8I/helion/operations/audit_logs_overview.dita (No such 
+file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-189bp8I/helion/operations/audit_logs_enable.dita:
+  /tmp/db-convert-189bp8I/helion/operations/audit_logs_enable.dita (No such file 
+or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-189bp8I/helion/operations/audit_logs_checklist.dita:
+  /tmp/db-convert-189bp8I/helion/operations/audit_logs_checklist.dita (No such 
+file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-189bp8I/helion/operations/audit_logs_backup.dita:
+  /tmp/db-convert-189bp8I/helion/operations/audit_logs_backup.dita (No such file 
+or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-189bp8I/helion/operations/change_service_passwords.dita:
+  /tmp/db-convert-189bp8I/helion/operations/change_service_passwords.dita (No 
+such file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: Document has been marked not available:
+  file:/tmp/db-convert-189bp8I/helion/security/arcsight.dita
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-189bp8I/helion/operations/cloudadmin_cli.dita:
+  /tmp/db-convert-189bp8I/helion/operations/cloudadmin_cli.dita (No such file or 
+directory)
+No class attribute for sectiondiv
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-189bp8I/helion/operations/audit_logs_checklist.dita:
+  /tmp/db-convert-189bp8I/helion/operations/audit_logs_checklist.dita (No such 
+file or directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/db-convert-189bp8I/helion/operations/audit_logs_enable.dita:
+  /tmp/db-convert-189bp8I/helion/operations/audit_logs_enable.dita (No such file 
+or directory)
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+../media/security/cert_dn_example.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+converted/docshpcloudcomHOS/images/src/png/..-media-security-cert_dn_example.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+../media/security/Horizon-SSL-Keystone.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+converted/docshpcloudcomHOS/images/src/png/..-media-security-Horizon-SSL-
+Keystone.png' @ error/convert.c/ConvertImageCommand/3275.
+ERROR: Failed to get filelist for ROOTID ""

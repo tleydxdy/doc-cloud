@@ -1,0 +1,10 @@
+<topic id="troubleshooting_objectstorage">
+  <title><ph conkeyref="HOS-conrefs/product-title"/>Swift Storage Troubleshooting</title>
+  <abstract><shortdesc outputclass="hdphidden">Troubleshooting scenarios with resolutions for the
+      Swift service.</shortdesc>You can use these guides to help you identify and resolve basic
+    problems you may experience while deploying or using the Object Storage service. It contains the
+    following troubleshooting scenarios:</abstract>
+  <body><!--not tested-->
+    <p conkeyref="HOS-conrefs/applies-to"/>
+  </body>
+</topic>

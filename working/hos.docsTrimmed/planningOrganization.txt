@@ -1,0 +1,387 @@
+planning_index.dita  
+
+  suse/register_suse_overview.dita
+  
+   suse/register_suse_install.dita
+   
+   suse/register_suse_already_installed.dita
+   
+   suse/register_suse_automated.dita
+   
+  
+  <!-- HARDWARE & SOFTWARE SUPPORT MATRIX -->
+  hw_support_matrix.dita
+  
+   hw_support_openstackvers.dita
+   
+   hw_support_hardware.dita
+   
+   hw_support_hardwareconfig.dita
+   
+   hw_support_scaling.dita
+   
+   hw_support_software.dita
+   
+   hw_support_perfnotes.dita
+   
+   hw_support_diskcalc.dita
+   
+   hw_support_kvmguestos.dita
+   
+   hw_support_esxguestos.dita
+   
+   hw_support_ironicguestos.dita
+   
+
+  <!-- RECOMMENDED HARDWARE MINIMUMS -->
+  recommended_hardware_minimums.dita
+  
+   rec_min_entryscale_kvm_vsa.dita
+   
+   rec_min_entryscale_kvm_ceph.dita
+   
+   rec_min_entryscale_esx_kvm_vsa.dita
+   
+   rec_min_entryscale_esx_kvm_vsa_mml.dita
+   
+   rec_min_ironic.dita
+   
+   rec_min_swift.dita
+   
+  high_availability.dita
+  
+  
+  <!-- BEGIN / PARTNER INTEGRATIONS -->
+  thirdparty_overview.dita
+  
+  architecture/architecture_index.dita
+  
+   architecture/input_model/input_model.dita
+   
+    architecture/input_model/input_model_introduction.dita
+
+    <!--
+    architecture/input_model/input_model_changes40.dita
+     navtitle="Changes to the Input Model in 4.0" keys="input_model_changes40" locktitle="yes"
+     product="HOS"/>
+     -->
+  
+    <!-- START Concepts  -->
+    architecture/input_model/concepts/concepts.dita
+    
+     architecture/input_model/concepts/cloud.dita
+     
+     architecture/input_model/concepts/controlplanes.dita
+     
+      architecture/input_model/concepts/controlplanes_regions.dita
+      
+     architecture/input_model/concepts/services.dita
+     
+     architecture/input_model/concepts/serverroles.dita
+     
+     architecture/input_model/concepts/diskmodel.dita
+     
+     architecture/input_model/concepts/memorymodel.dita
+     
+     architecture/input_model/concepts/cpumodel.dita
+     
+     architecture/input_model/concepts/servers.dita
+     
+      architecture/input_model/concepts/virtual_machines_as_servers.dita
+      
+     architecture/input_model/concepts/servergroups.dita
+     
+      architecture/input_model/concepts/servergroups_failurezones.dita
+      
+      architecture/input_model/concepts/servergroups_networks.dita
+      
+     architecture/input_model/concepts/networking.dita
+     
+      architecture/input_model/concepts/networkgroups.dita
+      
+       architecture/input_model/concepts/loadbalancers.dita
+       
+       architecture/input_model/concepts/endpoints.dita
+       
+       architecture/input_model/concepts/networktags.dita
+       
+      architecture/input_model/concepts/networks.dita
+      
+      architecture/input_model/concepts/interfacemodel.dita
+      
+      architecture/input_model/concepts/nicmapping.dita
+      
+      architecture/input_model/concepts/firewallconfiguration.dita
+      
+     architecture/input_model/concepts/configuration_data.dita
+     
+    <!-- END Concepts -->
+    <!-- START Configuration Objects -->
+    architecture/input_model/configobj/configurationobjects.dita
+    
+     architecture/input_model/configobj/cloud.dita
+     
+     architecture/input_model/configobj/controlplane.dita
+     
+      architecture/input_model/configobj/clusters.dita
+      
+      architecture/input_model/configobj/resources.dita
+      
+      architecture/input_model/configobj/multiple_control_planes.dita
+      
+      architecture/input_model/configobj/load_balancer_definitions.dita
+      
+     architecture/input_model/configobj/load_balancers.dita
+     
+     architecture/input_model/configobj/regions.dita
+     
+     architecture/input_model/configobj/servers.dita
+     
+     architecture/input_model/configobj/servergroups.dita
+     
+     architecture/input_model/configobj/serverroles.dita
+     
+     architecture/input_model/configobj/diskmodels.dita
+     
+      architecture/input_model/configobj/volumegroups.dita
+      
+      architecture/input_model/configobj/devicegroups.dita
+      
+      architecture/input_model/configobj/disk_sizing_vms.dita
+      
+
+     architecture/input_model/configobj/memorymodels.dita
+     
+      architecture/input_model/configobj/huge_pages.dita
+      
+      architecture/input_model/configobj/memory_sizing_vms.dita
+      
+     architecture/input_model/configobj/cpumodels.dita
+     
+      architecture/input_model/configobj/cpu_assignments.dita
+      
+      architecture/input_model/configobj/cpu_usage.dita
+      
+      architecture/input_model/configobj/cpu_components_roles.dita
+      
+      architecture/input_model/configobj/cpu_sizing_vms.dita
+      
+      
+     architecture/input_model/configobj/interfacemodels
+     
+      architecture/input_model/configobj/network_interfaces.dita
+      
+       architecture/input_model/configobj/network_interfaces_device.dita
+       
+      architecture/input_model/configobj/bonddata.dita
+      
+       architecture/input_model/configobj/bonddataoptionslinux.dita
+       
+       architecture/input_model/configobj/bonddataoptionsopenvswitch.dita
+       
+       architecture/input_model/configobj/bonddataoptionswindows.dita
+       
+      architecture/input_model/configobj/fcoeinterfaces.dita
+      
+      architecture/input_model/configobj/dpdkdevices.dita
+      
+       architecture/input_model/configobj/dpdkdevices_devices.dita
+       
+       architecture/input_model/configobj/dpdk_componentoptions.dita
+       
+       
+     architecture/input_model/configobj/nicmappings.dita
+     
+      architecture/input_model/configobj/nicmappings_vms.dita
+      
+     architecture/input_model/configobj/networkgroups.dita
+     
+      architecture/input_model/configobj/lb_defs_networkgroups.dita
+      
+      architecture/input_model/configobj/networktags.dita
+      
+      architecture/input_model/configobj/mtu.dita
+      
+     architecture/input_model/configobj/networks.dita
+     
+     architecture/input_model/configobj/firewallrules.dita
+     
+      architecture/input_model/configobj/rule.dita
+      
+     architecture/input_model/configobj/configurationdata.dita
+     
+      architecture/input_model/configobj/neutron_network_tags.dita
+      
+      architecture/input_model/configobj/configurationdata_neutron.dita
+      
+       architecture/input_model/configobj/neutron_provider_networks.dita
+       
+       architecture/input_model/configobj/neutron_external_networks.dita
+       
+      architecture/input_model/configobj/configurationdata_octavia.dita
+      
+      architecture/input_model/configobj/configurationdata_ironic.dita
+      
+      architecture/input_model/configobj/configurationdata_swift.dita
+      
+     architecture/input_model/configobj/passthrough.dita
+     
+    <!-- END  Configuration Objects -->
+    architecture/input_model/other_topics/othertopics.dita
+    
+     architecture/input_model/other_topics/services_components.dita
+     
+     architecture/input_model/other_topics/namegeneration.dita
+     
+     architecture/input_model/other_topics/persisteddata.dita
+     
+     architecture/input_model/other_topics/serverallocation.dita
+     
+     architecture/input_model/other_topics/servernetworkselection.dita
+      
+     architecture/input_model/other_topics/networkroutevalidation.dita
+     
+     architecture/input_model/other_topics/configneutronprovidervlans.dita
+     
+     architecture/input_model/other_topics/standalonedeployer.dita
+     
+    architecture/input_model/cpinfofiles/cpinfofiles.dita
+    
+     architecture/input_model/cpinfofiles/address_info_yml.dita
+     
+     architecture/input_model/cpinfofiles/firewall_info_yml.dita
+     
+     architecture/input_model/cpinfofiles/net_info_yml.dita
+     
+     architecture/input_model/cpinfofiles/route_info_yml.dita
+     
+     architecture/input_model/cpinfofiles/server_info_yml.dita
+     
+     architecture/input_model/cpinfofiles/service_info_yml.dita
+     
+     architecture/input_model/cpinfofiles/control_plane_topology_yml.dita
+     
+     architecture/input_model/cpinfofiles/network_topology_yml.dita
+     
+     architecture/input_model/cpinfofiles/region_topology_yml.dita
+     
+     architecture/input_model/cpinfofiles/service_topology_yml.dita
+     
+     architecture/input_model/cpinfofiles/private_data_metadata_yml.dita
+     
+     architecture/input_model/cpinfofiles/password_change_yml.dita
+     
+     architecture/input_model/cpinfofiles/explain_txt.dita
+     
+     architecture/input_model/cpinfofiles/clouddiagram_txt.dita
+     
+     architecture/input_model/cpinfofiles/html_representation.dita
+     
+
+   architecture/example_configurations.dita
+   
+    <!--architecture/examples/example_config_changes.dita
+     navtitle="Changes to Example Configurations" keys="example_config_changes" locktitle="yes"
+     >architecture/architecture/examples/changes_entryscale_kvm_vsa.dita
+      navtitle="Changes to Entry-scale KVM with VSA Model" keys="changes_entryscale_kvm_vsa"
+      collection-type="unordered" linking="normal" locktitle="yes" product="HOS"/></topicref>-->
+      
+    architecture/examples/kvm_examples.dita
+    
+     architecture/examples/entryscale_kvm_vsa.dita
+     
+     architecture/examples/entryscale_kvm_dedicated.dita
+     
+     architecture/examples/entryscale_kvm_ceph.dita
+     
+      operations/blockstorage/ceph/deploy_monitor_standalone_node.dita
+      
+     architecture/examples/midscale_kvm_vsa.dita
+     
+    </topicref>
+    architecture/examples/esx_examples.dita
+    
+     architecture/examples/entryscale_esx_kvm_vsa.dita
+     
+     architecture/examples/entryscale_esx_kvm_vsa_mml.dita
+     
+    architecture/examples/swift_examples.dita
+    
+     architecture/examples/entryscale_swift.dita
+     
+    architecture/examples/ironic_examples.dita
+    
+     architecture/examples/entryscale_ironic.dita
+     
+     architecture/examples/entryscale_ironic_multi_tenancy.dita
+     
+   </topicref>
+   architecture/modify/modify_entryscale_kvm_vsa.dita
+   
+    architecture/modify/localizing_inputmodel.dita
+   
+    architecture/modify/customizing_inputmodel.dita
+    
+    installation/configure_vsa_ao.dita
+    
+    operations/blockstorage/vsa/create_multiple_vsa_clusters.dita
+    
+    operations/blockstorage/vsa/configure_vsa_separate_iscsi_network.dita
+    
+   planning/objectstorage/swift_input_model.dita
+   
+    planning/objectstorage/objectstorage_overview.dita
+    
+    planning/objectstorage/allocate_pac.dita
+    
+    planning/objectstorage/allocating_server.dita
+    
+    planning/objectstorage/creating_roles_swift_nodes.dita
+    
+    planning/objectstorage/allocating_disk_drives.dita
+    
+    planning/objectstorage/swift_device_groups.dita
+    
+    planning/objectstorage/creating_pac_cluster.dita
+    
+    planning/objectstorage/creating_object_server_resource.dita
+    
+    planning/objectstorage/allocating_network.dita
+    
+    planning/objectstorage/ring_specifications.dita
+    
+    planning/objectstorage/storage_policies.dita
+    
+    planning/objectstorage/swift_zones.dita
+    
+    planning/objectstorage/modify_swift_service_config_files.dita
+
+        
+   
+   <!-- Alternative Configurations Block -->
+   architecture/alternative/alternative_configurations.dita
+   
+    <!--operations/blockstorage/vsa/create_multiple_vsa_clusters.dita"
+     navtitle="Creating Multiple VSA Clusters" locktitle="yes" product="CG"/>
+    <topicref href="../operations/blockstorage/vsa/configure_vsa_separate_iscsi_network.dita"
+     navtitle="Configuring a Separate iSCSI Network to use with VSA" locktitle="yes" product="CG"/>-->
+     
+    architecture/alternative/sles_compute_model.dita
+    
+    architecture/alternative/rhel_compute_model.dita
+    
+    architecture/examples/entryscale_kvm_ceph_onenetwork.dita
+    
+    architecture/alternative/entryscale_kvm_ceph_twonetwork.dita
+    
+    architecture/alternative/standalone_deployer.dita
+    
+    architecture/alternative/without_dvr.dita
+    
+    architecture/alternative/without_l3agent.dita
+    
+    architecture/alternative/twosystems.dita
+    
+  </topicref>
+
+

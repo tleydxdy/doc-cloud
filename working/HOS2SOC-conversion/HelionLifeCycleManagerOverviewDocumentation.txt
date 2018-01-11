@@ -1,0 +1,305 @@
+MOST OF BELOW ENTERED IN Separate DOCUMENT
+
+Input Model
+Table of Contents ./architecture/input_model/input_model.dita
+Introduction ./architecture/input_model/input_model_introduction.dita
+
+<!-- START HPE Helion OpenStack 5.0 Concepts  -->
+
+./architecture/input_model/concepts/concepts.dita
+navtitle="Concepts"
+./architecture/input_model/concepts/cloud.dita navtitle="Cloud Concept"
+./architecture/input_model/concepts/controlplanes.dita 
+navtitle="Control Planes"
+./architecture/input_model/concepts/controlplanes_regions.dita
+navtitle="Control Planes and Regions"
+./architecture/input_model/concepts/services.dita navtitle="Services"
+./architecture/input_model/concepts/serverroles.dita navtitle="Server
+Roles"
+./architecture/input_model/concepts/diskmodel.dita navtitle="Disk Model"
+./architecture/input_model/concepts/memorymodel.dita navtitle="Memory
+Model"
+./architecture/input_model/concepts/cpumodel.dita navtitle="CPU
+Model"
+./architecture/input_model/concepts/servers.dita navtitle="Servers"
+./architecture/input_model/concepts/virtual_machines_as_servers.dita
+navtitle="Virtual Machines as Servers" -->
+./architecture/input_model/concepts/servergroups.dita navtitle="Server
+Groups"
+./architecture/input_model/concepts/servergroups_failurezones.dita
+navtitle="Server Groups and Failure Zones"
+./architecture/input_model/concepts/servergroups_networks.dita
+navtitle="Server Groups and Networks"
+./architecture/input_model/concepts/networking.dita" navtitle="Networking"
+./architecture/input_model/concepts/networkgroups.dita navtitle="Network
+Groups"
+./architecture/input_model/concepts/loadbalancers.dita navtitle="Load
+Balancers"
+./architecture/input_model/concepts/endpoints.dita navtitle="Separation of
+Public, Admin, and Internal Endpoint"
+./architecture/input_model/concepts/networktags.dita navtitle="Network
+Tags"
+./architecture/input_model/concepts/networks.dita
+navtitle="Networks"
+./architecture/input_model/concepts/interfacemodel.dita navtitle="Interface
+Model"
+./architecture/input_model/concepts/nicmapping.dita navtitle="NIC Mapping"
+./architecture/input_model/concepts/firewallconfiguration.dita
+navtitle="Firewall Configuration"
+./architecture/input_model/concepts/configuration_data.dita
+navtitle="Configuration Data"
+    <!-- END Concepts -->
+
+    <!-- START HPE Helion OpenStack 5.0 Configuration Objects -->
+
+./architecture/input_model/configobj/configurationobjects.dita
+navtitle="Configuration Objects"
+./architecture/input_model/configobj/cloud.dita navtitle="Cloud
+Configuration"
+./architecture/input_model/configobj/controlplane.dita navtitle="Control
+Plane"
+./architecture/input_model/configobj/clusters.dita navtitle="Clusters"
+./architecture/input_model/configobj/resources.dita navtitle="Resources"
+./architecture/input_model/configobj/multiple_control_planes.dita
+navtitle="Multiple Control Planes"
+./architecture/input_model/configobj/load_balancer_definitions.dita
+navtitle="Load Balancer Definitions in Control Planes"
+./architecture/input_model/configobj/load_balancers.dita navtitle="Load
+Balancers"
+./architecture/input_model/configobj/regions.dita navtitle="Regions"
+./architecture/input_model/configobj/servers.dita" navtitle="Servers"
+./architecture/input_model/configobj/servergroups.dita navtitle="Server
+Groups"
+./architecture/input_model/configobj/serverroles.dita navtitle="Server
+Roles"
+./architecture/input_model/configobj/diskmodels.dita navtitle="Disk
+Models"
+./architecture/input_model/configobj/volumegroups.dita navtitle="Volume
+Groups"
+./architecture/input_model/configobj/devicegroups.dita navtitle="Device
+Groups"
+<!--not in the actual documentation 
+./architecture/input_model/configobj/disk_sizing_vms.dita navtitle="Disk Sizing 
+for Virtual Machine Servers-->
+./architecture/input_model/configobj/memorymodels.dita navtitle="Memory
+Models"
+./architecture/input_model/configobj/huge_pages.dita navtitle="Huge Pages"
+<!--./architecture/input_model/configobj/memory_sizing_vms.dita
+navtitle="Memory Sizing for Virtual Machine Servers"-->
+./architecture/input_model/configobj/cpumodels.dita navtitle="CPU
+Models"
+./architecture/input_model/configobj/cpu_assignments.dita navtitle="CPU
+Assignments"
+./architecture/input_model/configobj/cpu_usage.dita navtitle="CPU Usage"
+./architecture/input_model/configobj/cpu_components_roles.dita
+navtitle="Components and Roles in the CPU Model"
+<!--./architecture/input_model/configobj/cpu_sizing_vms.dita navtitle="CPU
+sizing for virtual machine servers"-->
+./architecture/input_model/configobj/interfacemodels.dita
+navtitle="Interface Models"
+./architecture/input_model/configobj/network_interfaces.dita navtitle=
+"network-interfaces"
+./architecture/input_model/configobj/network_interfaces_device.dita
+navtitle ="network-interfaces device"
+./architecture/input_model/configobj/bonddata.dita navtitle="Bonding"
+./architecture/input_model/configobj/bonddataoptionslinux.dita
+navtitle="Bond configuration options for the 'Linux"'provider"
+./architecture/input_model/configobj/bonddataoptionsopenvswitch.dita
+navtitle="Bond configuration options for the openvswitch' provider"
+./architecture/input_model/configobj/bonddataoptionswindows.dita"
+navtitle="Bond configuration options for the 'Windows' provider"
+./architecture/input_model/configobj/fcoeinterfaces.dita
+navtitle="fcoe-interfaces"
+./architecture/input_model/configobj/dpdkdevices.dita
+navtitle="dpdk-devices"
+./architecture/input_model/configobj/dpdkdevices_devices.dita
+navtitle="dpdk-devices devices"
+./architecture/input_model/configobj/dpdk_componentoptions.dita"
+navtitle="DPDK component-options for the openvswitch component"
+./architecture/input_model/configobj/nicmappings.dita navtitle="NIC
+Mappings"
+./architecture/input_model/configobj/nicmappings_vms.dita navtitle="NIC
+Mappings for Virtual Machine
+Servers"
+./architecture/input_model/configobj/networkgroups.dita navtitle="Network
+Groups"
+./architecture/input_model/configobj/lb_defs_networkgroups.dita
+navtitle="Load Balancer Definitions in Network Groups"
+./architecture/input_model/configobj/networktags.dita navtitle="Network
+Tags"
+./architecture/input_model/configobj/mtu.dita navtitle="MTU"
+./architecture/input_model/configobj/networks.dita navtitle="Networks"
+./architecture/input_model/configobj/firewallrules.dita navtitle="Firewall
+Rules"
+./architecture/input_model/configobj/rule.dita navtitle="Rule"
+./architecture/input_model/configobj/configurationdata.dita
+navtitle="Configuration Data"
+./architecture/input_model/configobj/neutron_network_tags.dita
+navtitle="Neutron network-tags"
+./architecture/input_model/configobj/configurationdata_neutron.dita
+navtitle="Neutron Configuration Data"
+./architecture/input_model/configobj/neutron_provider_networks.dita
+navtitle ="neutron-provider-networks"
+./architecture/input_model/configobj/neutron_external_networks.dita"
+navtitle="neutron-external-networks"
+./architecture/input_model/configobj/configurationdata_octavia.dita
+navtitle="Octavia Configuration Data"
+./architecture/input_model/configobj/configurationdata_ironic.dita
+navtitle="Ironic Configuration Data"
+./architecture/input_model/configobj/configurationdata_swift.dita
+navtitle="Swift Configuration Data"
+./architecture/input_model/configobj/passthrough.dita navtitle="Pass
+Through"
+    <!-- END  Configuration Objects -->
+
+		<!-- START Other Topics -->
+
+./architecture/input_model/other_topics/othertopics.dita navtitle="Other
+Topics"
+./architecture/input_model/other_topics/services_components.dita
+navtitle="Services and Service Components"
+./architecture/input_model/other_topics/namegeneration.dita navtitle="Name
+Generation"
+./architecture/input_model/other_topics/persisteddata.dita
+navtitle="Persisted Data"
+./architecture/input_model/other_topics/serverallocation.dita
+navtitle="Server Allocation"
+./architecture/input_model/other_topics/servernetworkselection.dita
+navtitle="Server Network Selection"
+./architecture/input_model/other_topics/networkroutevalidation.dita
+navtitle="Network Route Validation"
+./architecture/input_model/other_topics/configneutronprovidervlans.
+dita" navtitle="Configuring Neutron Provider VLANs"
+./architecture/input_model/other_topics/standalonedeployer.dita
+navtitle="Standalone Lifecycle Manager"
+./architecture/input_model/cpinfofiles/cpinfofiles.dita
+navtitle="Configuration Processor Information Files"
+./architecture/input_model/cpinfofiles/address_info_yml.dita"
+navtitle="address_info.yml"
+./architecture/input_model/cpinfofiles/firewall_info_yml.dita
+navtitle="firewall_info.yml"
+./architecture/input_model/cpinfofiles/net_info_yml.dita
+navtitle="net_info.yml"
+./architecture/input_model/cpinfofiles/route_info_yml.dita
+navtitle="route_info.yml"
+./architecture/input_model/cpinfofiles/server_info_yml.dita
+navtitle="server_info.yml"
+./architecture/input_model/cpinfofiles/service_info_yml.dita
+navtitle="service_info.yml"
+./architecture/input_model/cpinfofiles/control_plane_topology_yml.
+dita navtitle="control_plane_topology.yml"
+./architecture/input_model/cpinfofiles/network_topology_yml.dita
+navtitle="network_topology.yml"
+./architecture/input_model/cpinfofiles/region_topology_yml.dita
+navtitle="region_topology.yml"
+./architecture/input_model/cpinfofiles/service_topology_yml.dita"
+navtitle="service_topology.yml"
+./architecture/input_model/cpinfofiles/private_data_metadata_yml.
+dita navtitle="private_data_metadata.yml"
+./architecture/input_model/cpinfofiles/password_change_yml.dita"
+navtitle="password_change.yml"
+./architecture/input_model/cpinfofiles/explain_txt.dita"
+./architecture/input_model/cpinfofiles/clouddiagram_txt.dita
+navtitle="CloudDiagram.txt"
+./architecture/input_model/cpinfofiles/html_representation.dita
+navtitle="HTML Representation"
+./architecture/example_configurations.dita" navtitle="Example
+Configurations"
+
+
+ABOVE ENTERED IN HelionLCM_InputModel-TOC.txt
+
+
+
+
+
+
+<!-- ./architecture/examples/example_config_changes.dita navtitle="Changes to 
+Example Configurations"-->
+<!-- ./architecture/examples/changes_entryscale_kvm_vsa.dita navtitle="Changes 
+to Entry-scale KVM with VSA Model"-->
+<!--./architecture/examples/kvm_examples.dita navtitle="KVM"-->
+./architecture/examples/entryscale_kvm_vsa.dita navtitle="Entry-scale KVM with 
+VSA Model"
+./architecture/examples/entryscale_kvm_dedicated.dita navtitle="Entry-scale KVM 
+with VSA Model with Dedicated Cluster for Metering, Monitoring, and Logging"
+./architecture/examples/entryscale_kvm_ceph.dita navtitle="Entry-scale KVM with 
+Ceph Model"
+./operations/blockstorage/ceph/deploy_monitor_standalone_node.dita
+navtitle ="Deploying Ceph Monitor Services on Dedicated Resource Nodes"
+./architecture/examples/midscale_kvm_vsa.dita navtitle="Mid-scale KVM with VSA 
+Model"
+./architecture/examples/esx_examples.dita navtitle="ESX"
+./architecture/examples/entryscale_esx_kvm_vsa.dita navtitle="Entry-scale ESX, 
+KVM with VSA Model"
+./architecture/examples/entryscale_esx_kvm_vsa_mml.dita
+navtitle="Entry-scale ESX, KVM with VSA Model with Dedicated Cluster for Metering, Monitoring, and Logging"
+./architecture/examples/swift_examples.dita navtitle="Swift"
+./architecture/examples/entryscale_swift.dita navtitle="Entry-scale Swift Model"
+./architecture/examples/ironic_examples.dita navtitle="Ironic"
+./architecture/examples/entryscale_ironic.dita navtitle="Entry-scale Ironic Flat 
+Network"
+./architecture/examples/entryscale_ironic_multi_tenancy.dita
+navtitle="Entry-scale Ironic Multi-Tenancy"
+./architecture/modify/modify_entryscale_kvm_vsa.dita navtitle="Modifying the 
+Entry-scale KVM with VSA Model for Your Environment"
+./architecture/modify/localizing_inputmodel.dita navtitle="Localizing the Input 
+Model"
+./architecture/modify/customizing_inputmodel.dita navtitle="Customizing the 
+Input Model"
+./installation/configure_vsa_ao.dita navtitle="VSA with or without
+Adaptive Optimization (AO)"
+./operations/blockstorage/vsa/create_multiple_vsa_clusters.dita
+navtitle="Creating Multiple VSA Clusters"
+./operations/blockstorage/vsa/configure_vsa_separate_iscsi_network.
+dita navtitle="Configuring a Separate iSCSI Network to use with VSA"
+./planning/objectstorage/swift_input_model.dita navtitle="Modifying Example 
+Configurations for Object Storage using Swift"
+./planning/objectstorage/objectstorage_overview.dita navtitle="Object Storage 
+using Swift Overview"
+./planning/objectstorage/allocate_pac.dita navtitle="Allocating Proxy, Account, 
+and Container Servers for Object Storage"
+./planning/objectstorage/allocating_server.dita navtitle="Allocating Object 
+Servers"
+./planning/objectstorage/creating_roles_swift_nodes.dita navtitle="Creating 
+Roles for Swift Nodes"
+./planning/objectstorage/allocating_disk_drives.dita navtitle="Allocating Disk 
+Drives for Object Storage"
+./planning/objectstorage/swift_device_groups.dita navtitle="Swift
+Requirements for Device Group Drives"
+./planning/objectstorage/creating_pac_cluster.dita navtitle="Creating a Swift 
+Proxy, Account, and Container Cluster"
+./planning/objectstorage/creating_object_server_resource.dita
+navtitle="Creating Object Server Resource Nodes"
+./planning/objectstorage/allocating_network.dita navtitle="Understanding Swift 
+Network and Service Requirements"
+./planning/objectstorage/ring_specifications.dita navtitle="Understanding Ring 
+Specifications"
+./planning/objectstorage/storage_policies.dita navtitle="Designing Storage 
+Policies"
+./planning/objectstorage/swift_zones.dita navtitle="Designing Swift Zones"
+./planning/objectstorage/modify_swift_service_config_files.dita
+navtitle="Customizing Swift Service Configuration Files"
+
+   <!-- Alternative Configurations Block -->
+
+./architecture/alternative/alternative_configurations.dita
+navtitle="Alternative Configurations"
+<!--./operations/blockstorage/vsa/create_multiple_vsa_clusters.dita 
+navtitle="Creating Multiple VSA Clusters"-->
+<!--./operations/blockstorage/vsa/configure_vsa_separate_iscsi_network.dita 
+navtitle="Configuring a Separate iSCSI Network to use with VSA"-->
+./architecture/alternative/sles_compute_model.dita navtitle="SLES Compute Model"
+./architecture/alternative/rhel_compute_model.dita navtitle="RHEL ComputeModel"
+./architecture/examples/entryscale_kvm_ceph_onenetwork.dita"
+navtitle="Entry-scale KVM with Ceph Model with One Network"
+./architecture/alternative/entryscale_kvm_ceph_twonetwork.dita
+navtitle="Entry-scale KVM with Ceph Model with Two Networks"
+./architecture/alternative/standalone_deployer.dita navtitle="Using a Standalone 
+Lifecycle-Manager Node"
+./architecture/alternative/without_dvr.dita navtitle="Configuring Your Cloud 
+without DVR"
+./architecture/alternative/without_l3agent.dita navtitle="Configuring Your Cloud 
+with Provider VLANs and Physical Routers Only"
+./architecture/alternative/twosystems.dita navtitle="Considerations When
+Installing Two Systems on One Subnet"

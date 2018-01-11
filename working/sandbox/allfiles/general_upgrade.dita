@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE [[[DUMMY]]]
+[
+  <!ENTITY % entities SYSTEM "entities.ent">
+  %entities;
+]>
+<topic id="general_upgrade">
+  <title><ph conkeyref="HOS-conrefs/product-title"/>General Upgrade Steps</title>
+  <body>
+    <!--not tested-->
+    <p conkeyref="HOS-conrefs/applies-to"/>
+
+
+    <p>The following steps are the general steps applying to <keyword keyref="kw-hos"/> services
+      updates that are performed when a restart of all the nodes in the cloud is not required.</p>
+    <section conref="upgrade21to30.dita#upgradeto21/prereqs"/>
+
+    <section conref="upgrade21to30.dita#upgradeto21/upgradesteps"/>
+  </body>
+</topic>

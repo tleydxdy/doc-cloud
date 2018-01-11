@@ -1,0 +1,98 @@
+# Makefile for DocBook projects: Basic version
+#   This file is extracted automatically from:
+#     http://www.nmt.edu/tcc/help/pubs/docbook5/
+#================================================================
+# Definitions
+#----------------------------------------------------------------
+# BASENAME:        The base file name of the DocBook file.
+# SOURCE:          The .xml file containing the document.
+# WEB_DIR:         Subdirectory where .html files live.
+#   To move all .html files to subdirectory web/, set this
+#   variable to "web/" and use an .htaccess file to redirect
+#   browsers there.
+# WEB_TARGET:      Top-level generated HTML page name.
+# FO_TARGET:       Intermediate file for generated PDF.
+# PDF_TARGET:      Generated PDF file name.
+# INDEX_BASE:      Base name for index of section id values.
+# INDEX_FO:        Intermediate file for section index.
+# INDEX_PDF:       Section index PDF file name.
+# TCC_XSL:         Where the local customization layer lives.
+# HTML_TRANSFORM:  XSLT to build the HTML rendering.
+# PDF_TRANSFORM:   XSLT to build the PDF rendering.
+# XSLT_HTML_OPT passes options to xsltproc to build the HTML form.
+#     To push chunking down to subsections:
+#        --stringparam chunk.section.depth 2 
+#     To move the first subsection to its own chunk:
+#        --stringparam chunk.first.sections 1
+#     To show subsubsections in the table of contents:
+#        --stringparam toc.section.depth 3
+# XSLT_FO_OPT:  Options for hardcopy.
+#     To show subsubsections in the table of contents:
+#        --stringparam toc.section.depth 3
+# XEP_OPT:  Options to xep
+#     To suppress most output:
+#        -quiet
+#----------------------------------------------------------------
+BASENAME        =  your-project-name-here
+SOURCE          =  $(BASENAME).xml
+WEB_DIR         =  
+WEB_TARGET      =  index.html
+FO_TARGET       =  $(BASENAME).fo
+PDF_TARGET      =  $(BASENAME).pdf
+INDEX_BASE      =  toc
+INDEX_FO        =  $(INDEX_BASE).fo
+INDEX_PDF       =  $(INDEX_BASE).pdf
+TCC_XSL         =  /u/www/docs/tcc/help/pubs/docbook5/tccstyle5
+HTML_TRANSFORM  =  $(TCC_XSL)tcc_html.xsl
+FO_TRANSFORM    =  $(TCC_XSL)tcc_fo.xsl
+XSLT_HTML_OPT   =  --stringparam chunk.section.depth 2 \
+                   --stringparam chunk.first.sections 1
+XSLT_FO_OPT     =  
+XEP_OPT         =  -quiet
+
+#--
+# Add the suffixes that we are interested in
+#--
+# .fo       XSL-FO output
+# .html     HTML web pages                 
+# .pdf      Page Description Format (Abode)
+# .xml      Input files in DocBook XML format
+#--
+.SUFFIXES: .fo .html .pdf .xml
+
+#================================================================
+# Default suffix rules
+#----------------------------------------------------------------
+.xml.html:
+	xsltproc -o $@ $(XSLT_HTML_OPT) $(HTML_TRANSFORM) $<
+
+.xml.fo:
+	xsltproc -o $@ $(XSLT_FO_OPT) $(FO_TRANSFORM) $<
+
+.fo.pdf:
+	xep $(XEP_OPT) $< $@ 
+
+#================================================================
+# Targets
+#----------------------------------------------------------------
+all: web pdf index
+
+web: $(WEB_TARGET)
+
+$(WEB_TARGET): $(SOURCE)
+	xsltproc -o $@ $(XSLT_HTML_OPT) $(HTML_TRANSFORM) $<
+
+pdf: $(PDF_TARGET)
+
+$(PDF_TARGET): $(SOURCE)
+
+index: $(INDEX_PDF)
+
+$(INDEX_PDF): $(INDEX_FO)
+
+$(INDEX_FO): $(SOURCE)
+	rm -f $(INDEX_FO); \
+	docbook5index $(SOURCE)
+
+clean:
+	rm -f *.fo *.html *.pdf

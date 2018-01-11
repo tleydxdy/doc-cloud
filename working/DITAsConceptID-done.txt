@@ -1,0 +1,10 @@
+./networking_summary.dita:<concept id="networking_alarm_summary">
+./compute_summary.dita:<concept id="compute_alarm_summary">
+./compute_instances.dita:<concept id="compute_instances">
+./compute_hosts.dita:<concept id="compute_hosts">
+./storage_summary.dita:<concept id="storage_alarm_summary"> ExtraneousDITAs (dir)
+./perf_storage.dita:<concept id="perf_storage"> ExtraneousDITAs (dir)
+./invent_storage.dita:<concept id="invent_storage"> ExtraneousDITAs (dir)
+./hdp_summary.dita:<concept id="hdp_alarm_summary"> ExtraneousDITAs (dir)
+./code_enghost.dita:<concept id="code_enghost"> ExtraneousDITAs (dir)
+./cap_storage.dita:<concept id="cap_storage"> > ExtraneousDITAs (dir)

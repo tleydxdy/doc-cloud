@@ -1,0 +1,497 @@
+~/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/helion/
+userguide> dietrich userguide.ditamap 
+Did not find conversion.conf: Using default settings.
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/operations/opsconsole/block_storage_alarm.dita:
+  /tmp/operations/opsconsole/block_storage_alarm.dita (No such file or 
+directory)
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/operations/maintenance/compute/remove_compute_node.dita:
+  /tmp/operations/maintenance/compute/remove_compute_node.dita (No such file or 
+directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/operations/maintenance/compute/add_hpelinux_compute.dita:
+  /tmp/operations/maintenance/compute/add_hpelinux_compute.dita (No such file or 
+directory)
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: Document has been marked not available:
+  file:/tmp/operations/maintenance/compute/remove_compute_node.dita
+No class attribute for abstract
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/operations/retrieve_adminpassword.dita:
+  /tmp/operations/retrieve_adminpassword.dita (No such file or directory)
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/horizon/AZ.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-horizon-AZ.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/horizon/CloudAdmin.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-horizon-CloudAdmin.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/horizon/create_a_record.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-horizon-
+create_a_record.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/../media/horizon/create_cluster_img1.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/..-media-horizon-
+create_cluster_img1.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/../media/horizon/create_cluster_img2.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/..-media-horizon-
+create_cluster_img2.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/../media/horizon/create_cluster_img3.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/..-media-horizon-
+create_cluster_img3.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/../media/horizon/create_cluster_template2.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/..-media-horizon-
+create_cluster_template2.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/../media/horizon/create_cluster_template3.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/..-media-horizon-
+create_cluster_template3.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/../media/horizon/create_cluster_template.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/..-media-horizon-
+create_cluster_template.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/horizon/create_domain.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-horizon-create_domain.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/../media/horizon/domain_selector.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/..-media-horizon-
+domain_selector.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/horizon/HelionDashboardMenusnew1.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-horizon-
+HelionDashboardMenusnew1.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/horizon/HelionLogin.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-horizon-HelionLogin.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/horizon/HorizonSystemInfo.png': No such file or directory 
+@ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-horizon-
+HorizonSystemInfo.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/horizon/hypervisors.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-horizon-hypervisors.
+png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/horizon/lbaas_panel/LoadBalancers1.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-horizon-lbaas_panel-
+LoadBalancers1.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/horizon/lbaas_panel/LoadBalancers2.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-horizon-lbaas_panel-
+LoadBalancers2.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/horizon/lbaas_panel/LoadBalancers3.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-horizon-lbaas_panel-
+LoadBalancers3.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/horizon/lbaas_panel/LoadBalancers4.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-horizon-lbaas_panel-
+LoadBalancers4.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/horizon/lbaas_panel/LoadBalancers5.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-horizon-lbaas_panel-
+LoadBalancers5.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/horizon/lbaas_panel/LoadBalancers6.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-horizon-lbaas_panel-
+LoadBalancers6.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/horizon/lbaas_panel/LoadBalancers7.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-horizon-lbaas_panel-
+LoadBalancers7.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/horizon/lbaas_panel/LoadBalancers8.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-horizon-lbaas_panel-
+LoadBalancers8.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/horizon/lbaas_panel/Login.png': No such file or directory 
+@ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-horizon-lbaas_panel-
+Login.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/horizon/quotas2.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-horizon-quotas2.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/horizon/routers.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-horizon-routers.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/horizon/services.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-horizon-services.png' 
+@ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/horizon/stacks.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-horizon-stacks.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/hos.docs/create_keypair1.png': No such file or directory 
+@ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-hos.docs-
+create_keypair1.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/hos.docs/create_keypair2.png': No such file or directory 
+@ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-hos.docs-
+create_keypair2.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/hos.docs/create_keypair3.png': No such file or directory 
+@ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-hos.docs-
+create_keypair3.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/networking/create_network30_10.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-networking-
+create_network30_10.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/networking/create_network30_11.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-networking-
+create_network30_11.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/networking/create_network30_2.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-networking-
+create_network30_2.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/networking/create_network30_3.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-networking-
+create_network30_3.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/networking/create_network30_4.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-networking-
+create_network30_4.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/networking/create_network30_5.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-networking-
+create_network30_5.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/networking/create_network30_6.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-networking-
+create_network30_6.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/networking/create_network30_7.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-networking-
+create_network30_7.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/networking/create_network30_8.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-networking-
+create_network30_8.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/networking/create_network30_9.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-networking-
+create_network30_9.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/networking/create_router30_2.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-networking-
+create_router30_2.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/media/networking/create_router30_3.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/media-networking-
+create_router30_3.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/../media/opsconsole/AreaIcon.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/..-media-opsconsole-AreaIcon
+.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/../media/opsconsole/AreaStackedIcon.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/..-media-opsconsole-
+AreaStackedIcon.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/../media/opsconsole/BarChartIcon.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/..-media-opsconsole-
+BarChartIcon.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/../media/opsconsole/DetailDots.png': No such file or directory 
+@ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/..-media-opsconsole-
+DetailDots.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/../media/opsconsole/LineChartIcon.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/..-media-opsconsole-
+LineChartIcon.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/../media/opsconsole/ObjStorageCapacity.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/..-media-opsconsole-
+ObjStorageCapacity.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/../media/opsconsole/ObjStorageInventory1.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/..-media-opsconsole-
+ObjStorageInventory1.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/../media/opsconsole/ObjStorageSumm2.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/..-media-opsconsole-
+ObjStorageSumm2.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/../media/opsconsole/OpsConsoleBurgerMenu.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/..-media-opsconsole-
+OpsConsoleBurgerMenu.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/../media/opsconsole/OpsConsoleGetHelp.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/..-media-opsconsole-
+OpsConsoleGetHelp.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/../media/opsconsole/OpsConsoleSwiftAlarmSumm.png': No such file 
+or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/..-media-opsconsole-
+OpsConsoleSwiftAlarmSumm.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/../media/opsconsole/StackedBarIcon.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/userguide/converted/userguide/images/src/png/..-media-opsconsole-
+StackedBarIcon.png' @ error/convert.c/ConvertImageCommand/3275.
+ERROR: Failed to get filelist for ROOTID ""

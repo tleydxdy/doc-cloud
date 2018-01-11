@@ -1,0 +1,443 @@
+./HOS-images.xml:            href="../media/examples/ironic_entry_scale_network_model.png"
+./HOS-images.xml:        href="../media/examples/ironic_entry_scale_network_model.png"
+./HOS-images.xml:        href="../media/ironic/ilo_boot_order_legacy_bios.png"
+./HOS-images.xml:        href="../media/ironic/hLinux_login.png"
+./HOS-images.xml:        href="../media/ironic/ubuntu_login.png"
+./HOS-images.xml:        href="../media/multipath/installer_boot_options.png"
+./HOS-images.xml:        href="../media/multipath/installer_advanced_options.png"
+./HOS-images.xml:        href="../media/multipath/multipath_install_edit.png"
+./HOS-images.xml:        href="../media/multipath/multipath_install_edit_argument.png"
+./HOS-images.xml:        href="../media/multipath/uefi_installer_menu.png"
+./HOS-images.xml:        href="../media/multipath/uefi_edit_selection.png"
+./HOS-images.xml:        href="../media/multipath/uefi_multipath_true.png"
+./HOS-images.xml:        href="../media/multipath/uefi_multipath_install_edit_argument.png"
+./HOS-images.xml:        href="../media/upgrade/disc_calc_inputs.png"
+./HOS-images.xml:        href="../media/upgrade/disc_calc_output_entry_scale.png"
+./HOS-images.xml:        href="../media/third_party/debian_rhel_import.png"
+./HOS-images.xml:        href="../media/third_party/hos_neutron_venv.png"
+./HOS-images.xml:        href="../media/third_party/import_mechanisms.png"
+./HOS-images.xml:        href="../media/third_party/ansible_playbook_roles.png"
+./HOS-images.xml:        href="../media/third_party/other_application_content.png"
+./HOS-images.xml:        href="../media/emoticon/check.png"
+./architecture/alternative/entryscale_kvm_ceph_twonetwork.dita:        <p><image href="../../../media/hos.docs/entry_scale_kvm_ceph_two_network.png"/></p>
+./architecture/alternative/entryscale_kvm_ceph_twonetwork.dita:        <p><xref href="../../../media/hos.docs/entry_scale_kvm_ceph_two_network_lg.png"
+./architecture/alternative/standalone_deployer.dita:            <p><image href="../../../media/examples/entry_scale_kvm_vsa_shared.png"/></p>
+./architecture/alternative/standalone_deployer.dita:            <p><xref href="../../../media/examples/entry_scale_kvm_vsa_shared_lg.png"
+./architecture/examples/entryscale_esx_kvm_vsa.dita:        <p><image href="../../../media/hos.docs/exampleconfigs/Entry-ScaleESX-KVMwithVSAmodel.png"
+./architecture/examples/entryscale_esx_kvm_vsa.dita:        <p><xref href="../../../media/hos.docs/exampleconfigs/Entry-ScaleESX-KVMwithVSAmodel.png"
+./architecture/examples/entryscale_esx_kvm_vsa_mml.dita:        <p><image href="../../../media/hos.docs/exampleconfigs/Entry-ScaleESX-KVMwithVSADedicatedMML.png"
+./architecture/examples/entryscale_esx_kvm_vsa_mml.dita:        <p><xref href="../../../media/hos.docs/exampleconfigs/Entry-ScaleESX-KVMwithVSADedicatedMML.png"
+./architecture/examples/entryscale_ironic.dita:    <p><image href="../../../media/hos.docs/exampleconfigs/entry_scale_ironic.png"/></p>
+./architecture/examples/entryscale_ironic.dita:    <p><xref href="../../../media/hos.docs/exampleconfigs/entry_scale_ironic.png"
+./architecture/examples/entryscale_ironic_multi_tenancy.dita:    <p><image href="../../../media/ironic/Entry-ScaleIronicMultiTenancy.png" 
+./architecture/examples/entryscale_kvm_ceph.dita:    <p><image href="../../../media/entryScaleCeph/Entry-Scale-Ceph-AllNetworks.png"/></p>
+./architecture/examples/entryscale_kvm_ceph.dita:    <p><xref href="../../../media/entryScaleCeph/Entry-Scale-Ceph-AllNetworks.png"
+./architecture/examples/entryscale_kvm_ceph_onenetwork.dita:    <p><image href="../../../media/examples/entry_scale_kvm_ceph.png"/></p>
+./architecture/examples/entryscale_kvm_ceph_onenetwork.dita:    <p><xref href="../../../media/examples/entry_scale_kvm_ceph_lg.png" scope="external" format="html"
+./architecture/examples/entryscale_kvm_dedicated.dita:        <p><image href="../../../media/entryScaleDed/Entry-ScaleDedicatedAllNetworks.png"
+./architecture/examples/entryscale_kvm_dedicated.dita:        <p><xref href="../../../media/entryScaleDed/Entry-ScaleDedicatedAllNetworks.png"
+./architecture/examples/entryscale_kvm_vsa.dita:        <p><image href="../../../media/entryScale/Entry-ScaleAllNetworks.png" id="kvm_with_vsa"/></p>
+./architecture/examples/entryscale_kvm_vsa.dita:        <p><xref href="../../../media/entryScale/Entry-ScaleAllNetworks.png"
+./architecture/examples/entryscale_swift.dita:    <p><image href="../../../media/examples/entry_scale_swift.png"/></p>
+./architecture/examples/entryscale_swift.dita:    <p><xref href="../../../media/examples/entry_scale_swift_lg.png" scope="external" format="html"
+./architecture/examples/midscale_kvm_vsa.dita:        <p><image href="../../../media/networkImages/Mid-Scale-AllNetworks.png" id="midscalekvmvsa"
+./architecture/examples/midscale_kvm_vsa.dita:               <!-- <p><image href="../../../media/hos.docs/exampleconfigs/midscale_kvm_vsa_1000.png"/></p>--> 
+./architecture/examples/midscale_kvm_vsa.dita:        <p><image href="../../../media/hos.docs/exampleconfigs/midscale_kvm_vsa_notes_1000.png"
+./architecture/examples/midscale_kvm_vsa.dita:        <p><xref href="../../../media/networkImages/Mid-Scale-AllNetworks.png"
+./architecture/input_model/concepts/concepts.dita:        <p audience="EXTERNAL"><image href="../../../../media/inputmodel/hphelionopenstack_concepts.png"/></p>
+./architecture/input_model/concepts/concepts.dita:    <p audience="INTERNAL"><image href="../../../../media/inputmodel/HPE_InputModel_Flow_40.png"/></p>
+./architecture/input_model/concepts/concepts.dita:    <!--<p><xref href="../../../../media/inputmodel/hphelionopenstack_concepts_lg.png" scope="external"
+./architecture/input_model/concepts/concepts.dita:    <p><image href="../../../../media/inputmodel/hphelionopenstack_directories.png"/></p>
+./architecture/input_model/concepts/concepts.dita:    <p><xref href="../../../../media/inputmodel/hphelionopenstack_directories_lg.png" scope="external"
+./architecture/input_model/concepts/controlplanes_regions.dita:        <image href="../../../../media/inputmodel/multi-region.png"/>            
+./architecture/input_model/concepts/diskmodel.dita:    <p><image href="../../../../media/inputmodel/hphelionopenstack_diskmodels.png"/></p>
+./architecture/input_model/concepts/diskmodel.dita:    <p><xref href="../../../../media/inputmodel/hphelionopenstack_diskmodels_lg.png" scope="external"
+./architecture/input_model/concepts/endpoints.dita:    <p><image href="../../../../media/inputmodel/hphelionopenstack_loadbalancers.png"/></p>
+./architecture/input_model/concepts/endpoints.dita:    <p><xref href="../../../../media/inputmodel/hphelionopenstack_loadbalancers_lg.png" scope="external"
+./architecture/input_model/concepts/servergroups_failurezones.dita:    <p><image href="../../../../media/inputmodel/hphelionopenstack_servergroups.png"/></p>
+./architecture/input_model/concepts/servergroups_failurezones.dita:    <p><xref href="../../../../media/inputmodel/hphelionopenstack_servergroups_lg.png" scope="external"
+./architecture/input_model/cpinfofiles/html_representation.dita:      <image href="../../../../media/inputmodel/html_representation_1.png"/>
+./architecture/input_model/cpinfofiles/html_representation.dita:      <image href="../../../../media/inputmodel/html_representation_2.png"/>
+./architecture/input_model/other_topics/networkroutevalidation.dita:    <p><image href="../../../../media/inputmodel/hphelionopenstack_networkroutevalidation.png"/></p>
+./architecture/input_model/other_topics/networkroutevalidation.dita:    <p><xref href="../../../../media/inputmodel/hphelionopenstack_networkroutevalidation_lg.png"
+./bura/bura_overview.dita:      <p><image href="../../media/bura/bura_architecture.png"/></p>
+./bura/freezer_ui.dita:        <p><image href="../../media/video/Horizon/HorizonBackupOverview.png" id="DashboardWalkThrough" /></p>
+./ceph_twonetworks_config.dita:    <p><image href="../media/hos.docs/entry_scale_kvm_ceph_two_network.png"/></p>
+./ceph_twonetworks_config.dita:    <p><xref href="../media/hos.docs/entry_scale_kvm_ceph_two_network_lg.png" scope="external"
+./esx/eon_service.dita:      <p><image href="../../media/esx/EON-Architecture.png"/></p>
+./esx/esx_host_commissioning.dita:                                                  href="../../media/esx/eon_service_host1.png"
+./esx/esx_host_commissioning.dita:                                                  href="../../media/esx/eon_service_host2.png"
+./esx/esx_host_commissioning.dita:                                                  href="../../media/esx/eon_service_host3.png"
+./esx/network_esx_ovsvapp.dita:    <p><image href="../../media/esx/esx_ovsvapp.png" id="image_a4n_t3x_rt"/></p>
+./esx/remove_existing_cluster_compute_resource_pool.dita:          in the following example. <p><image href="../../media/esx/esx_hostname.png"
+./esx/remove_existing_cluster_compute_resource_pool.dita:            information.</p><p><image href="../../media/esx/esx_cluster2.png" id="image_wgh_f1f_xx"
+./esx/removing_esx_host_from_cluster.dita:          in the following example.<p><image href="../../media/esx/esx_hostname.png"
+./esx/removing_esx_host_from_cluster.dita:          all the tenant VMs except OVSvApp. <p><image href="../../media/esx/eon_maintenance.png"
+./esx/removing_esx_host_from_cluster.dita:              href="../../media/esx/eon_cancel_maintenance%20mode.png" id="image_lpd_qfx_st"
+./esx/removing_esx_host_from_cluster.dita:            <b>Power Off</b>. <p><image href="../../media/esx/eon_poweroff_ovsvapp.png"
+./esx/removing_esx_host_from_cluster.dita:              href="../../media/esx/eon_delete_ovsvapp.png" id="image_eq4_3sw_st"/></p></li>
+./esx/removing_esx_host_from_cluster.dita:              href="../../media/esx/eon_disconnect_maintenance.png" id="image_zx3_j2n_rt"/></p></li>
+./esx/removing_esx_host_from_cluster.dita:                href="../../media/esx/drs-rule1.png" id="image_bp5_zm2_xx"/></p><p>A cluster
+./esx/removing_esx_host_from_cluster.dita:                href="../../media/esx/drs-group2.png" id="image_x1j_bn2_xx"/></p></li>
+./esx/removing_esx_host_from_cluster.dita:            deleted OVSvAPP and click <b>Remove</b>.<p><image href="../../media/esx/rules3.png"
+./horizon/horizon_domainadmin.dita:      <image href="../../media/horizon/DomainAdmin/DomainLogin.png" id="DomainLogin"/>
+./horizon/horizon_domainadmin.dita:              <image href="../../media/horizon/DomainAdmin/ViewDomain1.png" id="ViewDomain1"/>
+./horizon/horizon_domainadmin.dita:            <image href="../../media/horizon/DomainAdmin/ViewDomain2.png" id="ViewDomain2"/>
+./horizon/horizon_domainadmin.dita:              href="../../media/horizon/DomainAdmin/ViewProjects1.png" id="ViewProject1"/>
+./horizon/horizon_domainadmin.dita:            <image href="../../media/horizon/DomainAdmin/ViewProjects2.png" id="ViewProject2"/>
+./horizon/horizon_domainadmin.dita:              href="../../media/horizon/DomainAdmin/CreateProject1.png" id="CreateProject1"/></li>
+./horizon/horizon_domainadmin.dita:              href="../../media/horizon/DomainAdmin/CreateProject2.png" id="CreateProject2"/>
+./horizon/horizon_domainadmin.dita:              <image href="../../media/horizon/DomainAdmin/CreateProject3.png" id="CreateProject3"/>
+./horizon/horizon_domainadmin.dita:              href="../../media/horizon/DomainAdmin/CreateProject4.png" id="CreateProject4"/>
+./horizon/horizon_domainadmin.dita:            <image href="../../media/horizon/DomainAdmin/CreateProject5.png" id="CreateProject5"/>
+./horizon/horizon_domainadmin.dita:              href="../../media/horizon/DomainAdmin/EditProject1.png" id="EditProject1"/></li>
+./horizon/horizon_domainadmin.dita:              href="../../media/horizon/DomainAdmin/EditProject2.png" id="EditProject2"/>
+./horizon/horizon_domainadmin.dita:            updated. <image href="../../media/horizon/DomainAdmin/EditProject3.png"
+./horizon/horizon_domainadmin.dita:              <image href="../../media/horizon/DomainAdmin/EditProject4.png" id="EditProject4"/>
+./horizon/horizon_domainadmin.dita:              href="../../media/horizon/DomainAdmin/EditProject5.png" id="EditProject5"/>
+./horizon/horizon_domainadmin.dita:              <image href="../../media/horizon/DomainAdmin/CreateUser1.png" id="CreateUser1"/>
+./horizon/horizon_domainadmin.dita:              href="../../media/horizon/DomainAdmin/CreateUser2.png" id="CreateUser2"/>
+./horizon/horizon_domainadmin.dita:              href="../../media/horizon/DomainAdmin/CreateUser3.png" id="CreateUser3"/>
+./horizon/horizon_domainadmin.dita:              <image href="../../media/horizon/DomainAdmin/CreateUser4.png" id="CreateUser4"/>
+./horizon/horizon_domainadmin.dita:             <image href="../../media/horizon/DomainAdmin/CreateUser5.png" id="CreateUser5"/>
+./horizon/horizon_domainadmin.dita:              href="../../media/horizon/DomainAdmin/EditUser1.png" id="EditUser1"/>
+./horizon/horizon_domainadmin.dita:              href="../../media/horizon/DomainAdmin/EditUser2.png" id="EditUser2"/>
+./horizon/horizon_domainadmin.dita:              <image href="../../media/horizon/DomainAdmin/EditUser3.png" id="EditUser3"/>
+./horizon/horizon_domainadmin.dita:              href="../../media/horizon/DomainAdmin/EditUser4.png" id="EditUser4"/>
+./horizon/horizon_domainadmin.dita:            <image href="../../media/horizon/DomainAdmin/EditUser5.png" id="EditUser5"/>
+./horizon/horizon_domainadmin.dita:              href="../../media/horizon/DomainAdmin/AddUser1.png" id="AddUser1"/>
+./horizon/horizon_domainadmin.dita:              href="../../media/horizon/DomainAdmin/AddUser2.png" id="AddUser2"/>
+./horizon/horizon_domainadmin.dita:            to the project. <image href="../../media/horizon/DomainAdmin/AddUser3.png" id="AddUser3"
+./horizon/horizon_domainadmin.dita:              href="../../media/horizon/DomainAdmin/AddUser4.png" id="AddUser4"/>
+./horizon/horizon_domainadmin.dita:              href="../../media/horizon/DomainAdmin/RemoveUser1.png" id="RemoveUser1"/>
+./horizon/horizon_domainadmin.dita:              href="../../media/horizon/DomainAdmin/RemoveUser2.png" id="RemoveUser2"/>
+./horizon/horizon_domainadmin.dita:            removed from the project. <image href="../../media/horizon/DomainAdmin/RemoveUser3.png"
+./horizon/horizon_domainadmin.dita:              href="../../media/horizon/DomainAdmin/RemoveUser4.png" id="RemoveUser4"/>
+./horizon/horizon_domainadmin.dita:              href="../../media/horizon/DomainAdmin/ProjectMembers1.png" id="ProjectMembers1"/>
+./horizon/horizon_domainadmin.dita:              href="../../media/horizon/DomainAdmin/ProjectMembers2.png" id="ProjectMembers2"/>
+./horizon/horizon_domainadmin.dita:              href="../../media/horizon/DomainAdmin/ProjectMembers3.png" id="ProjectMembers3"/>
+./installation/F5BIG_IP_verify.dita:              </dl><p>Sample output:</p><image href="../../media/F5BIGIP_verify.png"
+./installation/F5BIG_IP_verify.dita:              <image href="../../media/f5-bigip-console-showing-working-lbaas-tls.png"/></li>
+./installation/F5BIG_IP_verify.dita:          </dl> Sample output: <image href="../../media/F5BIGIP_verify.png"/></li>
+./installation/SolidFire/SolidFire_verify30.dita:      <p><image href="../../../media/sysinfo.png"/></p>
+./installation/ceph/ceph_overview.dita:                                href="../../../media/ceph/ceph/physical-architecture_ceph.png"
+./installation/ceph/ceph_overview.dita:                <image href="../../../media/ceph/ceph/ceph_rgw_architecture.png"
+./installation/ceph/usage_ceph_storage_helion.dita:                    href="../../../media/ceph/ceph/rgw.png" id="image_lf4_tmt_jw"/></p>
+./installation/configure_vsa.dita:                      <image href="../../media/vsa/xrdp1.PNG"/></p></li>
+./installation/configure_vsa.dita:                        <codeph>vnc-any</codeph>.<p><image href="../../media/vsa/xrdp2.PNG"
+./installation/configure_vsa.dita:                        href="../../media/vsa/xrdp3.PNG"/></p></li>
+./installation/configure_vsa.dita:                        href="../../media/vsa/vncview1.png"/></p></li>
+./installation/configure_vsa.dita:              <p><image href="../../media/vsa/xming1.png"/></p>
+./installation/configure_vsa.dita:            options. <p><image href="../../media/vsa/cmc1.png" id="image_dqt_p3k_5v"/></p>
+./installation/configure_vsa.dita:                <p><image href="../../media/vsa/cmc2.png" id="image_eqt_p3k_5v"/></p></li>
+./installation/configure_vsa.dita:                href="../../media/vsa/cmc3.png" id="image_fqt_p3k_5v"/></p></li>
+./installation/configure_vsa.dita:                href="../../media/vsa/cmc4.png" id="image_gqt_p3k_5v"/></p></li>
+./installation/configure_vsa.dita:                href="../../media/vsa/cmc5.png" id="image_hqt_p3k_5v"/></p></li>
+./installation/configure_vsa.dita:                <p><image href="../../media/vsa/cmc6.png" id="image_iqt_p3k_5v"/></p></li>
+./installation/configure_vsa.dita:            <p><image href="../../media/vsa/cmc7.png" id="image_jqt_p3k_5v"/></p></li>
+./installation/configure_vsa.dita:            <p><image href="../../media/vsa/cmc8.png" id="image_kqt_p3k_5v"/></p></li>
+./installation/configure_vsa.dita:            section as well. <p><image href="../../media/vsa/cmc9.png" id="image_lqt_p3k_5v"
+./installation/configure_vsa.dita:            displayed options and click <b>Next</b>. <p><image href="../../media/vsa/cmc10.png"
+./installation/configure_vsa.dita:                <p><image href="../../media/vsa/cmc11.png" id="image_nqt_p3k_5v"/></p></li>
+./installation/configure_vsa.dita:            <p><image href="../../media/vsa/cmc12.png" id="image_oqt_p3k_5v"/></p></li>
+./installation/configure_vsa.dita:                href="../../media/vsa/cmc13.png" id="image_pqt_p3k_5v"/></p>Cluster creation using
+./installation/esx/esx_troubleshooting.dita:                    href="../../../media/esx/gdbserver.png" id="image_ijr_j3c_xx"/></p><b>Procedure
+./installation/esx/esx_troubleshooting.dita:                                clusters.<p><image href="../../../media/esx/1.PNG"
+./installation/esx/esx_troubleshooting.dita:                                <p><image href="../../../media/esx/2.PNG" id="image_kpz_r2p_wx"
+./installation/esx/esx_troubleshooting.dita:                                href="../../../media/esx/3.PNG" id="image_ntp_s2p_wx"/></p></li>
+./installation/installation_verification.dita:            <b>Compute</b> subheading. <p><image href="../../media/vsa/createvol1.png"/></p></li>
+./installation/installation_verification.dita:              <p><image href="../../media/vsa/createvol2.png"/></p></li>
+./installation/installation_verification.dita:          <p><image href="../../media/vsa/createvol3.png"/></p></li>
+./installation/installation_verification.dita:            the <b>Compute</b> subheading. <p><image href="../../media/vsa/createvol1.png"
+./installation/installation_verification.dita:            like to delete. <p><image href="../../media/vsa/delvol1.png"/></p></li>
+./installation/installation_verification.dita:                href="../../media/vsa/delvol2.png"/></p></li>
+./installation/ironic/ironic_multi_control_plane.dita:    <image href="../../../media/ironic/ironic_multi_control_plane.png"/>
+./installation/ironic/ironic_troubleshooting.dita:            <p><image href="../../../media/ironic/DHCP-pxe-ipxe.png" id="image_dbf_g5d_k1b"/></p>
+./installation/ironic_oneview_integration.dita:            must be turned on: <p><image href="../../media/ironic/OneViewWebRegister.png"
+./installation/magnum/magnum_architecture.dita:        href="../../../media/magnum/magnum_service_arch_diagram.png" id="magnum_service_arch_diagram"
+./installation/magnum/magnum_architecture.dita:        <image href="../../../media/magnum/magnum_sequence_diagram.png" id="magnum_sequence_diagram"/>
+./installation/magnum/magnum_architecture.dita:        <image href="../../../media/networkImages/Mid-Scale-AllNetworks.png" id="midscalekvmvsa"
+./installation/verify_block_storage.dita:          <b>Compute</b> subheading. <p><image href="../../media/vsa/createvol1.png"/></p></li>
+./installation/verify_block_storage.dita:          <p><image href="../../media/vsa/createvol2.png"/></p></li>
+./installation/verify_block_storage.dita:          <p><image href="../../media/vsa/createvol3.png"/></p></li>
+./installation/verify_block_storage.dita:            the <b>Compute</b> subheading. <p><image href="../../media/vsa/createvol1.png"
+./installation/verify_block_storage.dita:            like to delete. <p><image href="../../media/vsa/delvol1.png"/></p></li>
+./installation/verify_block_storage.dita:            href="../../media/vsa/delvol2.png"/></p></li>
+./introduction/tech_overview_openstack.dita:      <!--<image href="../../media/intro/HelionOpenStack30Services.png" id="HOS3.0Services"/>-->
+./metering/metering_apis.dita:    <p><image href="../../media/metering/Ceilo_API_Polling.png"/></p>
+./networking/l2gw5930.dita:      <!--<image href="../../media/networking/l2gateway5930.png" id="image_fdx_tdb_dx" placement="break"/>-->
+./networking/l2gw5930.dita:      <image id="fig1" href="../../media/networking/l2gateway5930-new.png" placement="break"/>
+./networking/l2gw5930.dita:      <!-- <image href="../../media/networking/l2gateway5930-2.png" id="image_zql_12b_dx"
+./networking/l2gw5930.dita:      <image id="fig2" href="../../media/networking/l2gateway5930-2-new.png" placement="break"/>
+./networking/l2gw5930.dita:      <!-- <image href="../../media/networking/l2gateway5930-3.png" id="image_awk_f2b_dx"
+./networking/l2gw5930.dita:      <image id="fig3" href="../../media/networking/l2gateway5930-3-new.png" placement="break"
+./networking/pcipt_sriov_config.dita:    <image href="../../media/sriov_pcpit.png" id="image_wqb_vth_tw"/>
+./networking/using_ipam.dita:        infoblox-ipam-agent<image href="../../media/networking/ipam.png" placement="break"
+./operations/blockstorage/creating_voltype.dita:                <p><image href="../../../media/blockstorage/create_voltype30_1.png"/></p></li>
+./operations/blockstorage/creating_voltype.dita:                href="../../../media/blockstorage/create_voltype30_2.png"/></p>
+./operations/blockstorage/creating_voltype.dita:                href="../../../media/blockstorage/create_voltype30_3.png"/></p></li>
+./operations/blockstorage/creating_voltype.dita:            <p><image href="../../../media/blockstorage/create_voltype30_1.png"/></p></li>
+./operations/blockstorage/creating_voltype.dita:                href="../../../media/blockstorage/associate_voltype30_2.png"/></p></li>
+./operations/blockstorage/creating_voltype.dita:                href="../../../media/blockstorage/associate_voltype30_3.png"/></p></li>
+./operations/blockstorage/creating_voltype.dita:                href="../../../media/blockstorage/extraspecs30_1.png"/></p></li>
+./operations/blockstorage/creating_voltype.dita:                href="../../../media/blockstorage/extraspecs30_2.png"/></p></li>
+./operations/blockstorage/creating_voltype.dita:        <p><image href="../../../media/blockstorage/extraspecs30_vsa.png"/></p>
+./operations/blockstorage/creating_voltype.dita:        <p><image href="../../../media/blockstorage/extraspecs30_ceph.png"/></p>
+./operations/blockstorage/creating_voltype.dita:        <p><image href="../../../media/blockstorage/extraspecs30_3par.png"/></p>
+./operations/blockstorage/vsa/reconfigure_vsa_verb_add_extra_disk.dita:                href="../../../../media/blockstorage/vsa/plus.png" id="image_uhv_1cq_zw"/> to expand
+./operations/blockstorage/vsa/reconfigure_vsa_verb_add_extra_disk.dita:                  model.<p><image href="../../../../media/blockstorage/vsa/homepage.png"
+./operations/blockstorage/vsa/reconfigure_vsa_verb_add_extra_disk.dita:          <li>Click  <image href="../../../../media/blockstorage/vsa/plus.png" id="image_jnh_bcq_zw"/>
+./operations/blockstorage/vsa/reconfigure_vsa_verb_add_extra_disk.dita:                  href="../../../../media/blockstorage/vsa/cluster_expansion.png"
+./operations/blockstorage/vsa/reconfigure_vsa_verb_add_extra_disk.dita:          <li>Click <image href="../../../../media/blockstorage/vsa/plus.png" id="image_b3n_bcq_zw"/>
+./operations/blockstorage/vsa/reconfigure_vsa_verb_add_extra_disk.dita:                  href="../../../../media/blockstorage/vsa/storage_selection.png"
+./operations/blockstorage/vsa/reconfigure_vsa_verb_add_extra_disk.dita:                  href="../../../../media/blockstorage/vsa/disks_setup_page.png"
+./operations/blockstorage/vsa/reconfigure_vsa_verb_add_extra_disk.dita:                  href="../../../../media/blockstorage/vsa/operation_disk_setup.png"
+./operations/blockstorage/vsa/reconfigure_vsa_verb_add_extra_disk.dita:                  href="../../../../media/blockstorage/vsa/pop-up_box.png" id="image_eby_f1q_zw"
+./operations/blockstorage/vsa/reconfigure_vsa_verb_add_extra_disk.dita:                  href="../../../../media/blockstorage/vsa/warning_1.png" id="image_otr_h1q_zw"
+./operations/blockstorage/vsa/reconfigure_vsa_verb_add_extra_disk.dita:                  href="../../../../media/blockstorage/vsa/warning_2.png" id="image_i1m_31q_zw"
+./operations/blockstorage/vsa/reconfigure_vsa_verb_add_extra_disk.dita:                  href="../../../../media/blockstorage/vsa/status_change.png" id="image_uhr_j1q_zw"
+./operations/blockstorage/vsa/reconfigure_vsa_verb_add_remove_extra_disk.dita:                href="../../../../media/blockstorage/vsa/plus.png" id="image_uhv_1cq_zw"/> to expand
+./operations/blockstorage/vsa/reconfigure_vsa_verb_add_remove_extra_disk.dita:                  model.<p><image href="../../../../media/blockstorage/vsa/homepage.png"
+./operations/blockstorage/vsa/reconfigure_vsa_verb_add_remove_extra_disk.dita:            <li>Click <image href="../../../../media/blockstorage/vsa/plus.png"
+./operations/blockstorage/vsa/reconfigure_vsa_verb_add_remove_extra_disk.dita:                  href="../../../../media/blockstorage/vsa/cluster_expansion.png"
+./operations/blockstorage/vsa/reconfigure_vsa_verb_add_remove_extra_disk.dita:            <li>Click <image href="../../../../media/blockstorage/vsa/plus.png"
+./operations/blockstorage/vsa/reconfigure_vsa_verb_add_remove_extra_disk.dita:                  href="../../../../media/blockstorage/vsa/storage_selection.png"
+./operations/blockstorage/vsa/reconfigure_vsa_verb_add_remove_extra_disk.dita:                  href="../../../../media/blockstorage/vsa/disks_setup_page.png"
+./operations/blockstorage/vsa/reconfigure_vsa_verb_add_remove_extra_disk.dita:                  href="../../../../media/blockstorage/vsa/operation_disk_setup.png"
+./operations/blockstorage/vsa/reconfigure_vsa_verb_add_remove_extra_disk.dita:                  href="../../../../media/blockstorage/vsa/status_change.png" id="image_uhr_j1q_zw"
+./operations/central_log_access_data.dita:          lines. <image href="../../media/opsconsole/OpsConsoleBurgerMenu.png"/></li>
+./operations/central_log_understanding.dita:        <image href="../../media/logservice_arch.png" placement="break"/>
+./operations/cloudadmin_dashboard.dita:      <p><image href="../../media/horizon/CloudAdmin.png" id="CloudAdminDefault"/></p>
+./operations/cloudadmin_dashboard.dita:                href="../../media/horizon/NewDomain1.png" id="NewDomain1"/></p></li>
+./operations/cloudadmin_dashboard.dita:                href="../../media/horizon/NewDomain2.png" id="NewDomain2"/></p></li>
+./operations/cloudadmin_dashboard.dita:                href="../../media/horizon/NewDomain3.png" id="NewDomain3"/></p></li>
+./operations/cloudadmin_dashboard.dita:                href="../../media/horizon/SetDomain1.png" id="SetDomain1"/></p></li>
+./operations/cloudadmin_dashboard.dita:                href="../../media/horizon/SetDomain2.png" id="SetDomain2"/></p></li>
+./operations/cloudadmin_dashboard.dita:                href="../../media/horizon/NewProject1.png" id="NewProject1"/></p></li>
+./operations/cloudadmin_dashboard.dita:                href="../../media/horizon/NewProject2.png" id="NewProject2"/></p></li>
+./operations/cloudadmin_dashboard.dita:                href="../../media/horizon/NewProject3.png" id="NewProject3"/></p></li>
+./operations/cloudadmin_dashboard.dita:          <li>Project Created <p><image href="../../media/horizon/NewProject4.png" id="NewProject4"
+./operations/cloudadmin_dashboard.dita:                href="../../media/horizon/NewUser1.png" id="NewUser1"/></p></li>
+./operations/cloudadmin_dashboard.dita:                href="../../media/horizon/NewUser2.png" id="NewUser2"/></p></li>
+./operations/cloudadmin_dashboard.dita:            is the user name. <p><image href="../../media/horizon/NewUser3.png" id="NewUser3"
+./operations/cloudadmin_dashboard.dita:          <li>Click <b>Create User</b> button <p><image href="../../media/horizon/NewUser4.png"
+./operations/cloudadmin_dashboard.dita:          <li>User Created <p><image href="../../media/horizon/NewUser5.png" id="NewUser5"
+./operations/cloudadmin_dashboard.dita:                href="../../media/horizon/RemoveUser1.png" id="RemoveUser1"/></p></li>
+./operations/cloudadmin_dashboard.dita:                href="../../media/horizon/RemoveUser2.png" id="RemoveUser2"/></p></li>
+./operations/cloudadmin_dashboard.dita:            project <p><image href="../../media/horizon/RemoveUser3.png" id="RemoveUser3"/></p></li>
+./operations/cloudadmin_dashboard.dita:                href="../../media/horizon/RemoveUser4.png" id="RemoveUser4"/></p></li>
+./operations/cloudadmin_dashboard.dita:                href="../../media/horizon/AssignAdmin1.png" id="AssignAdmin1"/></p></li>
+./operations/cloudadmin_dashboard.dita:                href="../../media/horizon/AssignAdmin2.png" id="AssignAdmin2"/></p></li>
+./operations/cloudadmin_dashboard.dita:            the domain admin. <p><image href="../../media/horizon/AssignAdmin3.png"
+./operations/cloudadmin_dashboard.dita:            by clicking them. <p><image href="../../media/horizon/AssignAdmin4.png"
+./operations/cloudadmin_dashboard.dita:                href="../../media/horizon/AssignAdmin5.png" id="AssignAdmin5"/></p>
+./operations/cloudadmin_dashboard.dita:            <p><image href="../../media/horizon/AssignAdmin6.png" id="AssignAdmin6"/></p></li>
+./operations/cloudadmin_dashboard.dita:        <p><image href="../../media/horizon/Quotas-HOS30.png" id="HorizonQuotasHOS30"/></p>
+./operations/cloudadmin_dashboard.dita:        <p><image href="../../media/horizon/SignOut.png" id="SignOut"/></p>
+./operations/compute/using_flavor_metadata.dita:              href="../../../media/hos.docs/operations/flavor_extraspecs_1.png"/></p></li>
+./operations/compute/using_flavor_metadata.dita:              href="../../../media/hos.docs/operations/flavor_extraspecs_2.png"/></p>
+./operations/compute/using_flavor_metadata.dita:              href="../../../media/hos.docs/operations/flavor_extraspecs_3.png"/></p></li>
+./operations/compute/using_flavor_metadata.dita:          click Save: <p><image href="../../../media/hos.docs/operations/flavor_extraspecs_4.png"
+./operations/configuring/identity/identity_benchmark.dita:      <image href="../../../../media/keystone/HOSKeystoneDomain-SpecificBackend.png"
+./operations/configuring/identity/identity_benchmark.dita:        href="../../../../media/keystone/Non-ConcurrentLDAPUserLookup_bars.png"
+./operations/configuring/identity/identity_benchmark.dita:        href="../../../../media/keystone/Non-ConcurrentLdapUserLookup_lines.png"
+./operations/configuring/identity/identity_benchmark.dita:        href="../../../../media/keystone/Non-ConcurrentLdapUserLookup_base_lines.png"
+./operations/configuring/identity/identity_benchmark.dita:      <image placement="break" href="../../../../media/keystone/HOS2_LdapUserLookup_bars.png"
+./operations/configuring/identity/identity_benchmark.dita:      <image href="../../../../media/keystone/HOS2_LdapUserLookup_lines.png" id="image_ggk_15b_r5"/>
+./operations/configuring/identity/identity_benchmark.dita:      <image href="../../../../media/keystone/CPST_Nonconcurrent_barrs.png" id="image_bzm_c3v_q5"
+./operations/configuring/identity/identity_benchmark.dita:      <image href="../../../../media/keystone/CPST_Nonconcurrent_lines.png" id="image_irn_f3v_q5"
+./operations/configuring/identity/identity_benchmark.dita:      <image placement="break" href="../../../../media/keystone/CPST_Concurrent_bars.png"
+./operations/configuring/identity/identity_benchmark.dita:        </p><image placement="break" href="../../../../media/keystone/CPST_Concurrent_lines.png"
+./operations/configuring/identity/identity_benchmark.dita:      <image placement="break" href="../../../../media/keystone/CPST_ImprovementByCache_bars.png"
+./operations/configuring/identity/identity_benchmark.dita:      <image placement="break" href="../../../../media/keystone/CPST_ImprovementByCache_lines.png"
+./operations/configuring/identity/identity_benchmark.dita:      <image placement="break" href="../../../../media/keystone/HOS2_CPST_KPU_bars.png"
+./operations/configuring/identity/identity_benchmark.dita:        href="../../../../media/keystone/HOS2_CPST_KPU_lines.png" id="image_wk4_wqb_r5"/>
+./operations/configuring/identity/keystone_federation.dita:        href="../../../../media/keystone/Keystone-2-Keystone-Sequence-Generic.png"
+./operations/configuring/identity/keystone_token_validation.dita:      href="../../../../media/keystone/KeystoneTokenValidationExample.png" id="image_odp_jf1_4w"  /></section>
+./operations/configuring/identity/keystone_token_validation.dita:    <section><xref href="../../../../media/keystone/KeystoneTokenValidationExample.png" id="img_odp_jf1_4w"  format="html">Download this image</xref></section>
+./operations/configuring/identity/websso.dita:        href="../../../../media/keystone/Keystone-ADFS-WebSSO-Authentication-Sequence.png"
+./operations/integrating_nagios.dita:        <p><image href="../../media/hos.docs/integrations/nagios/nagios_int1.png"/></p>
+./operations/integrating_nagios.dita:        <p><image href="../../media/hos.docs/integrations/nagios/nagios_int2.png"/></p>
+./operations/integrating_nagios.dita:        <p><image href="../../media/hos.docs/integrations/nagios/nagios.png"/></p>
+./operations/integrating_nagios.dita:        <p><image href="../../media/hos.docs/integrations/nagios/nagios_int3.png"/></p>
+./operations/integrating_splunk.dita:              <p><image href="../../media/hos.docs/planning/splunk/configuring_splunk_1.png"
+./operations/integrating_splunk.dita:              href="../../media/hos.docs/planning/splunk/configuring_splunk_2.png"/></p></li>
+./operations/integrating_splunk.dita:              href="../../media/hos.docs/planning/splunk/configuring_splunk_3.png"/></p></li>
+./operations/integrating_splunk.dita:              href="../../media/hos.docs/planning/splunk/configuring_splunk_4.png"/></p></li>
+./operations/integrating_splunk.dita:              href="../../media/hos.docs/planning/splunk/configuring_splunk_5.png"/></p></li>
+./operations/integrating_splunk.dita:              href="../../media/hos.docs/planning/splunk/configuring_splunk_6.png"/></p></li>
+./operations/integrating_splunk.dita:              href="../../media/hos.docs/planning/splunk/configuring_splunk_7.png"/></p></li>
+./operations/integrating_splunk.dita:              href="../../media/hos.docs/planning/splunk/configuring_splunk_8.png"/></p></li>
+./operations/integrating_splunk.dita:              href="../../media/hos.docs/planning/splunk/configuring_splunk_9.png"/></p></li>
+./operations/integrating_splunk.dita:              href="../../media/hos.docs/planning/splunk/configuring_splunk_10.png"/></p></li>
+./operations/integrating_splunk.dita:      <p><image href="../../media/hos.docs/planning/splunk/configuring_splunk_11.png"/></p>
+./operations/maintenance/controller/restart_controller.dita:      <image href="../../../../media/hos.docs/opsconsole_hostalarm.png"/>
+./operations/maintenance/live_migration.dita:                href="../../../media/hos.docs/livemigration1.png"/></p></li>
+./operations/maintenance/live_migration.dita:              not checked.</p><p><image href="../../../media/hos.docs/livemigration2.png"/></p></li>
+./operations/maintenance/vsa/add_vsa_node.dita:            options. <p><image href="../../../../media/vsa/addvsa_cmc1.png"/></p>
+./operations/maintenance/vsa/add_vsa_node.dita:                <p><image href="../../../../media/vsa/addvsa_cmc2.png"/></p></li>
+./operations/maintenance/vsa/add_vsa_node.dita:                href="../../../../media/vsa/addvsa_cmc3.png"/></p></li>
+./operations/maintenance/vsa/add_vsa_node.dita:                href="../../../../media/vsa/addvsa_cmc4.png"/></p></li>
+./operations/maintenance/vsa/add_vsa_node.dita:              <b>Continue</b>. <p><image href="../../../../media/vsa/addvsa_cmc5.png"/></p></li>
+./operations/maintenance/vsa/add_vsa_node.dita:            continue. <p><image href="../../../../media/vsa/addvsa_cmc6.png"/></p></li>
+./operations/maintenance/vsa/add_vsa_node.dita:              Normal</codeph>. <p><image href="../../../../media/vsa/addvsa_cmc7.png"/></p></li>
+./operations/maintenance/vsa/add_vsa_node.dita:                    <p><image href="../../../../media/vsa/addvsa_cmc8.png"/></p></li>
+./operations/maintenance/vsa/add_vsa_node.dita:                    href="../../../../media/vsa/addvsa_cmc9.png"/></p></li>
+./operations/maintenance/vsa/add_vsa_node.dita:                added to the cluster: <p><image href="../../../../media/vsa/addvsa_cmc10.png"
+./operations/managing/managing_quotas.dita:      <p><image href="../../../media/horizon/quotas2.png" id="image_dbh_s3h_1v"/></p>
+./operations/managing_notificationmethods.dita:              href="../../media/hos.docs/opsconsole_createnotificationmethod.png"/></p></li>
+./operations/managing_notificationmethods.dita:              href="../../media/hos.docs/opsconsole_createnotificationmethod1.png"/></p></li>
+./operations/managing_notificationmethods.dita:            href="../../media/hos.docs/opsconsole_createnotificationmethod3.png"
+./operations/managing_notificationmethods.dita:              href="../../media/hos.docs/opsconsole_createnotificationmethod.png"
+./operations/managing_notificationmethods.dita:            href="../../media/hos.docs/opsconsole_createnotificationmethod4.png"/></p></li>
+./operations/managing_notificationmethods.dita:              href="../../media/hos.docs/opsconsole_createnotificationmethod6.png"/></p></li>
+./operations/monitoring/config_mon_notemail.dita:            href="../../../media/opsconsole/OpsConsoleBurgerMenu.png" id="image_sqf_ss2_lx"/></li>
+./operations/monitoring/config_mon_notemail.dita:            href="../../../media/opsconsole/DetailDots.png" id="image_tqf_ss2_lx"/>, and then click
+./operations/monitoring/crt_arch_transform_spark.dita:          <image href="../../../media/monasca/Monasca_Service_Arch_Diagram.png"
+./operations/monitoring/crt_arch_transform_spark.dita:          href="../../../media/networkImages/Mid-Scale-AllNetworks.png" id="midscale"/></p>
+./operations/monitoring/crt_deployment.dita:          href="../../../media/entryScale/Entry-ScaleAllNetworks.png" id="entry_scale_deployment"/></p>
+./operations/monitoring/crt_deployment.dita:        <image href="../../../media/networkImages/Mid-Scale-AllNetworks.png" id="midscale"/></p>
+./operations/monitoring/monitoring_overview.dita:      <p><image placement="break" href="../../../media/monasca_diagram.png"/></p>
+./operations/ops_dashboard_overview.dita:            <image href="../../media/horizon/HelionLogin.png">
+./operations/ops_dashboard_overview.dita:      <p><image href="../../media/horizon/HorizonSystemInfo.png" id="SystemInfo"/></p>
+./operations/ops_dashboard_overview.dita:      <p><image href="../../media/horizon/quotas2.png" id="image_lnv_rb3_ps"/></p>
+./operations/ops_dashboard_overview.dita:      <p><image href="../../media/horizon/routers.png" id="image_kl5_5b3_ps"/></p>
+./operations/ops_dashboard_overview.dita:      </p><p><image href="../../media/horizon/AZ.png" id="image_slz_wb3_ps"/></p>
+./operations/ops_dashboard_overview.dita:      <p><image href="../../media/horizon/hypervisors.png" id="image_jt2_zb3_ps"/></p>
+./operations/ops_dashboard_overview.dita:      <p><image href="../../media/horizon/create_a_record.png" id="image_zfd_cc3_ps"/></p>
+./operations/ops_dashboard_overview.dita:      <p><image href="../../media/horizon/services.png" id="image_d5m_2c3_ps"/></p>
+./operations/ops_dashboard_overview.dita:      <p><image href="../../media/horizon/stacks.png" id="image_lgf_gc3_ps"/></p>
+./operations/ops_dashboard_overview.dita:      <p><image href="../../media/horizon/create_domain.png" id="image_pdf_3c3_ps"/></p>
+./operations/ops_dashboard_overview.dita:      <p><image href="../../media/horizon/HelionDashboardMenusnew1.png" id="image_xdh_gf3_ps"/></p>
+./operations/opsconsole/OpsConsole_manage_swift.dita:                    <image href="../../../media/opsconsole/OpsConsoleBurgerMenu.png"/></li>
+./operations/opsconsole/OpsConsole_manage_swift.dita:            <!--<p><image href="../../../media/opsconsole/ObjStorageSumm1.png"/></p>-->
+./operations/opsconsole/OpsConsole_manage_swift.dita:                    <p><image href="../../../media/opsconsole/ObjStorageSumm2.png"/></p>
+./operations/opsconsole/OpsConsole_manage_swift.dita:             <image href="../../../media/opsconsole/OpsConsoleBurgerMenu.png"/></li>
+./operations/opsconsole/OpsConsole_manage_swift.dita:     <p><image href="../../../media/opsconsole/ObjStorageInventory1.png"/></p>
+./operations/opsconsole/OpsConsole_manage_swift.dita:            <image href="../../../media/opsconsole/OpsConsoleBurgerMenu.png"/></li>
+./operations/opsconsole/OpsConsole_manage_swift.dita:    <p><image href="../../../media/opsconsole/ObjStorageCapacity.png"/></p>
+./operations/opsconsole/OpsConsole_manage_swift.dita:            <image href="../../../media/opsconsole/OpsConsoleBurgerMenu.png"/></li>
+./operations/opsconsole/OpsConsole_manage_swift.dita:    <p><image href="../../../media/opsconsole/OpsConsoleSwiftAlarmSumm.png"/></p>
+./operations/opsconsole/charts.dita:                    <image href="../../../media/opsconsole/OpsConsoleBurgerMenu.png"/></li>
+./operations/opsconsole/charts.dita:                                    <li><image href="../../../media/opsconsole/LineChartIcon.png"/>
+./operations/opsconsole/charts.dita:                                    <li><image href="../../../media/opsconsole/BarChartIcon.png"/>
+./operations/opsconsole/charts.dita:                                    <li><image href="../../../media/opsconsole/StackedBarIcon.png"
+./operations/opsconsole/charts.dita:                                    <li><image href="../../../media/opsconsole/AreaIcon.png"
+./operations/opsconsole/charts.dita:                                    <li><image href="../../../media/opsconsole/AreaStackedIcon.png"
+./operations/opsconsole/charts.dita:            <image href="../../../media/opscon_chart_cinder_totalcap.png"/>
+./operations/opsconsole/charts.dita:            <image href="../../../media/opscon_chart_cinder_totalavail.png"/>
+./operations/opsconsole/en/opsconsole_dashboard.dita:                <image href="../../../../media/opsconsole/OpsConsoleDashboard.png"/>
+./operations/opsconsole/help_opsconsole.dita:      <p><image href="../../../media/opsconsole/OpsConsoleGetHelp.png"/></p>
+./operations/opsconsole/manage_compute_instances.dita:                        <image href="../../../media/opsconsole/OpsConsoleBurgerMenu.png"/></li>
+./operations/opsconsole/manage_compute_instances.dita:                        <image href="../../../media/opsconsole/OpsConsoleBurgerMenu.png"/></li>
+./operations/opsconsole/manage_compute_instances.dita:                        href="../../../media/opsconsole/DetailDots.png"/></li>
+./operations/opsconsole/manage_compute_instances.dita:                        <image href="../../../media/opsconsole/OpsConsoleBurgerMenu.png"/></li>
+./operations/opsconsole/manage_compute_instances.dita:                    click the details button. <image href="../../../media/opsconsole/DetailDots.png"
+./operations/opsconsole/manage_compute_instances.dita:                        <image href="../../../media/opsconsole/OpsConsoleBurgerMenu.png"/></li>
+./operations/opsconsole/manage_compute_instances.dita:                    click the details button. <image href="../../../media/opsconsole/DetailDots.png"
+./operations/opsconsole/metric_monitoring.dita:                                    <li><image href="../../../media/opsconsole/LineChartIcon.png"/>
+./operations/opsconsole/metric_monitoring.dita:                                    <li><image href="../../../media/opsconsole/BarChartIcon.png"/>
+./operations/opsconsole/metric_monitoring.dita:                                    <li><image href="../../../media/opsconsole/StackedBarIcon.png"
+./operations/opsconsole/metric_monitoring.dita:                                    <li><image href="../../../media/opsconsole/AreaIcon.png"
+./operations/opsconsole/metric_monitoring.dita:                                    <li><image href="../../../media/opsconsole/AreaStackedIcon.png"
+./operations/troubleshooting/ts_blockstorage.dita:      <p><image href="../../../media/hos.docs/troubleshooting/cinder_topology.png"/></p>
+./operations/tutorials/integrating_logstash_splunk.dita:                        href="../../../media/hos.docs/planning/splunk/configuring_splunk_1.png"
+./operations/tutorials/integrating_logstash_splunk.dita:                    href="../../../media/hos.docs/planning/splunk/configuring_splunk_2.png"
+./operations/tutorials/integrating_logstash_splunk.dita:                    href="../../../media/hos.docs/planning/splunk/configuring_splunk_3.png"
+./operations/tutorials/integrating_logstash_splunk.dita:                    href="../../../media/hos.docs/planning/splunk/configuring_splunk_4.png"
+./operations/tutorials/integrating_logstash_splunk.dita:                            href="../../../media/hos.docs/planning/splunk/configuring_splunk_5.png"
+./operations/tutorials/integrating_logstash_splunk.dita:                    href="../../../media/hos.docs/planning/splunk/configuring_splunk_6.png"
+./operations/tutorials/integrating_logstash_splunk.dita:                        href="../../../media/hos.docs/planning/splunk/configuring_splunk_7.png"
+./operations/tutorials/integrating_logstash_splunk.dita:                    href="../../../media/hos.docs/planning/splunk/configuring_splunk_8.png"
+./operations/tutorials/integrating_logstash_splunk.dita:                    href="../../../media/hos.docs/planning/splunk/configuring_splunk_9.png"
+./operations/tutorials/integrating_logstash_splunk.dita:                        href="../../../media/hos.docs/planning/splunk/configuring_splunk_10.png"
+./operations/tutorials/integrating_logstash_splunk.dita:            <p><image href="../../../media/hos.docs/planning/splunk/configuring_splunk_11.png"/></p>
+./operations/tutorials/keystone_ldap_integration.dita:                href="../../../media/keystone/KeystoneTokenValidationExample.png"
+./operations/tutorials/keystone_ldap_integration.dita:        <section><xref href="../../../media/keystone/KeystoneTokenValidationExample.png"
+./planning/disk.dita:    <!--<section id="btn1"><image href="../media/diskcalc.png" id="diskcalc"/></section>-->
+./planning/high_availability.dita:        <p><image href="../../media/ha30/ha-resilient-cloud-infrastructure.png"
+./planning/high_availability.dita:      <p><image href="../../media/ha30/HPE_HA_Flow.png" id="ControlPlane1"/></p>
+./planning/high_availability.dita:        <sectiondiv outputclass="rewriteThis"> . <image href="../../media/ha30/HPE_HA_Flow.png"
+./planning/high_availability.dita:          <image href="../../media/ha30/HPE_HA_Flow-1.png" id="image_rw2_wvf_4w" height="700"/><p>1.
+./planning/high_availability.dita:          <image href="../../media/ha30/HPE_HA_Flow-2.png" id="image_r4r_xvf_4w" height="700"
+./planning/high_availability.dita:          <image href="../../media/ha30/HPE_HA_Flow-3.png" id="image_mcf_zvf_4w" height="700"/><p>3.
+./planning/high_availability.dita:          <image href="../../media/ha30/HPE_HA_Flow-4.png" id="image_sxf_bwf_4w" height="700"/><p>4.
+./planning/high_availability.dita:        >../../media/ha30/HPE_HA_Flow.png%../../media/ha30/HPE_HA_Flow-1.png%../../media/ha30/HPE_HA_Flow-2.png%../../media/ha30/HPE_HA_Flow-3.png%../../media/ha30/HPE_HA_Flow-4.png</sectiondiv>
+./planning/high_availability.dita:            href="../../media/ha30/HPE_HA_RequestFlow.png" format="png" scope="local">High
+./planning/high_availability.dita:        <p><image href="../../media/ha30/HPE_HA_NodeFailure1.png" id="ControlPlane3"/></p>
+./planning/high_availability.dita:        <p><image href="../../media/ha30/HPE_HA_NodeFailure2.png" id="ControlPlane4"/></p>
+./planning/high_availability.dita:        <p><image href="../../media/ha30/HPE_HA_MySQLGaleraCluster.png" id="ControlPlane5"/></p>
+./planning/high_availability.dita:              href="../../media/ha30/ha-cinder-volume.png" id="CinderVolume"/></p>
+./planning/high_availability.dita:      <p><image href="../../media/ha30/HPE_HA_Layer-3HA.png" id="Layer3HA"/></p>
+./planning/high_availability.dita:      <p><image href="../../media/ha30/HA_AvailabilityZones_3.png" id="DeploymentZones"/></p>
+./planning/high_availability.dita:      <p><image href="../../media/ha30/ha-block-storage.png" id="BlockStorage"/></p>
+./planning/high_availability.dita:      <p><image href="../../media/ha30/ha-swift.png" id="HA_Swift"/></p>
+./planning/hw_support_diskcalc.dita:        <image href="../../media/DiskCalc1.png" placement="break"/>
+./planning/hw_support_diskcalc.dita:      <p><image href="../../media/DiskCalc2.png" placement="break"/></p>
+./planning/hw_support_diskcalc.dita:      <p><image href="../../media/DiskCalc3.png" placement="break" id="image_cmk_lxc_wv"/></p>
+./security/horizon_ssl_auth.dita:                <image placement="break" href="../../media/security/cert_dn_example.png"
+./security/horizon_ssl_auth.dita:                <image placement="break" href="../../media/security/Horizon-SSL-Keystone.png"
+./upgrade/upgrade_401.dita:                                href="../../media/vsa_upgrade/cmc1.png" id="image_ubn_sjy_sx"
+./upgrade/upgrade_401.dita:                                <b>OK</b>.<p><image href="../../media/vsa_upgrade/cmc2.png"
+./upgrade/upgrade_401.dita:                                href="../../media/vsa_upgrade/cmc3.png" id="image_nj4_5jy_sx"
+./upgrade/upgrade_401.dita:                                sets.<p><image href="../../media/vsa_upgrade/cmc4.png"
+./upgrade/upgrade_401.dita:                                </note><p><image href="../../media/vsa_upgrade/cmc5.png"
+./upgrade/upgrade_401.dita:                                href="../../media/vsa_upgrade/cmc6.png" id="image_rhg_wjy_sx"
+./upgrade/upgrade_401.dita:                                href="../../media/vsa_upgrade/cmc7.png" id="image_azz_wjy_sx"
+./upgrade/upgrade_401.dita:                                href="../../media/vsa_upgrade/cmc-vsa1.png" id="image_xhx_pqy_sx"
+./upgrade/upgrade_401.dita:                        the patch sets.<p><image href="../../media/vsa_upgrade/cmc-vsa4.png"
+./upgrade/upgrade_401.dita:                                                  href="../../media/vsa_upgrade/cmc-software-version.png"
+./userguide/container_service/create_magnum_cluster.dita:        <image href="../../media/horizon/create_cluster.png" height="500"
+./userguide/container_service/create_magnum_cluster_dashboard.dita:            <p><image href="../../../media/horizon/domain_selector.png" id="dashboard_domain_selector"/></p>
+./userguide/container_service/create_magnum_cluster_dashboard.dita:              href="../../../media/horizon/create_cluster_template.png" id="create_cluster_template"/></p>
+./userguide/container_service/create_magnum_cluster_dashboard.dita:            <p><image href="../../../media/horizon/create_cluster_template2.png"
+./userguide/container_service/create_magnum_cluster_dashboard.dita:            <p><image href="../../../media/horizon/create_cluster_template3.png"
+./userguide/container_service/create_magnum_cluster_dashboard.dita:            <p><image href="../../../media/horizon/create_cluster_img1.png" id="create_cluster_img1"/></p>
+./userguide/container_service/create_magnum_cluster_dashboard.dita:            <p><image href="../../../media/horizon/create_cluster_img2.png" id="create_cluster_img2"/></p>
+./userguide/container_service/create_magnum_cluster_dashboard.dita:              href="../../../media/horizon/create_cluster_img3.png" id="create_cluster_img3"/></p>
+./userguide/create_image.dita:                href="../../media/hos.docs/horizon_uploadimage1.png"/></p></li>
+./userguide/create_image.dita:                <p><image href="../../media/hos.docs/horizon_uploadimage2.png"/></p></li>
+./userguide/create_keypair.dita:              href="../../media/hos.docs/create_keypair1.png"/></p></li>
+./userguide/create_keypair.dita:              <p><image href="../../media/hos.docs/create_keypair2.png"/></p></li>
+./userguide/create_keypair.dita:          button: <p><image href="../../media/hos.docs/create_keypair3.png"/></p></li>
+./userguide/create_network.dita:            <p><image href="../../media/networking/create_router30_2.png"/></p>
+./userguide/create_network.dita:            <p><image href="../../media/networking/create_router30_3.png"/></p></li>
+./userguide/create_network.dita:          <p><image href="../../media/networking/create_network30_2.png"/></p>
+./userguide/create_network.dita:          <p><image href="../../media/networking/create_network30_3.png"/></p></li>
+./userguide/create_network.dita:          <p><image href="../../media/networking/create_network30_4.png"/></p></li>
+./userguide/create_network.dita:          <p><image href="../../media/networking/create_network30_5.png"/></p></li>
+./userguide/create_network.dita:                  href="../../media/networking/create_network30_6.png"/></p></li>
+./userguide/create_network.dita:                  href="../../media/networking/create_network30_7.png"/></p></li>
+./userguide/create_network.dita:              <p><image href="../../media/networking/create_network30_8.png"/></p></li>
+./userguide/create_network.dita:              <p><image href="../../media/networking/create_network30_9.png"/></p></li>
+./userguide/create_network.dita:                  href="../../media/networking/create_network30_10.png"/></p></li>
+./userguide/create_network.dita:                  href="../../media/networking/create_network30_11.png"/></p></li>
+./userguide/lbaas_dashboard.dita:            <image href="../../media/horizon/lbaas_panel/Login.png" id="lbass_panel_login"/>
+./userguide/lbaas_dashboard.dita:            <image href="../../media/horizon/lbaas_panel/LoadBalancers1.png" id="load_balancer_1"/>
+./userguide/lbaas_dashboard.dita:            <image href="../../media/horizon/lbaas_panel/LoadBalancers2.png" id="load_balancer_2"/>
+./userguide/lbaas_dashboard.dita:            Load Balancer Listener. <image href="../../media/horizon/lbaas_panel/LoadBalancers3.png"
+./userguide/lbaas_dashboard.dita:              href="../../media/horizon/lbaas_panel/LoadBalancers4.png" id="load_balancer_4"/>
+./userguide/lbaas_dashboard.dita:            <image href="../../media/horizon/lbaas_panel/LoadBalancers5.png" id="load_balancer_5"/>
+./userguide/lbaas_dashboard.dita:            <image href="../../media/horizon/lbaas_panel/LoadBalancers6.png" id="load_balancer_6"/>
+./userguide/lbaas_dashboard.dita:            <image href="../../media/horizon/lbaas_panel/LoadBalancers7.png" id="load_balancer_7"/>
+./userguide/lbaas_dashboard.dita:            <image href="../../media/horizon/lbaas_panel/LoadBalancers8.png" id="load_balancer_8"/>
+./userguide/user_dashboard_overview.dita:            <image href="../../media/horizon/HelionLogin.png"/>
+./userguide/user_dashboard_overview.dita:      <p><image href="../../media/horizon/HorizonSystemInfo.png" id="SystemInfo"/></p>
+./userguide/user_dashboard_overview.dita:      <p><image href="../../media/horizon/quotas2.png" id="image_lnv_rb3_ps"/></p>
+./userguide/user_dashboard_overview.dita:      <p><image href="../../media/horizon/routers.png" id="image_kl5_5b3_ps"/></p>
+./userguide/user_dashboard_overview.dita:      </p><p><image href="../../media/horizon/AZ.png" id="image_slz_wb3_ps"/></p>
+./userguide/user_dashboard_overview.dita:      <p><image href="../../media/horizon/hypervisors.png" id="image_jt2_zb3_ps"/></p>
+./userguide/user_dashboard_overview.dita:      <p><image href="../../media/horizon/create_a_record.png" id="image_zfd_cc3_ps"/></p>
+./userguide/user_dashboard_overview.dita:      <p><image href="../../media/horizon/services.png" id="image_d5m_2c3_ps"/></p>
+./userguide/user_dashboard_overview.dita:      <p><image href="../../media/horizon/stacks.png" id="image_lgf_gc3_ps"/></p>
+./userguide/user_dashboard_overview.dita:      <p><image href="../../media/horizon/create_domain.png" id="image_pdf_3c3_ps"/></p>
+./userguide/user_dashboard_overview.dita:      <p><image href="../../media/horizon/HelionDashboardMenusnew1.png" id="image_xdh_gf3_ps"/></p>
+./userguide/user_dashboard_overview.dita:          <image href="../../media/horizon/VNIC-Types.png" id="VNICTypes"/></p>
+./monitoring/config_mon_notemail.dita:            href="../../../media/opsconsole/OpsConsoleBurgerMenu.png" id="image_sqf_ss2_lx"/></li>
+./monitoring/config_mon_notemail.dita:            href="../../../media/opsconsole/DetailDots.png" id="image_tqf_ss2_lx"/>, and then click
+./monitoring/crt_arch_transform_spark.dita:          <image href="../../../media/monasca/Monasca_Service_Arch_Diagram.png"
+./monitoring/crt_arch_transform_spark.dita:          href="../../../media/networkImages/Mid-Scale-AllNetworks.png" id="midscale"/></p>
+./monitoring/crt_deployment.dita:          href="../../../media/entryScale/Entry-ScaleAllNetworks.png" id="entry_scale_deployment"/></p>
+./monitoring/crt_deployment.dita:        <image href="../../../media/networkImages/Mid-Scale-AllNetworks.png" id="midscale"/></p>
+./monitoring/monitoring_overview.dita:      <p><image placement="break" href="../../../media/monasca_diagram.png"/></p>
+./managing_quotas.dita:      <p><image href="../../../media/horizon/quotas2.png" id="image_dbh_s3h_1v"/></p>

@@ -1,0 +1,55 @@
+Carter meeting 2017/11/13
+
+jenkins
+15.184.4.11:8080
+continuous integration
+
+need to check disk space
+set jenkins 
+
+execute shell; DITA xml > HTML; CSS, JS. These don't matter.
+some things are painful to deal with
+
+dev build page
+
+dev: build any branch hos docs 
+only interesting helion open stack
+don't worry about others
+
+build looks at changes in github
+automatic when change to repo and committed
+when built, they go to staging not visible to anyone else
+
+commit, look at staging server, if everything look good then promote
+User: clouddocs
+Password: ****
+in menu
+
+hos.docs-hos-50-HOS.ditaval
+
+click on link to see page
+
+promoted
+
+published; pub move to new production
+
+tools is a separate repo in build screen
+HOS5 > Cloud 8; doesn't contain tools 
+
+post-build actions
+
+SUSE doc team
+didn't use Jenkins
+wouldn't it be cool if we had CI
+
+SUSE seems to have
+bash shell scripts
+
+
+to look at promoted
+ 15.184.4.11:9095 same uname & pwd
+
+stage to see if everything looks right, then do promoted to see all of the 
+documentation all together
+staging - individual documents
+promoted - everything integrated

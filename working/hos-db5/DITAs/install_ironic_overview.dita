@@ -1,0 +1,12 @@
+<topic id="install_ironic_overview">
+    <title>Installing Baremetal (Ironic)</title>
+    <body><!--not tested-->
+        <section>
+            <title>Overview</title>
+            <sectiondiv id="ironic_overview">
+                <p>Bare Metal as a Service is enabled in this release for deployment of nova instances 
+                    on bare metal nodes using flat networking. HPE DL and SL line of servers are supported.</p>
+            </sectiondiv>
+        </section>
+    </body>
+</topic> 

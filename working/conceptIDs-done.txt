@@ -1,0 +1,64 @@
+./helion/operations/opsconsole/en/compute_hosts.dita:<concept id="compute_hosts">
+./helion/operations/opsconsole/ja/compute_hosts.dita:<concept id="compute_hosts">
+./helion/operations/opsconsole/zh/compute_hosts.dita:<concept id="compute_hosts">
+./helion/operations/opsconsole/opsconsole.ditamap: <topicref href="en/compute_hosts.dita" toc="no"/>
+./helion/operations/opsconsole/opsconsole.ditamap: <topicref href="ja/compute_hosts.dita" toc="no"/>
+./helion/operations/opsconsole/opsconsole.ditamap: <topicref href="zh/compute_hosts.dita" toc="no"/>
+./opsconsoleOrganization.txt:en/compute_hosts.dita" toc="no"/>
+./opsconsoleOrganization.txt:ja/compute_hosts.dita" toc="no"/>
+./opsconsoleOrganization.txt:zh/compute_hosts.dita" toc="no"/>
+./3lineIntroDITAs/compute_hosts.dita:<concept id="compute_hosts">
+./opsconsole.ditamap: <topicref href="en/compute_hosts.dita" toc="no"/>
+./opsconsole.ditamap: <topicref href="ja/compute_hosts.dita" toc="no"/>
+./opsconsole.ditamap: <topicref href="zh/compute_hosts.dita" toc="no"/>
+./helion/operations/opsconsole/en/compute_instances.dita:<concept id="compute_instances">
+./helion/operations/opsconsole/ja/compute_instances.dita:<concept id="compute_instances">
+./helion/operations/opsconsole/zh/compute_instances.dita:<concept id="compute_instances">
+./helion/operations/opsconsole/manage_compute_instances.dita:<topic id="manage_compute_instances">
+./helion/operations/opsconsole/manage_compute_instances.dita:            <li><xref type="section" href="#manage_compute_instances/ops_create_hosts">Create a
+./helion/operations/opsconsole/manage_compute_instances.dita:            <li><xref type="section" href="#manage_compute_instances/ops_deactivate">Deactivate a
+./helion/operations/opsconsole/manage_compute_instances.dita:            <li><xref type="section" href="#manage_compute_instances/ops_activate">Activate a
+./helion/operations/opsconsole/manage_compute_instances.dita:            <li><xref type="section" href="#manage_compute_instances/ops_delete">Delete a Compute
+./helion/operations/opsconsole/opsconsole.ditamap: <topicref href="manage_compute_instances.dita" toc="no"/>
+./helion/operations/opsconsole/opsconsole.ditamap: <topicref href="en/compute_instances.dita" toc="no"/>
+./helion/operations/opsconsole/opsconsole.ditamap: <topicref href="ja/compute_instances.dita" toc="no"/>
+./helion/operations/opsconsole/opsconsole.ditamap: <topicref href="zh/compute_instances.dita" toc="no"/>
+./helion/operations/opsconsole_overview.dita:            <li><xref href="opsconsole/manage_compute_instances.dita">Compute Instances</xref></li>
+./helion/userguide/userguide.ditamap:    <topicref href="../operations/opsconsole/manage_compute_instances.dita"
+./helion/hdTpngs.txt:./operations/opsconsole/manage_compute_instances.dita
+./userguideOrganization.txt:    <topicref href="../operations/opsconsole/manage_compute_instances.dita"
+./opsconsoleOrganization.txt: <topicref href="manage_compute_instances.dita" toc="no"/>
+./opsconsoleOrganization.txt:en/compute_instances.dita" toc="no"/>
+./opsconsoleOrganization.txt:ja/compute_instances.dita" toc="no"/>
+./opsconsoleOrganization.txt:zh/compute_instances.dita" toc="no"/>
+./3lineIntroDITAs/compute_instances.dita:<concept id="compute_instances">
+./3lineIntroDITAs/manage_compute_instances.dita:<topic id="manage_compute_instances">
+./3lineIntroDITAs/manage_compute_instances.dita:            <li><xref type="section" href="#manage_compute_instances/ops_create_hosts">Create a
+./3lineIntroDITAs/manage_compute_instances.dita:            <li><xref type="section" href="#manage_compute_instances/ops_deactivate">Deactivate a
+./3lineIntroDITAs/manage_compute_instances.dita:            <li><xref type="section" href="#manage_compute_instances/ops_activate">Activate a
+./3lineIntroDITAs/manage_compute_instances.dita:            <li><xref type="section" href="#manage_compute_instances/ops_delete">Delete a Compute
+./3lineIntroDITAs/opsconsole_overview.dita:            <li><xref href="opsconsole/manage_compute_instances.dita">Compute Instances</xref></li>
+./opsconsole.ditamap: <topicref href="manage_compute_instances.dita" toc="no"/>
+./opsconsole.ditamap: <topicref href="en/compute_instances.dita" toc="no"/>
+./opsconsole.ditamap: <topicref href="ja/compute_instances.dita" toc="no"/>
+./opsconsole.ditamap: <topicref href="zh/compute_instances.dita" toc="no"/>
+./userguide.ditamap:    <topicref href="../operations/opsconsole/manage_compute_instances.dita"
+./documentorganization.txt:                        href="helion/operations/opsconsole/using_opsconsole.html#manage_compute_instances">HPE Helion OpenStack  5.0: Managing Compute Hosts</a></li>
+./helion/operations/opsconsole/opsconsole.ditamap: <topicref href="en/compute_summary.dita" toc="no"/>
+./helion/operations/opsconsole/opsconsole.ditamap: <topicref href="ja/compute_summary.dita" toc="no"/>
+./helion/operations/opsconsole/opsconsole.ditamap: <topicref href="zh/compute_summary.dita" toc="no"/>
+./opsconsoleOrganization.txt:en/compute_summary.dita" toc="no"/>
+./opsconsoleOrganization.txt:ja/compute_summary.dita" toc="no"/>
+./opsconsoleOrganization.txt:zh/compute_summary.dita" toc="no"/>
+./opsconsole.ditamap: <topicref href="en/compute_summary.dita" toc="no"/>
+./opsconsole.ditamap: <topicref href="ja/compute_summary.dita" toc="no"/>
+./opsconsole.ditamap: <topicref href="zh/compute_summary.dita" toc="no"/>
+./helion/operations/opsconsole/opsconsole.ditamap: <topicref href="en/networking_summary.dita" toc="no"/>
+./helion/operations/opsconsole/opsconsole.ditamap: <topicref href="ja/networking_summary.dita" toc="no"/>
+./helion/operations/opsconsole/opsconsole.ditamap: <topicref href="zh/networking_summary.dita" toc="no"/>
+./opsconsoleOrganization.txt:en/networking_summary.dita" toc="no"/>
+./opsconsoleOrganization.txt:ja/networking_summary.dita" toc="no"/>
+./opsconsoleOrganization.txt:zh/networking_summary.dita" toc="no"/>
+./opsconsole.ditamap: <topicref href="en/networking_summary.dita" toc="no"/>
+./opsconsole.ditamap: <topicref href="ja/networking_summary.dita" toc="no"/>
+./opsconsole.ditamap: <topicref href="zh/networking_summary.dita" toc="no"/>

@@ -1,0 +1,10 @@
+<topic id="mon">
+  <title><ph conkeyref="HOS-conrefs/product-title"/>Monitoring</title>
+  <abstract><shortdesc>The <keyword keyref="kw-hos"/> Monitoring service leverages OpenStack
+      Monasca, which is a multi-tenant, scalable, fault tolerant monitoring
+    service.</shortdesc></abstract>
+  <body>
+    <p/>
+
+  </body>
+</topic>

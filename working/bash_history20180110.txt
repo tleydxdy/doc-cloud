@@ -1,0 +1,383 @@
+git clone https://github.com/csymons-suse/hos.docs.git
+cd hos.docs/
+git config user.email "csymons@suse.com"
+git config user.email
+git config user.name
+git remote -v
+git remote add upstream https://github.com/hphelion/hos.docs.git
+git remote -v
+git fetch upstream
+git checkout master
+git status
+git status
+sudo ./anyconnect-linux64-4.4.03034-core-vpn-webdeploy-k9.sh 
+git merge upstream/hos-50
+git config user.email "csymons@suse.com"
+sudo zypper in Downloads/rocketchat-2.9.0.x86_64.rpm
+cd openconnect/
+sudo nano SUSE.conf.PRV
+systemctl start openvpn@SUSE-PRV.service
+sudo systemctl start openvpn@SUSE-PRV.service
+sudo systemctl  status openvpn@SUSE-PRV.service
+systemctl start openvpn@SUSE-PRV.service
+sudo openvpn --config SUSE.conf.PRV
+cd /etc/openvpn/
+sudo mv /home/carl/Downloads/openvpn-csymons.tgz .
+sudo openvpn --config /etc/openvpn/SUSE.conf.PRV
+sudo openvpn --config SUSE.conf.PRV 
+sudo openvpn --config SUSE.conf.NUE 
+sudo openvpn --config SUSE.conf.PRG
+sudo nano SUSE.conf.PRG
+sudo nano SUSE.conf.NUE
+sudo openvpn --help
+sudo cp SUSE.conf.NUE SUSE-NUE.conf
+sudo cp SUSE.conf.PRG SUSE-PRG.conf
+sudo cp SUSE.conf.PRV SUSE-PRV.conf
+sudo systemctl  status openvpn@SUSE-PRV.service
+sudo zypper in ca-certificates-sus
+sudo zypper ar http://download.suse.de/ibs/SUSE:/CA/openSUSE_Tumbleweed/ SUSE-CA
+sudo zypper addrepo --ref http://download.suse.de/ibs/SUSE:/CA/openSUSE_Tumbleweed/SUSE:CA.repo
+sudo zypper install ca-certificates-suse
+sudo zypper in p11-kit-nss-trust
+sudo systemctl status openvpn@SUSE-PRV.service
+sudo openvpn --config /etc/openvpn/SUSE.conf.PRV 
+sudo systemctl status openvpn@SUSE-PRV.service
+sudo zypper are -f http://download.opensuse.org/repositories/Documentation:Tools/openSUSE_Tumbleweed/ Docs
+sudo zypper ar -f http://download.opensuse.org/repositories/Documentation:Tools/openSUSE_Tumbleweed/ Docs
+sudo zypper in --recommends --from Documentation:Tools daps
+grep -rl "conref" /home/carl/soc/hos.docs/
+grep -rl "conref" /home/carl/soc/hos.docs/ > ../hos-docs_conrefs.txt
+grep -rl "conref" ./ > ../hos-docs_conrefs_noPath.txt
+grep -rl "conref" ../hos.docs/ > ../hos-docs_conrefs_soc.txt
+grep -r "conref" ../hos.docs/ > ../hos-docs_conrefs_soc_lines.txt
+daps-init --docdir recipe -r article
+nano DC-recipe
+cat overview-about-c-about.xml 
+grep -rl "prod-descr-short" ./
+sudo nano /etc/resolv.conf.public
+sudo nano /etc/resolv.conf.SUSE
+cd /etc/openvpn/
+sudo nano client.up 
+sudo nano client.down 
+openvpn --config
+sudo openvpn --config
+sudo openvpn --config /etc/openvpn/SUSE.conf.NUE 
+cat /etc/resolv.conf
+sudo systemctl start openvpn@SUSE-PRV.service
+daps-init --docdir recipe -r article
+git clone https://github.com/csymons-suse/hos.docs.git
+git remote -v
+git remote add upstream https://github.com/hphelion/hos.docs.git
+git remote -v
+git fetch upstream
+git merge upstream/hos-50
+git commit -m "minor change to trigger new build"
+git push origin upstream/hos-50
+git reset --soft HEAD~1
+git push origin HEAD:https://github.com/csymons-suse/hos.docs
+git push origin HEAD:hos.docs
+git push origin master
+git push origin HEAD:hos-50
+git fetch --all
+git reset --hard origin upstream/hos-50 
+git reset --hard origin hos-50 
+git reset --hard origin master
+git reset --hard origin
+git push origin HEAD:hos-50
+git push origin hos-50
+git push origin HEAD:hos-50
+git fetch -p origin
+git add helion/overview.dita 
+git commit -m "minor change--add acronym--to trigger experiemental build"
+git push origin HEAD:hos-50
+git push origin
+remote -v
+git remote -v
+git fetch origin upstream/hos-50
+git fetch origin ho-50
+git fetch origin hos-50
+git checkout hos-50
+git checkout upstream/hos-50
+git merge upstream/hos-50
+nano helion/overview.dita 
+git add helion/overview.dita 
+git commit -m "minor change; add acronym"
+git push origin hos-50
+git push origin HEAD:hos-50
+git clone https://github.com/csymons-suse/xml-vim.git
+sudo zypper in Downloads/rocketchat-2.10.1.x86_64.rpm
+git clone https://github.com/csymons-suse/doc-cloud.git
+git remote add upstream https://github.com/SUSE-Cloud/doc-cloud.git
+git remote -v
+git fetch upstream
+git merge upstream/master
+git fetch upstream
+git clone https://github.com/csymons-suse/doc-cloud.git
+git remote add upstream https://github.com/SUSE-Cloud/doc-cloud.git
+git merge upstream/develop
+grep -r "conref" ./
+grep -r "conref" ./ > ../../helion-conref_lines.txt
+grep -rl "conref" ./ > ../../helion_png-list.txt
+grep -rl "png" ./ > ../png-list.txt
+grep -r "*.png" ./ > ../../png-list.txt
+grep -r "png" ./ > ../../png-list.txt
+grep -rl "png" ./ > ../../png-list.txt
+grep -rl "png" ./ > png-list.txt
+cat png-list.txt 
+grep -rl "png" .
+cd /usr/share/xml/docbook/stylesheet/
+rpm -qi libmodman1 libproxy1
+sudo rpm -Uvh --force ./libmodman1-2.0.1-17.9.x86_64.rpm
+sudo zypper al ibus-gtk3 ibus-gtk-32bit intlfonts
+sudo zypper se -si --recommends texlive-yax
+sudo zypper dup --no-allow-vendor-change --no-recommends
+sudo /sbin/vboxconfig
+sudo journalctl
+journalctl | tail
+journalctl
+sudo zypper in rsyslog
+git clone https://github.com/sknorr/dietrich.git
+../dietrich/dietrich ../hos.docs/docs.hpcloud.com.HOS.ditamap 
+../dietrich/dietrich ../hos.docs/docs.hpcloud.com.HOS.1.0.ditamap 
+./dietrich ../hos.docs/docs.hpcloud.com.HOS.ditamap 
+./dietrich ../hos.docs/docs.hpcloud.com.HOS.ditamap -v
+./dietrich ../hos.docs/docs.hpcloud.com.HOS.1.0.ditamap 
+./dietrich --help
+git clone https://github.com/taroth21/cmm-documentation.git
+diff overview-overview-about-c-about.xml ../../overview/about/c-about.xml 
+cd SUSE/SUSE-HPE_GitHubDocs/dietrich/./dietrich ../cmm-documentation/DocSources/cluster.ditamap
+cd SUSE/SUSE-HPE_GitHubDocs/dietrich/
+./dietrich ../cmm-documentation/DocSources/cluster.ditamap
+cd ../cmm-documentation/DocSources/converted/
+sudo zypper dup --no-allow-vendor-change --no-recommends
+sudo nano 60-vboxdrv.rules 
+journalctl -r
+sudo zypper in geekodoc novdoc
+dirname `locate pam_unix.so`
+locate pam_unix.so
+cat DC-cluster 
+daps -d DC-cluster html
+ln -s /home/carl/SUSE/SUSE-HPE_GitHubDocs/dietrich/dietrich 
+dietrich -v cluster.ditamap
+dietrich -v overview.ditamap 
+jing
+sudo tmpwatch  -t 30d  /tmp/
+ls -acl
+coredumpctl -r
+sudo bin/puPRV.sh 
+git fetch origin
+git pull
+git status
+mv hos.docs/ hos-50.docs/
+git clone -b hos50-cloud8 --single-branch https://github.com/csymons-suse/hos.docs.git
+nano dita2docbook_template.xsl 
+git reset --hard HEAD
+git pull
+git clone https://github.com/dita-ot/org.dita.docbook.git
+cd /usr/share/xml/docbook/stylesheet/
+git clone -b develop --single-branch https://github.com/SUSE-Cloud/doc-cloud.git
+cd SUSE/SUSE_Cloud/HOS2SOC-conversion/HOS-dietrich/
+dietrich introduction.ditamap
+git pull origin master
+cd HOS-dietrich/
+rm -rf converted/
+cd HOS2SOC-conversion/
+cd HOS-dietrich/
+cd converted/
+cat introduction-introduction-tech_overview_ataglance.dita 
+cd HOS-dietrichSimple/
+xmlcatalog /etc/xml/catalog   "http://docbook.org/xml/5.0/rng/docbookxi.rng"
+xmlcatalog /etc/xml/catalog "http://docbook.org/xml/5.0/rng/docbookxi.rng"
+xmlcatalog /etc/xml/catalog "http://docbook.org/xml/5.1/rng/docbookxi.rng"
+xmlcatalog /etc/xml/catalog "http://docbook.org/xml/5.1/rng/assembly.rng"
+daps-xmlformat DC-docshpcloudcomHOS 
+sudo update-alternatives --install /usr/bin/java java /usr/local/java/jdk-9.0.1/bin/java 1
+sudo update-alternatives --install /usr/bin/javac javac /usr/local/java/jdk-9.0.1/bin/javac 1
+sudo update-alternatives --config java
+sudo update-alternatives --config javac
+source /etc/profile
+sudo zypper se --repo "devel:tools:scm" git-flow-avh
+git flow version
+git checkout git@github.com:SUSE-Cloud/doc-cloud.git
+git checkout https://github.com/SUSE-Cloud/doc-cloud.git
+git clone git@github.com:SUSE-Cloud/doc-cloud.git
+git checkout master
+git flow init -d
+git checkout develop
+$ git flow feature start hos-doc
+git flow feature start hos-doc
+git branch
+daps -d docshpcloudcomHOS-helion-index.dita validate
+mv docshpcloudcomHOS-helion-index.dita docshpcloudcomHOS-helion-index.xml
+cd SUSE/SUSE-HPE_GitHubDocs/hos.docs
+git fetch origin
+git reset --hard origin/hos-50
+git clone -b hos-50 --single-branch https://github.com/hphelion/hos.docs.git
+cd SUSE/SUSE-HPE_DAPS/example/recipe/xml
+less MAIN-daps-example.xml 
+cat id_rsa.pub 
+ssh-keygen -t rsa -b 4096 -C "csymons@suse.com"
+nano sshkeyinfo.txt
+ssh carl@104.236.141.72
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+git branch
+git status
+git push --set-upstream origin feature/hos-docs
+git log
+git show
+git branch
+git clone git@github.com:SUSE-Cloud/doc-cloud.git doc-cloud-2
+cd doc-cloud-2/
+git flow feature start hos-doc
+git flow init
+git flow init -d
+git config user.email
+git checkout develop
+git checkout -b feature/hos-docs
+git branch
+git push --set-upstream origin feature/hos-docs
+git push --set-upstream origin feature/hos-docs
+git config --global user.email 'csymons@suse.com'
+git push --set-upstream origin feature/hos-docs
+git config user.name
+git config --global user.name 'cymons'
+git config --global user.name 'csymons'
+git config --global user.name 'csymons-suse'
+git remote add origin-https https://github.com/SUSE-Cloud/doc-cloud.git
+git push --set-upstream origin-https feature/hos-docs
+git commit
+git push
+git show
+git pull -r
+./build-dita helion/planning/planning.ditamap 
+./build-dita.sh helion/planning/planning.ditamap 
+./build-dita.sh ~/SUSE/SUSE-HPE_GitHubDocs/cmm-documentation/DocSources/overview.ditamap 
+./build-dita.sh ~/SUSE/SUSE-HPE_GitHubDocs/cmm-documentation/DocSources/overview.ditamap 
+./build-dita helion/planning/planning.ditamap 
+./build-dita.sh helion/planning/planning.ditamap 
+ln -f -s ~/Downloads/dita-ot-2.5.4/bin/dita ~/bin/dita
+./build-dita.sh docshpcloudcomHOS.ditamap 
+git pull -r
+git flow init -d
+git branch
+mkdir hosSOCdocs
+git clone -b hos-docs-rename --single-branch git@github.com:SUSE-Cloud/doc-cloud.git hosSOCdocs
+git clone -b feature/hos-docs-rename --single-branch git@github.com:SUSE-Cloud/doc-cloud.git hosSOCdocs
+diff hosdocs/ hosSOCdocs/
+git clone -b feature/hos-docs --single-branch git@github.com:SUSE-Cloud/doc-cloud.git hosdocs
+mv hosSOCdocs/ hos-docs-rename
+./build-dita.sh docshpcloudcomHOS.ditamap 
+ln -s /home/carl/SUSE/SUSE-HPE_GitHubDocs/old-dietrich/dietrich ./olddietrich
+olddietrich introductionCGS.ditamap 
+~/bin/olddietrich overview.ditamap 
+git clone https://github.com/sknorr/dietrich.git old-dietrich
+git log
+ll /usr/share/xml/dita/schema/dtd/1.1/
+grep -rl "png" . > helionPNGS.txt
+sudo update-alternatives --config javac
+cd freeplane-1.6.12-pre02/
+./freeplane.sh 
+cd freeplane/
+./freeplane.sh 
+nano auto.properties 
+./freeplane.sh 
+sudo update-alternatives --config java
+sudo update-alternatives --config javac
+java -jar knopflerfish_osgi_sdk_6.1.2.jar 
+source /etc/profile
+sudo update-alternatives --config java
+daps-init
+~/fop/fop-2.0/fop -fo helion-barbican-features-TRIAL-fop_color.fo -pdf samplev2.pdf 
+./fop ~/SUSE/working/wip-docs/build/.tmp/helion-barbican-featuresCHAPTER-fop_color_en.fo
+dietrich docshpcloudcomHOS.ditamap 
+dietrich planning.ditamap 
+grep -rl "png" . > SOC-PNGs.txt
+grep -rl "dia" .
+grep -rl ".dia" .
+grep -rl ".jpg" .
+grep -rl ".PNG" .
+grep -rl "<xref keyref=" .
+grep -rln "<xref keyref=" .
+grep -rl -n "<xref keyref=" .
+grep -rn "<xref keyref=" .
+grep -rl "<xref keyref=" .
+grep -rl "<xref keyref=" . > xref-keyrefs.txt
+grep -rl "<xref keyref=" . > ../xref-keyrefs.txt
+grep -rl "<topic id" .
+grep -rl "<topic id" . > topicid.txt
+grep -rl "<section id" .
+grep -rl "<section id" . >sectionid.txt
+grep -rl "<topic id" .
+grep -rl "<topic id" . > topicid.txt
+grep -rl "<section id" . > sectionid.txt
+grep -rl "<topic id" . > ../topicid.txt
+grep -rl "<section id" . > ../sectionid.txt
+grep -rl "<codeblock id=" . > codeblockid.txt
+grep -rl "<table(?*) id=" .
+grep -rl "<table (?*) id=" .
+cd hos.docsTrimmed/
+grep -rl "png" .
+grep -rl "png" . > hdTpngs.txt
+grep -r "<\!DOCTYPE" .
+grep -r "<\!DOCTYPE" . > doctypes.txt
+grep -r "<\!DOCTYPE" . > DITAdocutypes.txt
+diff DITAdocutypes.txt doctypes.txt 
+grep -r "<\!DOCTYPE" ./helion > alldocument-types.txt
+grep -r "<\!DOCTYPE topic" ./helion > topic-document-types.txt
+grep -r "<\!DOCTYPE.topic" ./helion > topic-document-types.txt
+grep -r "\.png" > pngreferenceshelion.txt
+grep -r "\.png" . > pngreferenceshelion.txt
+grep -r "conkey ref=\"HOS-conrefs" .
+grep -r "conkey" .
+grep -r "HOS-conrefs" ./helion > hosconrefs.txt
+grep -i "\.png" DocsAndImages.html > /home/carl/SUSE/working/hos.docsTrimmed/DocsImagesHTML-PNGs.txt
+grep -i "\.dita" ../HOS2SOC-conversion/DocsAndImages.html > /home/carl/SUSE/working/hos.docsTrimmed/DocsImagesHTML-DITAS.txt
+cd play-bash-sed/
+grep -rl "Edit status: not edited" .
+grep -rl "Edit status: not edited" . > editstatus-notedited.txt
+cd hdTcons-dita-editstatus_notedited-3lineheaders/
+grep -i "Edit status" .
+grep -ir "Edit status" . > typesofeditmsgs.txt
+grep -ir "Edit status" ./hdTcons-dita-editstatus_notedited-3lineheaders/ > typesofeditmsgs.txt
+grep -i "\.dita" docs.hpcloud.com.HOS.ditamap 
+grep -i "\.top-level-map" docs.hpcloud.com.HOS.ditamap 
+grep -i "\.ditamap" docs.hpcloud.com.HOS.ditamap 
+grep -i "dita" ./documentorganizationDITAsLevel1.txt > L1ditas.txt
+grep -i "dita" ./installationOrganization.txt > installditas.txt
+grep -i "dita" ./operationsOrganization.txt > operationditas.txt
+grep -i "dita" ./opsconsoleOrganization.txt > opsconsoleditas.txt
+grep -i "dita" ./planningOrganization.txt > planningditas.txt
+grep -i "dita" ./upgradeOrganization.txt > upgradeditas.txt
+grep -i "dita" ./userguideOrganization.txt > userguideditas.txt
+cat upgrade_ceph-rados.dita 
+../deletefirst3lines.sh 
+../DB5HdrAddLines.sh 
+less ditamaps.txt 
+grep -ir "dita" helion/ > totalditas.txt 
+find ./ -iname '*.dita*'
+find allDITAs/ -iname '*.dita*' > ../analysisv2/allDITAs.txt
+cat YMLsArch-ExampleIronic.txt 
+grep -rl "\.png"
+grep -rl "\.png" > ../../../working/DITAswithimages.txt
+grep -r "<topic.*id" . > ../2lineDITAstopicid.txt
+grep -r "<topic.*id" . > ../3lineDITAstopicid.txt
+grep -r "<concept.*id" .
+grep -r "<concept.*id" . > ../DITAsConceptID.txt
+grep -r "<concept.*id" .
+sudo find / -name '*concept.dtd*'
+rsync -avn SUSE/working/ /run/media/carl/Lexar/backups/20180107/
+rsync -av SUSE/working/ /run/media/carl/Lexar/backups/20180107/
+mkdir hos-db5
+cp -R images/ ../hos-db5/
+cp -R 2lineIntroDITAs/ ../hos-db5/
+cp -R 3lineIntroDITAs/ ../hos-db5/
+./xxe
+ln -s ../xmlmind/xbe-perso-7_6_0/bin/xxe xxe
+./startcmd.sh &
+grep -rl 'outputclass' /
+grep -r '<topic id' .
+grep -r '<topic id' . > ../all_topicid0109.txt
+~/SUSE/working/sandbox/deletefirst2lines.sh 
+rm -f *.bak
+~/SUSE/working/sandbox/deletefirst3lines.sh 

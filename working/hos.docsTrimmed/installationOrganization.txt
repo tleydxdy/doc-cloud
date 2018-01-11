@@ -1,0 +1,269 @@
+  <!-- BEGIN - INSTALLATION -->
+  installation_overview.dita
+  
+    preinstall_overview.dita
+
+      preinstall_checklist.dita
+      
+        sles/sles_preinstall.dita
+        
+        rhel/rhel_preinstall.dita
+
+      using_git.dita
+      
+      multipath_boot_from_san.dita
+
+      networking/l2gw5930.dita
+
+    cloudinstallation_overview.dita
+
+      gui_installer.dita
+      
+      <!--../carrier_grade/Installing_small_scale_S1_KVM_with_VSA_in_single-region.dita"
+        navtitle="Installing Small Scale (S1) KVM with VSA in Single Region" locktitle="yes"
+        product="CG"/>
+
+      carrier_grade/Sample-activationtemplate-json-File-for-ESX-Compute.dita
+      
+      carrier_grade/Instructions-to-update-input-model.dita
+      
+        href="../carrier_grade/Installing_small_scale_S1_KVM_and_ESX_with_VSA_in_multi-region.dita"
+        navtitle="Installing Small Scale (S1) KVM and ESX with VSA in Multi-Region" locktitle="yes"
+        product="CG"/>
+      carrier_grade/Installing_medium_scale_M1_with_CEPH_in_single-region.dita"
+        navtitle="Installing Medium Scale (M1) with Ceph in Single Region" locktitle="yes"
+        product="CG"/>-->
+      
+      <!-- DESIGNATE INSTALLATION -->
+      designate/designate_install_overview.dita
+        
+        designate/install_designate_PowerDNS.dita
+        
+        designate/install_designate_BIND.dita
+        
+        <!-- DOCS-3782 - adding PowerDNS & BIND, removing Akamai and DynECT.  -->
+        <!--
+        designate/install_designate_Akamai.dita" navtitle="DNS Service with Akamai"
+          locktitle="yes" toc="no" keys="install_designate_akamai"/>
+        designate/install_designate_DynECT.dita" navtitle="DNS Service with DynECT"
+          locktitle="yes" toc="no" keys="install_designate_dynect"/>
+        -->
+        
+        designate/install_designate_InfoBlox.dita
+        
+        designate/designate_cfg_dns_ns.dita
+
+      <!-- MAGNUM INSTALLATION -->
+      magnum/magnum_overview.dita      
+                
+        magnum/magnum_architecture.dita
+        
+        magnum/magnum_install.dita
+        
+        magnum/magnum_integrate_dns.dita
+
+      <!--install_entryscale_kvm_overview.dita" navtitle="KVM" locktitle="yes"
+        keys="install_entryscale_kvm_overview" otherprops="installentryscalekvm">-->
+
+      installing_kvm.dita
+
+      <!--installation_verification.dita" navtitle="Verifying Your Installation"
+        locktitle="yes"/>-->
+
+      <!-- ESX INSTALLATION -->
+      esx/installing_esx_kvm_vsa.dita
+      
+        esx/prerequisite.dita
+        
+        esx/deploy_esx_cloud.dita
+        
+        esx/procedure_to_deploy_esx_cloud.dita
+        
+        esx/prepare_deploy_esx_cloud_ovsvapp.dita
+
+
+      <!--<topicref navtitle="ESX"  href="install_esx_overview.dita"
+        collection-type="unordered" linking="normal"
+        locktitle="yes" otherprops="installesx">-->
+
+      <!-- installing_esx_kvm_vsa.dita" keys="install_entryscale_esx_kvm_vsa"
+        navtitle="Installing ESX, KVM with VSA Model" locktitle="yes" product="HOS">
+        esx/deploy_esx_cloud.dita" navtitle="Deploy ESX Cloud" locktitle="yes"/>
+      </topicref> -->
+      
+      install_entryscale_esx_kvm_vsa_template_json.dita
+
+      <!-- IRONIC -->
+
+      ironic/install_ironic_overview.dita
+
+        <!--ironic/ironic_configuration.dita" navtitle="Ironic Configuration"
+          keys="entryscale_ironic" locktitle="yes"/>-->
+
+        ironic/install_entryscale_ironic.dita
+        
+          ironic/node_config.dita
+          
+          ironic/ironic_tls.dita
+          
+            ironic/cert_ramdisk.dita
+            
+            ironic/cert_iso.dita    
+
+        ironic/ironic_multi_control_plane.dita
+        
+        ironic/ironic_provisioning.dita
+        
+        ironic/ironic_provisioning_multi_tenancy.dita
+        
+        ironic/system_details.dita
+        
+        ironic/ironic_troubleshooting.dita
+        
+        ironic/node_cleaning.dita
+        
+        ironic/ironic_oneview.dita
+        
+        ironic/ironic_raid_config.dita
+        
+        ironic/ironic_audit_support.dita
+
+      <!--<topicref navtitle="Swift"  href="install_swift_overview.dita"
+        collection-type="unordered" linking="normal"
+        locktitle="yes" otherprops="installswift">-->
+
+      installing_swift_object_storage.dita
+
+      <!-- SLES COMPUTE NODES -->
+      sles/install_sles_compute.dita
+      
+        sles/sles_overview.dita
+        
+        sles/sles_support.dita
+        
+        sles/install_sles.dita
+        
+        <!---
+        sles/install_sles_uefi.dita" navtitle="Installing SLES on UEFI Nodes"
+          locktitle="yes" keys="install_sles_uefi"/>
+          -->
+          
+        sles/provisioning_sles.dita
+        
+        sles/install_sles_ceph.dita
+
+      <!--rhel/rhel_toc.dita" navtitle="RHEL"
+        collection-type="unordered" linking="normal"
+        locktitle="yes" otherprops="installrhel">-->
+
+      <!-- RHEL COMPUTE NODES -->
+      rhel/install_rhel_compute.dita
+      
+        rhel/rhel_overview.dita
+        
+        rhel/rhel_support.dita
+        
+        rhel/install_rhel.dita
+        
+        <!---
+        rhel/install_rhel_uefi.dita" navtitle="Installing RHEL on UEFI Nodes"
+          locktitle="yes" keys="install_rhel_uefi"/>
+          -->
+          
+        rhel/provisioning_rhel.dita
+        
+        rhel/install_rhel_ceph.dita
+
+
+      install_vcp.dita
+
+      <!-- BEGIN / INTEGRATIONS -->
+      integrations.dita
+      
+        ceph/ceph_overview.dita
+        
+          ceph/ceph_deployment.dita
+          
+          ceph/alternative_supported_choice.dita
+          
+          ceph/usage_ceph_storage_helion.dita
+          
+          ceph/managing_ceph_clusters_after_deployment.dita
+          
+        configure_vsa.dita
+        
+        configure_3par.dita
+        
+        ironic_oneview_integration.dita
+        
+        <!--
+        brocade_zone_manager.dita" navtitle="Brocade Zone Manager Configuration"
+          locktitle="yes" product="HOS"/>
+        ../operations/maintenance/adding_moonshot_nodes.dita"
+          navtitle="Adding Moonshot Nodes" locktitle="yes" product="HOS"/>
+          -->
+        
+        <!-- Commenting out the F5 integation content until F5 is supported again with HOS 5
+          
+        F5BIG_IP.dita" navtitle="Integrating F5 BIG-IP with LBaaS" locktitle="yes"
+          product="HOS">
+          F5BIG_IP_preinst.dita" navtitle="Pre-integration Checklist"
+            locktitle="yes"/>
+          F5BIG_IP_install.dita" navtitle="Integrate F5 BIG-IP" locktitle="yes"/>
+          F5BIG_IP_verify.dita" navtitle="Verify F5 Integrating" locktitle="yes"/>
+        </topicref>
+        
+        -->
+        
+        <!--
+        SolidFire/SolidFire_overview30.dita" product="HOS">
+          SolidFire/SolidFire_preinstall30.dita"/>
+          SolidFire/SolidFire_install30.dita"/>
+          SolidFire/SolidFire_verify30.dita"/>
+        </topicref>
+        -->
+      </topicref>
+
+      <!-- END / INTEGRATIONS -->
+
+      installation_troubleshooting.dita
+
+      blockstorageconfig_troubleshooting.dita
+      
+      esx/esx_troubleshooting.dita
+
+    post_install_overview.dita
+
+      cloud_verification.dita
+
+        api_verification.dita
+
+      ui_verification.dita
+
+        verify_block_storage.dita
+
+        operations/upload_image.dita
+        
+        <!--../carrier_grade/Creating-and-setting-up-an-external-network.dita"
+          navtitle="Creating and Setting Up an External Network" locktitle="yes" product="CG"/>-->
+
+        operations/create_extnet.dita
+        
+
+      install_openstack_clients.dita
+      
+      operations/configuring_tls.dita
+      
+      config_availability_zones.dita
+      
+      <!--
+      ../operations/create_hdp_servicenet.dita"
+        navtitle="Creating the Helion Development Platform Service Net" locktitle="yes" toc="no"
+        query="notRC"/>-->
+
+
+      <!-- OCTAVIA -->
+      configure_lbaas.dita
+      
+      postinstall_tasks.dita
+

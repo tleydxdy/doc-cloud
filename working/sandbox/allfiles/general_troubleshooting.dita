@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE [[[DUMMY]]]
+[
+  <!ENTITY % entities SYSTEM "entities.ent">
+  %entities;
+]>
+<topic id="general_troubleshooting">
+  <title><ph conkeyref="HOS-conrefs/product-title"/>General Troubleshooting</title>
+  <abstract><shortdesc outputclass="hdphidden">General troubleshooting procedures for resolving your
+      cloud issues including steps for resolving service alarms and support contact
+      information.</shortdesc></abstract>
+  <body>
+    <p/>
+  </body>
+</topic>

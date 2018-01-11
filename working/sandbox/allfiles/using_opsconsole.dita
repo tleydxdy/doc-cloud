@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE [[[DUMMY]]]
+[
+  <!ENTITY % entities SYSTEM "entities.ent">
+  %entities;
+]>
+<topic id="using_opsconsole">
+  <title><ph conkeyref="HOS-conrefs/product-title"/>Using the Operations Console</title>
+  <body>
+    <p></p>
+  </body>
+</topic>

@@ -1,0 +1,741 @@
+#MindMapExport FreeplaneVersion:freeplane 1.6.0
+
+1 HOS2SOC
+1.1 project scope
+1.1.1 number of files
+1.1.1.1 871 in ../helion
+1.1.1.2 745 in ../media
+1.1.1.3 384 in Carter DocsAndImages HTML file
+1.1.1.4 340 in consolidated image file
+1.1.2 comparison HOS-SOC-OpenStack
+1.1.2.1 HOS
+1.1.2.1.1 621MB
+1.1.2.1.2 2378 files
+1.1.2.1.3 172 subfolders
+1.1.2.1.4 manual pages 1387
+1.1.2.2 SOC
+1.1.2.2.1 63.8 MB
+1.1.2.2.2 510 files
+1.1.2.2.3 30 subfolders
+1.1.2.2.4 manual pages 1657
+1.1.2.2.4.1 admin 765
+1.1.2.2.4.2 deploy 387
+1.1.2.2.4.3 supplement 36
+1.1.2.2.4.4 end user 336
+1.1.2.2.4.5 monitoring 22
+1.1.2.2.4.6 monitoring operator 61
+1.1.2.2.4.7 CS operator 50
+1.1.2.3 OpenStack
+1.1.2.3.1 36MB
+1.1.2.3.2 899 files
+1.1.2.3.3 91 subfolders
+1.2 services
+1.2.1 Application Catalog service (Murano)
+1.2.1.1 SUSE Cloud Application Platform
+1.2.2 Bare Metal service (Ironic)
+1.2.2.1 HOS Bare Metal
+1.2.2.2 SOC - Ironic
+1.2.3 Block Storage service (Cinder)
+1.2.3.1 HOS - Block Storage
+1.2.3.2 SOC - Block Storage (Cinder)
+1.2.4 Clustering service (Senlin)
+1.2.4.1 SOC
+1.2.4.1.1 Ceph master cluster monitor
+1.2.4.1.1.1 Calamari
+1.2.4.1.1.2 must be deployed on a dedicated node
+1.2.4.1.2 Hawk
+1.2.4.1.2.1 monitor
+1.2.4.1.2.2 for pacemaker cluster (HA)
+1.2.5 Compute service (Nova)
+1.2.5.1 HOS - Compute (Nova)
+1.2.5.2 SOC - Compute (Nova)
+1.2.6 Container Infrastructure Management service (Magnum)
+1.2.6.1 HOS - Container Service (Magnum)
+1.2.7 Containers service (Zun)
+1.2.8 Dashboard (Horizon)
+1.2.8.1 HOS - Dashboard (Horizon)
+1.2.8.2 SOC - Dashboard (Horizon)
+1.2.9 Data Processing service (Sahara)
+1.2.10 Data Protection Orchestration Service (Karbor)
+1.2.11 Database service (Trove)
+1.2.11.1 SOC - PostgreSQL database
+1.2.11.2 SOC - Trove (database as a service)
+1.2.12 DNS service (Designate)
+1.2.13 Governance service (Congress)
+1.2.14 Identity service (Keystone)
+1.2.14.1 HOS - Identity (Keystone)
+1.2.14.2 SOC - Identity (Keystone)
+1.2.15 Image service (Glance)
+1.2.15.1 HOS - Image (Glance)
+1.2.16 Infrastructure Optimization service (Watcher)
+1.2.17 Key Manager service (Barbican)
+1.2.17.1 Key Manager (Barbican)
+1.2.18 Load-balancer service (Octavia)
+1.2.19 Messaging service (Zaqar)
+1.2.19.1 SOC - RabbitMQ (similar)
+1.2.20 Networking automation across Neutron service (Tricircle)
+1.2.21 Networking service (Neutron)
+1.2.21.1 HOS Networking (Neutron)
+1.2.21.2 SOC Networking (Neutron)
+1.2.22 Object Storage service (Swift)
+1.2.22.1 Object Storage (Swift)
+1.2.22.2 SOC
+1.2.22.2.1 proxy server
+1.2.22.2.2 dispersion tools (health monitor)
+1.2.22.2.3 Swift ring, index of:
+1.2.22.2.3.1 objects
+1.2.22.2.3.2 replicas
+1.2.22.2.3.3 devices
+1.2.23 Orchestration service (Heat)
+1.2.23.1 HOS - Orchestration (Heat)
+1.2.23.2 SOC - Heat orchestration engine
+1.2.24 Rating service (Cloudkitty)
+1.2.25 RCA (Root Cause Analysis) service (Vitrage)
+1.2.26 Search service (Searchlight)
+1.2.27 Shared File Systems service (Manila)
+1.2.28 Software Development Lifecycle Automation service (Solum)
+1.2.29 Telemetry Alarming services (Aodh)
+1.2.30 Telemetry Data Collection service (Ceilometer)
+1.2.30.1 HOS - Data Collection (Ceilometer)
+1.2.31 Telemetry Event service (Panko)
+1.2.32 Workflow service (Mistral)
+1.3 Cloud 8
+1.3.1 SOC8
+1.3.1.1 crowbar based
+1.3.1.2 for existing SOC customers
+1.3.2 Cloud 8/Ardana
+1.3.2.1 for HOS
+1.3.2.2 code name - Ardana
+1.3.2.2.1 based on Ansible Playbooks ported for HOS 5.0
+1.4 DocBook resources/questions
+1.4.1 http://www.sagehill.net/docbookxsl/SpecialChars.html
+1.4.2 http://www.oasis-open.org/docbook/specs/wd-docbook-xmlcharent-0.3.html
+1.4.3 http://www.oasis-open.org/docbook/documentation/reference/html/iso-num.html
+1.4.4 how are styles applied?
+1.4.4.1 where are styles located?
+1.4.4.2 how are they referenced in document?
+1.4.5 fo and html image specifications in SOC
+1.4.6 investigate
+1.4.6.1 <section conref="DITA REFERENCE #TOPIC REFERENCE/SECTION REFERENCE"/>
+1.5 HOS chapters
+1.5.1 top level link
+1.5.1.1 HPE Helion OpenStack 5.0 (book)
+1.5.1.1.1 docs.hpcloud.com/hos-5.x
+1.5.1.1.2 helion/index.dita
+1.5.2 Overview
+1.5.2.1 HPE Helion OpenStack 5.0 Overview (book)
+1.5.2.1.1 helion/introduction.dita
+1.5.2.1.2 helion/overview.dita
+1.5.2.1.2.1 <xref keyref="example_configurations">
+1.5.2.1.2.2 <table conkeyref="example_configurations/table_examples">
+1.5.2.1.2.2.1 helion/architecture/example_configurations.dita
+1.5.2.1.3 helion/introduction/tech_overview_ataglance.dita
+1.5.2.1.4 helion/introduction/tech_overview_hlm.dita
+1.5.2.1.5 helion/introduction/tech_overview_newimproved.dita
+1.5.2.1.6 helion/introduction/tech_overview_valueadd.dita
+1.5.2.1.7 helion/introduction/tech_overview_linux.dita
+1.5.2.1.8 helion/introduction/tech_overview_openstack.dita
+1.5.2.2 Release Notes for HPE Helion OpenStack 5.0.1
+1.5.2.2.1 helion/releasenotes501.dita
+1.5.2.3 Release Notes for HPE Helion OpenStack 5.0 (book)
+1.5.2.3.1 helion/releasenotes50.dita
+1.5.2.3.2 helion/newfeatures50.dita
+1.5.2.3.3 helion/fixedissues50.dita
+1.5.2.3.4 helion/knownissues50.dita
+1.5.2.3.5 helion/unsupported_features.dita
+1.5.2.3.6 helion/enhancements_to_openstack.dita
+1.5.2.3.7 OpenStack Newton Features (book)
+1.5.2.3.7.1 helion/newton_features.dita
+1.5.2.3.7.2 helion/nova_features.dita
+1.5.2.3.7.3 helion/neutron_features.dita
+1.5.2.3.7.4 helion/glance_features.dita
+1.5.2.3.7.5 helion/cinder_features.dita
+1.5.2.3.7.6 helion/swift_features.dita
+1.5.2.3.7.7 helion/keystone_features.dita
+1.5.2.3.7.8 helion/barbican_features.dita
+1.5.2.3.7.9 helion/ceilometer_features.dita
+1.5.2.3.7.10 helion/heat_features.dita
+1.5.2.3.7.11 helion/ironic_features.dita
+1.5.2.3.7.12 helion/horizon_features.dita
+1.5.2.3.7.13 helion/monasca_features.dita
+1.5.2.3.7.14 helion/freezer_features.dita
+1.5.2.3.7.15 helion/magnum_features.dita
+1.5.2.3.7.16 helion/logging_features.dita
+1.5.3 Planning
+1.5.3.1 Main page - planning/planning_index.dita
+1.5.3.2 planning.ditamap
+1.5.3.3 Register SUSE Linux
+1.5.3.3.1 helion/planning/suse/register_suse_overview.dita
+1.5.3.3.2 helion/planning/suse/register_suse_install.dita
+1.5.3.3.3 helion/planning/suse/register_suse_already_installed.dita
+1.5.3.3.4 helion/planning/suse/register_suse_automated.dita
+1.5.3.4 Hardware and Software Support Matrix
+1.5.3.4.1 helion/planning/hw_support_matrix.dita
+1.5.3.4.1.1 <navtitle>Hardware and Software Support Matrix
+1.5.3.4.2 helion/planning/hw_support_openstackvers.dita
+1.5.3.4.2.1 OpenStack Version Information
+1.5.3.4.3 helion/planning/hw_support_hardware.dita
+1.5.3.4.3.1 Supported Hardware
+1.5.3.4.4 helion/planning/hw_support_hardwareconfig.dita
+1.5.3.4.4.1 Supported Hardware Configurations
+1.5.3.4.5 helion/planning/hw_support_scaling.dita
+1.5.3.4.5.1 Cloud Scaling
+1.5.3.4.6 helion/planning/hw_support_software.dita
+1.5.3.4.6.1 Supported Software
+1.5.3.4.7 helion/planning/hw_support_perfnotes.dita
+1.5.3.4.7.1 Notes about Performance
+1.5.3.4.8 helion/planning/hw_support_diskcalc.dita
+1.5.3.4.8.1 Disk Calculator
+1.5.3.4.9 helion/planning/hw_support_kvmguestos.dita
+1.5.3.4.9.1 KVM Guest OS Support
+1.5.3.4.10 helion/planning/hw_support_esxguestos.dita
+1.5.3.4.10.1 ESX Guest OS Support
+1.5.3.4.11 helion/planning/hw_support_ironicguestos.dita
+1.5.3.4.11.1 Ironic Guest OS Support
+1.5.3.5 Recommended Hardware Minimums
+1.5.3.5.1 recommended_hardware_minimums.dita
+1.5.3.5.1.1 Recommended Hardware Minimums
+1.5.3.5.2 rec_min_entryscale_kvm_vsa.dita
+1.5.3.5.2.1 Recommended Hardware Minimums for an Entry-scale KVM with VSA Model
+1.5.3.5.3 rec_min_entryscale_kvm_ceph.dita
+1.5.3.5.3.1 Recommended Hardware Minimums for an Entry-scale KVM with Ceph Model
+1.5.3.5.4 rec_min_entryscale_esx_kvm_vsa.dita
+1.5.3.5.4.1 Recommended Hardware Minimums for an Entry-scale ESX, KVM with VSA Model
+1.5.3.5.5 rec_min_entryscale_esx_kvm_vsa_mml.dita
+1.5.3.5.5.1 Recommended Hardware Minimums for an Entry-scale ESX, KVM with VSA Model with Dedicated Cluster for Metering, Monitoring, and Logging
+1.5.3.5.6 rec_min_ironic.dita
+1.5.3.5.6.1 Recommended Hardware Minimums for an Ironic Flat Network Model
+1.5.3.5.7 rec_min_swift.dita
+1.5.3.5.7.1 Recommended Hardware Minimums for an Entry-scale Swift Model
+1.5.3.6 High Availability
+1.5.3.6.1 high_availability.dita navtitle="High Availability"
+1.5.3.7 Third Party Integrations Overview
+1.5.3.7.1 thirdparty_overview.dita navtitle="Third Party Integrations Overview"
+1.5.3.8 Helion Lifecycle Manager Overview
+1.5.3.8.1 helion/architecture/architecture_index.dita navtitle="Helion Lifecycle Manager Overview"
+1.5.3.8.2 HelionLCM_InputModel-tableofcontents
+
+DETAILS: Table of Contents ./architecture/input_model/input_model.dita
+Introduction to the Input Model ./architecture/input_model/input_model_introduction.dita
+HPE Helion OpenStack 5.0 Concepts ./architecture/input_model/concepts/concepts.dita
+    • Cloud ./architecture/input_model/concepts/cloud.dita
+    • Control Planes ./architecture/input_model/concepts/controlplanes.dita
+        • Control Planes and Regions ./architecture/input_model/concepts/controlplanes_regions.dita
+    • Services ./architecture/input_model/concepts/services.dita
+    • Server Roles ./architecture/input_model/concepts/serverroles.dita
+    • Disk Model ./architecture/input_model/concepts/diskmodel.dita
+    • Memory Model ./architecture/input_model/concepts/memorymodel.dita
+    • CPU Model ./architecture/input_model/concepts/cpumodel.dita
+    • Servers ./architecture/input_model/concepts/servers.dita
+        • Virtual Machines as Servers ./architecture/input_model/concepts/virtual_machines_as_servers.dita
+    • Server Groups ./architecture/input_model/concepts/servergroups.dita
+        • Server Groups and Failure Zones ./architecture/input_model/concepts/servergroups_failurezones.dita
+        • Server Groups and Networks ./architecture/input_model/concepts/servergroups_networks.dita
+    • Networking ./architecture/input_model/concepts/networking.dita
+        • Network Groups ./architecture/input_model/concepts/networkgroups.dita
+            • Load Balancers ./architecture/input_model/concepts/loadbalancers.dita
+            • Network Tags ./architecture/input_model/concepts/networktags.dita
+        • Networks ./architecture/input_model/concepts/networks.dita
+        • Interface Model ./architecture/input_model/concepts/interfacemodel.dita
+        • NIC Mapping ./architecture/input_model/concepts/nicmapping.dita
+        • Firewall Configuration ./architecture/input_model/concepts/firewallconfiguration.dita
+         ./architecture/input_model/concepts/configuration_data.dita
+Helion OpenStack 5.0 Configuration Objects ./architecture/input_model/configobj/configurationobjects.dita
+    • Cloud ./architecture/input_model/configobj/cloud.dita
+    • Control Plane ./architecture/input_model/configobj/controlplane.dita
+        • Clusters ./architecture/input_model/configobj/clusters.dita
+        • Resources ./architecture/input_model/configobj/resources.dita
+        • Multiple Control Planes ./architecture/input_model/configobj/multiple_control_planes.dita
+        • Load Balancer Definitions in Control Planes ./architecture/input_model/configobj/load_balancer_definitions.dita
+    • Load Balancers ./architecture/input_model/configobj/load_balancers.dita
+    • Regions ./architecture/input_model/configobj/regions.dita
+    • Servers  ./architecture/input_model/configobj/servers.dita
+    • Server Groups ./architecture/input_model/configobj/servergroups.dita
+    • Server Roles ./architecture/input_model/configobj/serverroles.dita
+        • memory-model
+        • cpu-model
+    • Disk Models ./architecture/input_model/configobj/diskmodels.dita
+        • Volume Groups ./architecture/input_model/configobj/volumegroups.dita
+        • Device Groups ./architecture/input_model/configobj/devicegroups.dita
+        • Disk Sizing for Virtual Machine Servers ./architecture/input_model/configobj/disk_sizing_vms.dita
+    • Memory Models ./architecture/input_model/configobj/memorymodels.dita
+        • Huge Pages ./architecture/input_model/configobj/huge_pages.dita
+        • Memory Sizing for Virtual Machine Servers ./architecture/input_model/configobj/memory_sizing_vms.dita
+    • CPU Models ./architecture/input_model/configobj/cpumodels.dita
+        • CPU Assignments ./architecture/input_model/configobj/cpu_assignments.dita
+        • CPU Usage ./architecture/input_model/configobj/cpu_usage.dita
+        • Components and Roles in the CPU Model ./architecture/input_model/configobj/cpu_components_roles.dita
+        • CPU sizing for virtual machine servers ./architecture/input_model/configobj/cpu_sizing_vms.dita
+    • Interface Models ./architecture/input_model/configobj/interfacemodels.dita
+        • network-interfaces ./architecture/input_model/configobj/network_interfaces.dita
+            • network-interfaces device ./architecture/input_model/configobj/network_interfaces_device.dita
+        • Bonding ./architecture/input_model/configobj/bonddata.dita
+            • Bond configuration options for the "linux" provider ./architecture/input_model/configobj/bonddataoptionslinux.dita
+            • Bond Data Options for the "openvswitch" Provider ./architecture/input_model/configobj/bonddataoptionsopenvswitch.dita
+            • Bond configuration options for the 'Windows' provider ./architecture/input_model/configobj/bonddataoptionswindows.dita
+        • dpdk-devices
+            • dpdk-devices devices ./architecture/input_model/configobj/dpdkdevices.dita ./architecture/input_model/configobj/dpdkdevices_devices.dita
+            • DPDK component-options for the openvswitch component ./architecture/input_model/configobj/dpdk_componentoptions.dita
+    • NIC Mappings ./architecture/input_model/configobj/nicmappings.dita
+        • nic-device-type
+        • NIC Mappings for Virtual Machine Servers ./architecture/input_model/configobj/nicmappings_vms.dita
+    • Network Groups ./architecture/input_model/configobj/networkgroups.dita
+        • Load Balancer Definitions in Network Groups ./architecture/input_model/configobj/lb_defs_networkgroups.dita
+        • Network Tags ./architecture/input_model/configobj/networktags.dita
+        • MTU ./architecture/input_model/configobj/mtu.dita
+    • Networks ./architecture/input_model/configobj/networks.dita
+    • Firewall Rules ./architecture/input_model/configobj/firewallrules.dita
+        • Rule ./architecture/input_model/configobj/rule.dita
+    • Passthrough ./architecture/input_model/configobj/passthrough.dita
+    • Configuration Data ./architecture/input_model/configobj/configurationdata.dita
+        • Neutron network-tags ./architecture/input_model/configobj/neutron_network_tags.dita
+        • Neutron Configuration Data ./architecture/input_model/configobj/configurationdata_neutron.dita
+            • neutron-provider-networks ./architecture/input_model/configobj/neutron_provider_networks.dita
+            • neutron-external-networks ./architecture/input_model/configobj/neutron_external_networks.dita
+        • Octavia Configuration Data ./architecture/input_model/configobj/configurationdata_octavia.dita
+        • Ironic Configuration Data ./architecture/input_model/configobj/configurationdata_ironic.dita
+        • Swift Configuration Data ./architecture/input_model/configobj/configurationdata_swift.dita
+Other Topics ./architecture/input_model/other_topics/othertopics.dita
+    • Services and Service Components ./architecture/input_model/other_topics/services_components.dita
+    • Name Generation ./architecture/input_model/other_topics/namegeneration.dita
+        • Clusters included in above
+        • Resource Nodes included in above
+    • Persisted Data ./architecture/input_model/other_topics/persisteddata.dita
+        • Persisted Server Allocations included in above
+        • Persisted Address Allocations included in above
+    • Server Allocation ./architecture/input_model/other_topics/serverallocation.dita
+    • Server Network Selection ./architecture/input_model/other_topics/servernetworkselection.dita
+    • Network Route Validation ./architecture/input_model/other_topics/networkroutevalidation.dita
+    • Configuring Neutron Provider VLANs ./architecture/input_model/other_topics/configneutronprovidervlans.dita
+    • Standalone Lifecycle Manager ./architecture/input_model/other_topics/standalonedeployer.dita
+Configuration Processor Information Files ./architecture/input_model/cpinfofiles/cpinfofiles.dita
+    • address_info.yml ./architecture/input_model/cpinfofiles/address_info_yml.dita
+    • firewall_info.yml ./architecture/input_model/cpinfofiles/firewall_info_yml.dita
+    • net_info.yml ./architecture/input_model/cpinfofiles/net_info_yml.dita
+    • route_info.yml ./architecture/input_model/cpinfofiles/route_info_yml.dita
+    • server_info.yml ./architecture/input_model/cpinfofiles/server_info_yml.dita
+    • service_info.yml ./architecture/input_model/cpinfofiles/service_info_yml.dita
+    • control_plane_topology.yml ./architecture/input_model/cpinfofiles/control_plane_topology_yml.dita
+    • network_topology.yml ./architecture/input_model/cpinfofiles/network_topology_yml.dita
+    • region_topology.yml ./architecture/input_model/cpinfofiles/region_topology_yml.dita
+    • service_topology.yml ./architecture/input_model/cpinfofiles/service_topology_yml.dita
+    • private_data_metadata.yml ./architecture/input_model/cpinfofiles/private_data_metadata_yml.dita
+    • password_change.yml ./architecture/input_model/cpinfofiles/password_change_yml.dita
+    • explain.txt ./architecture/input_model/cpinfofiles/explain_txt.dita
+    • CloudDiagram.txt ./architecture/input_model/cpinfofiles/clouddiagram_txt.dita
+    • HTML Representation ./architecture/input_model/cpinfofiles/html_representation.dita
+1.5.3.8.3 HelionLifeCycleManagerOverviewDocumentation.txt
+1.5.4 Installation
+1.5.4.1 Pre-installation Overview
+1.5.4.2 Cloud Installation Overview
+1.5.4.3 Post-Installation Overview
+1.5.5 Upgrade
+1.5.5.1 Introcuction to the Upgrade Procedure
+1.5.5.2 Delta Upgrades
+1.5.5.3 Pre-upgrade Tasks
+1.5.5.4 Performing the Upgrade
+1.5.5.5 Post-upgrade Tasks
+1.5.6 Security
+1.5.6.1 Security Features Overview
+1.5.6.2 Key Management with the Barbican Service
+1.5.6.3 Features in the Barbican Key Manager Service
+1.5.6.4 Key Management Service Administration
+1.5.6.5 Service Admin Role Segregation in the Identity Service
+1.5.6.6 Role-based Access Control in Neutron
+1.5.6.7 Configuring Keystone and Horizon to use X509 Client Certificates
+1.5.6.8 Transport Layer Security (TLS) Overview
+1.5.6.9 Preventing Host Header Poisoning
+1.5.6.10 Encryption of Passwords and Sensitive Data
+1.5.6.11 Encryption of Ephemeral Volumes
+1.5.6.12 Refining Access Control with AppArmor
+1.5.6.13 Data at Rest Encryption
+1.5.6.14 Security Audit Logs
+1.5.7 Operations Guide
+1.5.7.1 Operations Overview
+1.5.7.2 Tutorials
+1.5.7.3 Third Party Integrations
+1.5.7.4 Managing Identity
+1.5.7.5 Managing Compute
+1.5.7.6 Managing ESX
+1.5.7.7 Managing Block Storage
+1.5.7.8 Managing Object Storage
+1.5.7.9 Managingg Networking
+1.5.7.10 Managing the Dashboard
+1.5.7.11 Managing Orchestration
+1.5.7.12 Managing Monitoring, Logging and Usage Reporting
+1.5.7.13 System Maintenance
+1.5.7.14 Backup and Restore
+1.5.7.15 Troubleshooting Issues
+1.5.8 User Guide
+1.5.8.1 User Guide Overview
+1.5.8.2 Cloud Admin User Guide
+1.5.8.3 Project User Guide
+1.5.9 use documentorganization.txt
+1.5.9.1 pulled from HPE full HTML
+1.5.9.2 foldable in Atom
+1.6 keyref
+1.6.1 keyword
+1.6.1.1 kw-hos
+1.6.1.2 kw-hos-phrase
+1.6.1.2.1 kw-hos-phrase-30
+1.6.1.2.2 kw-hos-phrase-40
+1.6.1.3 kw-hos-version
+1.6.1.3.1 kw-hos-version-30
+1.6.1.3.2 kw-hos-version-402
+1.6.1.4 kw-hos-tm
+1.6.1.5 kw-cs-version-10
+1.6.2 image
+1.6.3 conkeys
+1.6.3.1 refer to hos.docs/HOS-conrefs.xml
+1.6.3.1.1 752 product-title
+1.6.3.1.2 494 applies-to
+1.6.3.1.3 a few oddball references to CloudSystem10. Emailed question to Sheilagh and Carter.
+1.6.4 <topic id=
+1.6.4.1 766
+1.6.5 <section id=
+1.6.5.1 364
+1.7 xref location
+
+DETAILS: hw_support_diskcalc.dita line 63
+<xref
+            href="#hw_support_diskcalc/disk_calc_audit_adj">Audit Logging
+            Adjustment</xref>
+goes to hw_support_diskcalc line 146
+<section id="disk_calc_audit_adj">
+      <title>Audit Logging Adjustment</title>
+1.8 DocTypes
+1.8.1 DocBook
+1.8.1.1 from SOC docs
+1.8.1.2 book
+1.8.1.2.1 
+
+DETAILS: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book
+[
+  <!ENTITY % entities SYSTEM "entity-decl.ent">
+  %entities;
+]>
+<!-- Converted by suse-upgrade version 1.1 -->
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en" xml:id="book.cloud.admin">
+1.8.1.3 bk
+1.8.1.3.1 
+
+DETAILS: <?xml version="1.0"?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+1.8.1.4 MAIN
+1.8.1.4.1 
+
+DETAILS: <?xml version="1.0"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [ <!ENTITY % entities SYSTEM "entities.ent"> %entities; ]>
+1.8.1.5 set
+1.8.1.5.1 
+
+DETAILS: <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet
+ href="urn:x-daps:xslt:profiling:docbook50-profile.xsl"
+ type="text/xml"
+ title="Profiling step"?>
+<!DOCTYPE set
+[
+  <!ENTITY % entities SYSTEM "entity-decl.ent">
+  %entities;
+]>
+1.8.1.5.2 example: MAIN.suse-openstack-cloud.xml
+1.8.1.6 preface
+1.8.1.7 section
+1.8.1.8 sect1
+1.8.1.9 chapter
+1.8.1.10 appendix
+1.8.1.11 authorgroup
+1.8.1.12 legalnotice
+1.8.1.13 glossary
+1.8.2 DITA
+1.8.2.1 used in HOS docs
+1.8.2.2 topic - mostly
+1.8.2.3 map
+1.8.2.3.1 map.dtd
+1.8.2.3.2 ditamaps
+1.8.2.3.2.1 docshpcloudcomHOS.ditamap
+1.8.2.3.2.2 planning.ditamap
+1.8.2.3.2.3 installation.ditamap
+1.8.2.3.2.4 upgrade.ditamap
+1.8.2.3.2.5 operations.ditamap
+1.8.2.3.2.6 userguide.ditamap
+1.8.2.3.2.7 opsconsole.ditamap
+1.8.2.3.3 resources
+1.8.2.3.3.1 HOS-images.xml
+1.8.2.3.3.2 HOS-keywords.xml
+1.8.2.4 concept (en,ja,zh)
+1.8.2.4.1 compute_hosts.dita
+1.8.2.4.2 compute_instances.dita
+1.8.2.4.3 compute_summary.dita
+1.8.2.4.4 networking_summary.dita
+1.8.2.5 concept
+1.8.2.5.1 HOS-conrefs.xml
+1.8.2.5.2 cap_storage.dita
+1.8.2.5.3 code_enghost.dita
+1.8.2.5.4 hdp_summary.dita
+1.8.2.5.5 invent_storage.dita
+1.8.2.5.6 perf_storage.dita
+1.8.2.5.7 storage_summary.dita
+1.9 HTML links
+1.9.1 DocBook5
+1.9.1.1 external link; no anchor text
+
+DETAILS: <link xlink:href="http://docs.openstack.org/.../object-storage-dispersion.html"
+ />
+
+refers to external URL link with no link text
+1.9.1.2 link to section and link to URL
+
+DETAILS: <xref
+        linkend="sec.depl.ostack.ceph"/>
+        (<link xlink:href="http://bugzilla.suse.com/show_bug.cgi?id=1023184"></link>)
+
+refers to another section in SOC deployment guide
+1.9.1.3 external link with anchor text
+
+DETAILS: <link xlink:href="http://docs.openstack.org/developer/nova/">Nova</link>
+1.9.1.4 example - crowbar admin
+1.9.1.4.1 where xml:id is set
+
+DETAILS: depl_conf_admin_crowbar.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE chapter
+[
+<!ENTITY % entities SYSTEM "entity-decl.ent"> [standard is entities.ent]
+%entities;
+]>
+<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:id="sec.depl.adm_inst.crowbar">
+1.9.1.4.2 and is referenced
+1.9.1.4.2.1 and is referenced in depl_require.xml
+
+DETAILS: (see
+   <xref linkend="sec.depl.adm_inst.crowbar"/>). It is also possible to
+   customize the network setup by manually editing
+1.9.2 DITA
+1.9.2.1 external link with anchor text
+
+DETAILS: <xref
+            href="https://www.kernel.org/doc/Documentation/networking/bonding.txt" scope="external"
+            format="html">Linux Ethernet Bonding Driver HOWTO</xref>
+1.9.2.2 external link; no anchor text
+
+DETAILS: <xref href="https://wiki.openstack.org/wiki/Neutron/Networking-vSphere" format="html"
+                scope="external"/>
+1.9.2.3 Table of Contents within the document
+1.9.2.3.1 Configuration Processor Information Files - e.g. address_info.yml
+1.9.2.3.2 alternative configurations
+1.9.2.4 have to retain navtitles
+1.9.2.5 have to retain <topic id="topicname">
+1.9.2.5.1 example:
+1.9.2.5.1.1 <topic id="changes_entryscale_kvm_vsa">
+1.9.2.5.1.2 for changes_entryscale_kvm_vsa.dita
+1.10 image links
+1.10.1 DITA
+1.10.1.1 internal link
+
+DETAILS: one line
+
+<p><image href="../../../media/hos.docs/entry_scale_kvm_ceph_two_network.png"/></p>
+1.10.1.2 download
+
+DETAILS: make wide - 2 line entry
+<p><xref href="../../../media/hos.docs/entry_scale_kvm_ceph_two_network_lg.png"
+                scope="external" format="html">Download a high-resolution version</xref></p>
+1.10.1.2.1 larger version
+1.10.1.2.2 editable Visio Network Diagram Template
+1.10.1.2.2.1 in images directory
+1.10.1.3 "figure" image format used in 2 files
+1.10.1.3.1 identity_benchmark.dita (commented out on operations.ditamap - line 96)
+1.10.1.3.2 l2gw5930.dita
+1.10.1.3.2.1 54
+1.10.1.3.2.2 62
+1.10.1.3.2.3 68
+1.10.1.3.2.4 100
+1.10.1.4 captions
+1.10.1.4.1 configuring the monitoring service
+1.10.1.4.2 Configuring for VSA Block Storage Backend
+1.10.1.4.3 Troubleshooting the ESX
+1.10.1.4.4 UEFI Bootmode images
+1.10.1.4.4.1 installing iso for nodes that support boot from SAN
+1.10.1.5 steps associated with images
+1.10.1.6 callouts
+1.10.1.6.1 under HOS 5 Verifying Your Blockstorage Backend
+1.10.1.7 images are referred to in the context of the document
+1.10.2 DocBook
+1.10.2.1 images refer to pdf (fo) or html output
+1.10.2.2 references to images in long section
+
+DETAILS: make wide FP node details box
+<figure>
+     <title>The &o_netw; &barcl;: Cisco Plugin</title>
+     <mediaobject>
+      <imageobject role="fo">
+       <imagedata fileref="depl_barclamp_network_cisco.png" width="99%" format="png"/>
+      </imageobject>
+      <imageobject role="html">
+       <imagedata fileref="depl_barclamp_network_cisco.png" width="75%" format="png"/>
+      </imageobject>
+     </mediaobject>
+    </figure>
+1.10.2.2.1 "figure" adds appropriate caption to image: section, number, figure number
+1.10.2.3 another example
+
+DETAILS: <figure>
+    <title>The &inst_crow; &wi;</title>
+    <mediaobject>
+     <imageobject role="fo">
+      <imagedata fileref="depl_web_installer_init.png" width="75%" format="png"/>
+     </imageobject>
+     <imageobject role="html">
+      <imagedata fileref="depl_web_installer_init.png" width="75%" format="png"/>
+     </imageobject>
+    </mediaobject>
+   </figure>
+1.10.2.3.1 creates FIGURE 8.1: THE SUSE OPENSTACK CLOUD CROWBAR INSTALLATION WEB INTERFACE
+1.10.2.4 figure after "another example"
+
+DETAILS:    <figure>
+    <title>&crow; Web Interface: The Dashboard</title>
+    <mediaobject>
+     <imageobject role="fo">
+      <imagedata fileref="depl_node_dashboard_initial.png" width="100%" format="png"/>
+     </imageobject>
+     <imageobject role="html">
+      <imagedata fileref="depl_node_dashboard_initial.png" width="75%" format="png"/>
+     </imageobject>
+    </mediaobject>
+   </figure>
+1.10.2.4.1 code in detail dropdown becomes "FIGURE 8.2: CROWBAR WEB INTERFACE: THE DASHBOARD"
+1.11 conversions
+1.11.1 bulk change files
+1.11.1.1 DITA header to DocBook5
+
+DETAILS: used SUSE/working/wip-docs/barbican_features.dita
+sed -i '1,2d' barbican_features.dita  echo ']>' | cat - barbican_features.dita > temp && mv temp barbican_features.dita  
+echo '  %entities;' | cat - barbican_features.dita > temp && mv temp barbican_features.dita  
+echo '  <!ENTITY % entities SYSTEM "entity-decl.ent">' | cat - barbican_features.dita > temp &
+& mv temp barbican_features.dita  
+echo '[' | cat - barbican_features.dita > temp && mv temp barbican_features.dita  
+echo '<!DOCTYPE chapter' | cat - barbican_features.dita > temp && mv temp barbican_features.di
+ta  
+echo '<?xml version="1.0" encoding="UTF-8"?>' | cat - barbican_features.dita > temp && mv temp
+barbican_features.dita
+
+remove top 2 DITA lines
+add DocBook header lines starting with the bottom
+----------------- DITA
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+----------------- DocBook5
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter
+[
+  <!ENTITY % entities SYSTEM "entity-decl.ent">
+  %entities;
+]>
+1.11.1.2 use sed to change DITA top lines
+1.11.1.2.1 edit to get 2 lines and 3 lines
+1.11.1.2.1.1 two lines
+1.11.1.2.1.2 three lines
+1.11.1.2.2 add 5 lines for DB5 header
+1.11.1.2.2.1 echo 5, 4, 3,
+1.11.1.2.2.2 add 2 dummy lines
+1.11.1.2.2.3 sed replace dummies with actual DocBook5 lines
+1.11.1.3 image files
+1.11.1.3.1 HOS file references are relative
+1.11.1.3.1.1 
+
+DETAILS: helion/installation/ceph/ceph_overview.dita
+helion is at the same directory level as media
+<p><image
+                                href="../../../media/ceph/ceph/physical-architecture_ceph.png"
+                                id="image_m25_12x_lw"/></p>
+1.11.1.3.2 remove with regex&atom
+
+DETAILS: .*\.\..*/(userguide|installation|upgrade|security|planning|operations|networking|monitoring|metering|introduction|installation|horizon|esx|bura)/
+1.11.2 id="..." tags
+1.11.2.1 all section id="..." removed
+1.11.2.2 <title outputclass="headerH"> removed
+1.11.3 need to mind formatting tags in DocBook
+1.12 issues
+1.12.1 docs.hpcloud.com
+1.12.1.1 where should on-line documentation be located?
+1.12.1.2 doesn't work
+1.12.1.3 not reliable
+1.12.2 ?audience=
+1.12.2.1 "EXTERNAL"
+1.12.2.2 "INTERNAL"
+1.13 SOC-DB5-DOCTYPE-XMLs
+1.13.1 authorgroup
+1.13.1.1 authors.xml
+1.13.2 book
+1.13.2.1 book_cloud_admin.xml
+1.13.2.2 book_cloud_deploy.xml
+1.13.2.3 book_cloud_suppl.xml
+1.13.2.4 book_cloud_user.xml
+1.13.3 sect1
+1.13.3.1 common_gfdl1.2_i.xml
+1.13.3.2 common_gplv2.xml
+1.13.3.3 common_intro_available_doc_i.xml
+1.13.3.4 common_intro_feedback_i.xml
+1.13.3.5 common_intro_making.xml
+1.13.3.6 common_intro_typografie_i.xml
+1.13.3.7 common_legal.xml
+1.13.3.8 suppl_docupdates.xml
+1.13.3.9 depl_cisco.xml
+1.13.3.10 depl_conf_admin_crowbar.xml
+1.13.3.11 depl_conf_admin_repos.xml
+1.13.3.12 depl_crowbar.xml
+1.13.3.13 depl_crowbar_start.xml
+1.13.3.14 depl_docupdates.xml
+1.13.3.15 depl_inst_admin.xml
+1.13.3.16 depl_inst_nodes.xml
+1.13.3.17 depl_logfiles.xml
+1.13.3.18 depl_maintenance.xml
+1.13.3.19 depl_nodes.xml
+1.13.3.20 depl_nostack_services.xml
+1.13.3.21 depl_ostack_configs.xml
+1.13.3.22 depl_overview.xml
+1.13.3.23 depl_poc.xml
+1.13.3.24 depl_policy_json.xml
+1.13.3.25 depl_require.xml
+1.13.3.26 depl_smt_setup.xml
+1.13.3.27 depl_troubleshooting.xml
+1.13.3.28 depl_vmware.xml
+1.13.3.29 depl_zsystems.xml
+1.13.3.30 copyright_socm.xml
+1.13.4 legalnotice
+1.13.4.1 copyright_suse_cloud.xml
+1.13.5 appendix
+1.13.5.1 depl_cisco.xml
+1.13.5.2 depl_docupdates.xml
+1.13.5.3 depl_poc.xml
+1.13.5.4 depl_policy_json.xml
+1.13.5.5 depl_vmware.xml
+1.13.5.6 depl_zsystems.xml
+1.13.5.7 suppl_docupdates.xml
+1.13.6 preface
+1.13.6.1 depl_intro.xml
+1.13.6.2 suppl_intro.xml
+1.13.7 chapter
+1.13.7.1 depl_maintenance.xml
+1.13.7.2 depl_nodes.xml
+1.13.7.3 depl_nostack_services.xml
+1.13.7.4 depl_ostack_configs.xml
+1.13.7.5 depl_overview.xml
+1.13.7.6 depl_require.xml
+1.13.7.7 depl_smt_setup.xml
+1.13.7.8 depl_troubleshooting.xml
+1.13.7.9 doc_conventions_openstack.xml
+1.13.8 set
+1.13.8.1 MAIN.suse-openstack-cloud.xml
+1.14 todo 20180110
+1.14.1 combine 2line & 3 line ditas
+1.14.1.1 strip dita headers
+1.14.1.2 combine directories
+1.14.1.3 verify operation
+1.14.2 <title outputclass="headerH">
+1.14.2.1 determine how to deal with class styling

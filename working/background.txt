@@ -1,0 +1,76 @@
+***verifying DocBook validity
+the SUSE toolchain depends on DAPS. However the information provided when DAPS doesn't validate or produce pdf/html output is difficult for me to understand or do anything with.
+
+So I am using XMLMind to do sample validation and builds. I purposely select DITAs that are likely to be problematic. And it provides error messages that are more-or-less actionable. It is not certain that a successful XMLMind rendering will be acceptable to DAPS; I haven't done this analysis. 
+
+***previous cleanups
+All images have been consolidated into one DAPS-required directory structure. All duplicates have been reconciled with the actual documentation.
+All DITAs have been consolidated into one directory. Duplicates are reconciled along with references in the documentation.
+
+
+***present situation with the cleanup process...
+I'm probably leaving out steps in the following. When I've worked through issues, I move on to new frontiers of learning and excitement.
+
+---done---
+put DITAs in directories according to the number of lines (2 or 3) in the header
+(done after cleaning up DITAs to have only 2 or 3 lines)
+
+strip header lines, leaving <topic id="blahblah"> in the first line
+so that <topic id="blahblah" can be converted easily to <[doctype] xml:id="blahblah"> after <!DOCTYPE is determined
+
+/working/hos.docsTrimmed/ScreenshotAtomVerifyingSuccessfulDITAstrip.png
+is the result of an Atom project search showing <topic id in first lines as expected. Cross check to avoid surprises.
+
+This screenshot also shows anomalies in <topic id> usage. Some original <topic id>s are Oxygen XML gibberish as Carter said. However some gibberish-ish <topic id>s might look like gibberish, but they are actually <xml:id="  "> locations. On a case-by-case basis, these need to be tracked down. If the anomaly is something that affects the entire document set, some approach may be indicated. If it's a one-off, it might require manual editing. Much of this is completed.
+
+visual checks and verifications to make sure that the DITA header stripping was done correctly. Exactly what visual checks and verifications are needed depend on the particular situation.
+
+after the document has been organized (described below) the standard DB5 header with DummyDocType will be added with a simple script.
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE [[[DUMMY]]]
+[
+  <!ENTITY % entities SYSTEM "entities.ent">
+  %entities;
+]>
+script built and tested
+
+***document organization is still to do***
+
+After files have the proper DB5 structure with DummyDocType, they need to be organized according to appropriate DocBook structure.  
+
+This is done manually:
+- Books are easy:
+	- Overview
+	- Planning
+	- Security
+	- Operations
+	- User Guide
+	
+After the files are organized appropriately according to DOCTYPE, <[book|chapter|sections|etc.] xml:id=" "> can be applied against the first line in each file.
+
+Security is not presently a separate ditamapped "book". It's currently part of the high level ditamap...
+docs.hpcloud.com.HOS.ditamap
+
+Books, chapters and sections come from build-dita HTML that Stefan produced
+/working/hos.docsTrimmed/documentorganization.txt. This was verified against the actual HOS5 PDF (which Carter said was the official version of the HOS 5 documents)
+
+Actually building the books is likely to be a mostly manual process, based on what I know now. I believe that the HOS ditamaps will be sufficient to guide this document assembly. That process is likely to create additional conundrums to resolve.
+
+***working on
+- sorting out conkeyrefs: there are 39 conkeyref types. Most are "HOS-conrefs/product-title" and "HOS-conrefs/applies-to"; 37 others with little duplication. Needs investigation and appropriate remedies.
+
+- sorting out keyrefs. Will be some manual work to investigate between link or xref and to actually make the conversions. I have not run these through XMLmind enough to know how they will behave. Not enough information to determine how long this will take. There are 537 keyrefs that need to be tracked down. I've already resolved simple and obvious instances. I just discovered one xml:id type of reference that will take care of 88 occurrences.
+
+
+***Need to do/haven't begun digging
+Styling
+
+***tools
+CLI; File Manager; LibreOffice Calc; freeplane
+
+Atom Editor; Kate
+
+XMLmind; dita-ot; fop 2.0
+
+build-dita; dietrich (updated version, as well as previous version that worked with CMMDocumentation)
+

@@ -1,0 +1,301 @@
+~/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/helion/
+planning> dietrich planning.ditamap 
+Did not find conversion.conf: Using default settings.
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing 
+file:/tmp/newton_features.dita:
+  /tmp/newton_features.dita (No such file or directory)
+No class attribute for sectiondiv
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/operations/troubleshooting/ts_blockstorage.dita:
+  /tmp/operations/troubleshooting/ts_blockstorage.dita (No such file or 
+directory)
+No class attribute for abstract
+No class attribute for abstract
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for abstract
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/operations/integrating_splunk.dita: 
+/tmp/operations/integrating_splunk.dita (No
+  such file or directory)
+No class attribute for abstract
+No class attribute for sectiondiv
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/installing_kvm.dita: 
+/tmp/installation/installing_kvm.dita (No such
+  file or directory)
+No class attribute for coderef
+No class attribute for coderef
+No class attribute for coderef
+No class attribute for coderef
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+No class attribute for sectiondiv
+Recoverable error on line 449 of topic2db.xsl:
+  FODC0002: I/O error reported by XML parser processing
+  file:/tmp/installation/using_git.dita: /tmp/installation/using_git.dita (No 
+such file or directory)
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/../media/DiskCalc1.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/..-media-DiskCalc1.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/../media/DiskCalc2.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/..-media-DiskCalc2.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/../media/DiskCalc3.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/..-media-DiskCalc3.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/media/entryScaleCeph/Entry-Scale-Ceph-AllNetworks.png': No such 
+file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/media-entryScaleCeph-Entry-
+Scale-Ceph-AllNetworks.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/media/entryScaleDed/Entry-ScaleDedicatedAllNetworks.png': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/media-entryScaleDed-Entry-
+ScaleDedicatedAllNetworks.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/media/entryScale/Entry-ScaleAllNetworks.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/media-entryScale-Entry-
+ScaleAllNetworks.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/media/examples/entry_scale_kvm_ceph.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/media-examples-
+entry_scale_kvm_ceph.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/media/examples/entry_scale_kvm_vsa_shared.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/media-examples-
+entry_scale_kvm_vsa_shared.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/media/examples/entry_scale_swift.png': No such file or directory 
+@ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/media-examples-
+entry_scale_swift.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/../media/ha30/HA_AvailabilityZones_3.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/..-media-ha30-
+HA_AvailabilityZones_3.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/../media/ha30/ha-block-storage.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/..-media-ha30-ha-block-storage
+.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/../media/ha30/HPE_HA_Flow.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/..-media-ha30-HPE_HA_Flow.png' 
+@ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/../media/ha30/HPE_HA_Layer-3HA.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/..-media-ha30-HPE_HA_Layer-3HA
+.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/media/hos.docs/entry_scale_kvm_ceph_two_network.png': No such 
+file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/media-hos.docs-
+entry_scale_kvm_ceph_two_network.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/media/hos.docs/exampleconfigs/Entry-ScaleESX-
+KVMwithVSADedicatedMML.png': No such file or directory @ 
+error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/media-hos.docs-exampleconfigs-
+Entry-ScaleESX-KVMwithVSADedicatedMML.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/media/hos.docs/exampleconfigs/Entry-ScaleESX-KVMwithVSAmodel.
+png': No such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/media-hos.docs-exampleconfigs-
+Entry-ScaleESX-KVMwithVSAmodel.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/media/hos.docs/exampleconfigs/entry_scale_ironic.png': No such 
+file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/media-hos.docs-exampleconfigs-
+entry_scale_ironic.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/media/hos.docs/exampleconfigs/midscale_kvm_vsa_notes_1000.png': 
+No such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/media-hos.docs-exampleconfigs-
+midscale_kvm_vsa_notes_1000.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/../media/inputmodel/HPE_InputModel_Flow_40.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/..-media-inputmodel-
+HPE_InputModel_Flow_40.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/../media/inputmodel/hphelionopenstack_concepts.png': No such 
+file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/..-media-inputmodel-
+hphelionopenstack_concepts.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/../media/inputmodel/hphelionopenstack_directories.png': No such 
+file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/..-media-inputmodel-
+hphelionopenstack_directories.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/../media/inputmodel/hphelionopenstack_diskmodels.png': No such 
+file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/..-media-inputmodel-
+hphelionopenstack_diskmodels.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/../media/inputmodel/hphelionopenstack_loadbalancers.png': No 
+such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/..-media-inputmodel-
+hphelionopenstack_loadbalancers.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/../media/inputmodel/hphelionopenstack_networkroutevalidation.
+png': No such file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/..-media-inputmodel-
+hphelionopenstack_networkroutevalidation.png' @ 
+error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/../media/inputmodel/hphelionopenstack_servergroups.png': No such 
+file or directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/..-media-inputmodel-
+hphelionopenstack_servergroups.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/../media/inputmodel/html_representation_1.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/..-media-inputmodel-
+html_representation_1.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/../media/inputmodel/html_representation_2.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/..-media-inputmodel-
+html_representation_2.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/media/ironic/Entry-ScaleIronicMultiTenancy.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/media-ironic-Entry-
+ScaleIronicMultiTenancy.png' @ error/convert.c/ConvertImageCommand/3275.
+convert: unable to open image 
+'/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/media/networkImages/Mid-Scale-AllNetworks.png': No such file or 
+directory @ error/blob.c/OpenBlob/3315.
+convert: no images defined 
+`/home/carl/SUSE/SUSE_Cloud/HOS2SOC-conversion/hos-dietrich-conversion/hos.docs/
+helion/planning/converted/planning/images/src/png/media-networkImages-Mid-Scale-
+AllNetworks.png' @ error/convert.c/ConvertImageCommand/3275.
+ERROR: Failed to get filelist for ROOTID ""

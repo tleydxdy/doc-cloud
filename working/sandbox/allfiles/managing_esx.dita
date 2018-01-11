@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE [[[DUMMY]]]
+[
+  <!ENTITY % entities SYSTEM "entities.ent">
+  %entities;
+]>
+<topic id="ops_managing_esx">
+  <title><ph conkeyref="HOS-conrefs/product-title"/> Managing ESX</title>
+  <abstract><shortdesc outputclass="hdphidden">Information about managing and configuring the ESX service.</shortdesc></abstract>
+  <body>
+    <p></p>
+  </body>
+</topic>

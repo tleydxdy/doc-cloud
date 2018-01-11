@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE [[[DUMMY]]]
+[
+  <!ENTITY % entities SYSTEM "entities.ent">
+  %entities;
+]>
+<topic xml:lang="en-us" id="configure_compute">
+  <title><ph conkeyref="HOS-conrefs/product-title"/>Configuring the Compute Service</title>
+  <body><!--not tested-->
+    <!-- DOCS-2773 -->
+    <p>The Compute service, based on OpenStack Nova, works out of the box and does not need any
+      special configuration. However, there are a few features detailed below that if you wish to
+      use will require some additional configuration.</p>
+  </body>
+</topic>

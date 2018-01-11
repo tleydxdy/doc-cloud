@@ -1,0 +1,41 @@
+The following type of content is converted to "<phrase/>"
+<keyword keyref="kw-hos"/>
+<ph conkeyref="HOS-conrefs/product-title"/>
+
+it would be helpful if they would convert with more information.
+
+<keyword keyref="kw-hos"/> 
+    to KEYREF "kw-hos"
+<ph conkeyref="HOS-conrefs/product-title"/> 
+    to CONKEYREF "HOS-conrefs/product-title"
+    
+
+There's an issue with relative file references (such as a document 
+may refer to ../../../directory/directory/file). It's not easy to cross 
+reference because the converted files are in a separate directory and not at 
+the same relative level. I don't see how this can be handled with scripting.
+
+Example:
+(project root is hos.docs from GitHub)
+The file
+    hos.docs/helion/planning/converted/planning/xml/planning-..-architecture-
+alternative-entryscale_kvm_ceph_twonetwork.dita 
+refers to:
+    <mediaobject>
+    <imageobject role="fo"><imagedata 
+    fileref="media-hos.docs-entry_scale_kvm_ceph_two_network.png" 
+    width="75%" format="PNG"/></imageobject><imageobject
+    role="html"><imagedata 
+fileref="media-hos.docs-entry_scale_kvm_ceph_two_network. png"/></imageobject>
+      </mediaobject>
+
+        <para><ulink 
+url="../../../media/hos.docs/entry_scale_kvm_ceph_two_network_lg.png">Download a 
+high-resolution version</ulink></para>
+
+So while the converted files are relative to the converted directory, other 
+files (not needing dietrich conversion) are in their pre-conversion locations.
+
+Not sure how clear I'm making this. Entschuldigens bitte.
+
+

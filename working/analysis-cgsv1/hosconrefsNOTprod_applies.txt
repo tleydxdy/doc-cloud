@@ -1,0 +1,2 @@
+./helion/HOS-conrefs.xml:<concept id="HOS-conrefs">
+./helion/HOS-keywords.xml:  <keydef keys="HOS-conrefs" href="HOS-conrefs.xml" type="concept" format="dita"/>

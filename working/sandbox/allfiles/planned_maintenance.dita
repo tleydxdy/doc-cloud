@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE [[[DUMMY]]]
+[
+  <!ENTITY % entities SYSTEM "entities.ent">
+  %entities;
+]>
+<topic id="planned_maintenance">
+  <title><ph conkeyref="HOS-conrefs/product-title"/>Planned System Maintenance</title>
+  <abstract><shortdesc outputclass="hdphidden">Planned maintenance tasks for your
+    cloud.</shortdesc></abstract>
+  <body>
+    <!-- test -->
+  </body>
+</topic>

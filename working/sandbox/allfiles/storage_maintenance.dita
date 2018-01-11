@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE [[[DUMMY]]]
+[
+  <!ENTITY % entities SYSTEM "entities.ent">
+  %entities;
+]>
+<topic id="storage_maintenance">
+  <title><ph conkeyref="HOS-conrefs/product-title"/>Planned Storage Maintenance</title>
+  <abstract><shortdesc outputclass="hdphidden">Planned maintenance procedures for VSA, Ceph, and Swift storage
+      nodes.</shortdesc></abstract>
+  <body>
+    <p></p>
+  </body>
+</topic>

@@ -1,0 +1,8 @@
+<topic id="cont_ungplanned">
+  <title><ph conkeyref="HOS-conrefs/product-title"/>Unplanned Control Plane Maintenance</title>
+  <abstract><shortdesc outputclass="hdphidden">Unplanned maintenance tasks for controller nodes such
+    as recovery from power failure.</shortdesc></abstract>
+  <body>
+    <p></p>
+  </body>
+</topic>

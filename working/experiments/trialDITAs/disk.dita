@@ -1,0 +1,9 @@
+<topic id="disk">
+  <title></title>
+  <body>
+    <p></p>
+    <section id="calc">
+      <xref href="../../hos-html/diskCalc.html" format="html">Try the disk sizing tool</xref></section>
+    <!--<section id="btn1"><image href="../media/diskcalc.png" id="diskcalc"/></section>-->
+  </body>
+  </topic>

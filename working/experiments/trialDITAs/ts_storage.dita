@@ -1,0 +1,8 @@
+<topic id="troubleshooting_storage">
+  <title><ph conkeyref="HOS-conrefs/product-title"/>Storage Troubleshooting</title>
+  <abstract><shortdesc outputclass="hdphidden">Troubleshooting scenarios with resolutions for the
+      VSA, Ceph, and Swift services.</shortdesc></abstract>
+  <body>
+    <p/>
+  </body>
+</topic>

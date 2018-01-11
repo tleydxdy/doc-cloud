@@ -1,0 +1,43 @@
+<topic id="serviceConfig">
+
+    <title><keyword keyref="kw-hos-version-30"/>Pre-installation Service and Feature Configuration</title>
+  <body><!--not tested-->
+  
+<section><title>Pre-installation</title>
+  The following services and features require configuration before installation of your cloud:
+  
+  <ul>
+    <li>Backup and Restore (Freezer)
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    
+    
+    <li>Barbican Key Management</li>
+    <li>Neutron L2 gateway agent</li>
+    <li>Transport layer security (TLS)</li>
+    <li>Auditing</li>
+    <li></li>
+    <li></li>
+  </ul>
+  
+  <ul>
+  <li></li>
+  </ul>
+  
+  
+  
+</section>
+    
+    
+    <section><title>Reconfigure</title>
+      
+      
+      
+      
+      
+      
+    </section>
+  </body>
+</topic>

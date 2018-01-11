@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE [[[DUMMY]]]
+[
+  <!ENTITY % entities SYSTEM "entities.ent">
+  %entities;
+]>
+<topic id="topic_wmw_3lm_yv">
+  <title><ph conkeyref="HOS-conrefs/product-title"/>Hardware Maintenance Tasks for Object Storage
+    Nodes</title>
+  <body>
+    <p></p>
+  </body>
+</topic>

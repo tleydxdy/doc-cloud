@@ -1,0 +1,27 @@
+toms, sknorr
+
+db stylesheets
+stolen from dita open toolkit
+
+then stefan built bash scripts around that
+
+added xslstylesheets too
+
+duplicate conref content
+
+move this into entity files
+
+docserve.nue.suse
+
+make some custom dita map...ideally bookmap
+
+say what we focus on what sections
+
+list of what we will work on put a separate repository
+
+push to doc-cloud eventually
+
+look at Fujitsu
+chapters
+book like elements
+

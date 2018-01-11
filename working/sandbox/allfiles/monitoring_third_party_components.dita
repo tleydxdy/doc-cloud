@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE [[[DUMMY]]]
+[
+  <!ENTITY % entities SYSTEM "entities.ent">
+  %entities;
+]>
+<topic id="monitoring_3rd_party_components_with_monasca">
+    <title>Monitoring Third-Party Components With Monasca</title>
+    <body></body>
+</topic>

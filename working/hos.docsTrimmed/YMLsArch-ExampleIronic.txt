@@ -1,0 +1,4 @@
+helion/architecture/examples/ironic/control_plane.yml
+helion/architecture/examples/ironic/network_groups.yml
+helion/architecture/examples/ironic/networks.yml
+helion/architecture/examples/ironic/nic_interfaces.yml
