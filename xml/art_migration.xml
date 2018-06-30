@@ -1065,6 +1065,32 @@ sudo zypper dup --from Cloud</screen>
      Determine how to handle modified policy files which restrict the admin
      user's privileges more tightly than in previous releases:
     </para>
+            <!-- carl 2018-06-30: new content re bsc1099749 to be added if code is
+         included in MU
+
+    <para>
+     With this upgrade, the policy.json files have been aligned with
+     &ostack-current;. When running &ostack; commands an operator may see
+     messages saying <literal>Policy doesn't allow ...</literal> such as:
+    </para>
+    <screen>Policy doesn't allow volume_extension:services:index to be
+    performed</screen>
+    <para> In this case the operator can be given
+     permission by adding a role to the user using the <command>openstack role
+     add</command> command, for example:
+    </para>
+    <screen>&prompt.ardana;openstack role add -/-user <replaceable>USER
+    NAME</replaceable> -/-project <replaceable>PROJECT NAME</replaceable>
+    cinder_admin</screen>
+    <para>
+     Role assignments should be carefully considered. In an environment which
+     requires separation of duties, each operator should be assigned only the
+     roles they require to perform their duties and should use their own user
+     to perform their administrative tasks. for more information see the <xref
+     linkend="roleSegregation"/>.
+    </para>
+-->
+
     <para>
      With this upgrade, the <filename>policy.json</filename> files have been
      aligned with &ostack; Pike. This means that the admin user is assigned fewer

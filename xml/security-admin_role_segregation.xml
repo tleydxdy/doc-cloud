@@ -42,6 +42,10 @@
      <literal>nova_admin</literal> role in the identity service (&o_ident;) and
      support in <filename>nova policy.json</filename>
     </para>
+    <para>
+     <literal>nova_admin</literal> role in the identity service (&o_ident;) and
+     support in <filename>nova policy.json</filename>
+    </para>
    </listitem>
    <listitem>
     <para>
@@ -55,6 +59,17 @@
      in <filename>cinder policy.json</filename>
     </para>
    </listitem>
+            <!-- carl 2018-06-30: new content re bsc1099749 to be added if code is
+         included in MU
+
+   <listitem>
+    <para>
+     <literal>swiftoperator</literal> role in the identity service, defined in
+     the <literal>keystoneauth</literal> section of the
+     <filename>proxy-server.conf</filename> file.
+    </para>
+   </listitem>
+-->
    <listitem>
     <para>
      <literal>glance_admin</literal> role in the identity service and support
@@ -87,9 +102,25 @@
       on the exact scope of the security issue.
      </para>
     </warning>
+            <!-- carl 2018-06-30: new content re bsc1099749 to be added if code is
+         included in MU
+
+    <para>
+     The &ostack; <literal>admin</literal> user has broad capabilities to
+     administer the cloud, including &o_comp;, &o_netw;, &o_blockstore;,
+     &o_objstore;, and &o_img;. This is maintained to ensure backwards
+     compatilibity, but if separation of duties is desired among administrative
+     staff then the &ostack; roles may be partitioned across different
+     administrators. For example, it is possible to have a set of network
+     administrators with the <literal>neutron_admin</literal> role, a set of
+     storage administrators with the <literal>cinder_admin</literal> and/or
+     <literal>swiftoperator</literal> roles, and a set of compute
+     administrators with the <literal>nova_admin</literal> and
+     <literal>glance_admin</literal> roles.
+    </para>
+-->
    </listitem>
   </itemizedlist>
-
  </section>
  <section>
   <title>Features and Benefits</title>

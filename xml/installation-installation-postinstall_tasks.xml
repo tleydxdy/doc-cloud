@@ -142,6 +142,15 @@ source ~/keystone.osrc</screen>
      <xref linkend="swift_healthcheck"/>
     </para>
    </listitem>
+            <!-- carl 2018-06-30: new content re bsc1099749 to be added if code is
+         included in MU
+
+   <listitem>
+    <para>
+     <xref linkend="roleSegregation"/>
+    </para>
+   </listitem>
+-->
   </itemizedlist>
  </section>
 </chapter>
