@@ -24,8 +24,6 @@
   <title>重置构建器文件</title>
   <para>
    您必须（仅）在初始部署过程中重置构建器文件。仅当您要从头重新启动部署时才应使用此过程。如果在完成初始部署后重置构建器文件，则可能会丢失关键系统数据。
-  </para>
-  <para>
    删除 <filename>/etc/swiftlm/cloud1/cp1/builder_dir/</filename> 目录中的构建器文件。例如，对于 region2 Keystone 区域，请执行以下操作：
   </para>
 <screen>sudo rm /etc/swiftlm/cloud1/cp1/builder_dir/*.builder</screen>
